@@ -1,0 +1,6857 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc83248a --dep-file=WP_Math.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\Test -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\component -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\component\\\\imu -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\component\\\\motor -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\code\\\\component\\\\pid -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\Seekfree_TC264_general_Opensource_Library\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/component/imu/WP_Math.src ../code/component/imu/WP_Math.c"
+	.compiler_name		"ctc"
+	;source	'../code/component/imu/WP_Math.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.WP_Math.safe_asin',code,cluster('safe_asin')
+	.sect	'.text.WP_Math.safe_asin'
+	.align	2
+	
+	.global	safe_asin
+; Function safe_asin
+.L131:
+safe_asin:	.type	func
+	mov	d8,d4
+.L468:
+	mov	d4,d8
+	call	_isnanf
+.L467:
+	jeq	d2,#0,.L2
+.L699:
+	mov	d2,#0
+.L700:
+	j	.L3
+.L2:
+	movh	d15,#16256
+.L701:
+	cmp.f	d15,d8,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L702:
+	jeq	d15,#0,.L4
+.L703:
+	mov	d2,#4059
+	addih	d2,d2,#16329
+.L704:
+	j	.L5
+.L4:
+	movh	d15,#49024
+.L705:
+	cmp.f	d15,d8,d15
+	and	d15,#3
+	ne	d15,d15,#0
+.L706:
+	jeq	d15,#0,.L6
+.L707:
+	mov	d2,#4059
+	addih	d2,d2,#49097
+.L708:
+	j	.L7
+.L6:
+	mov	d4,d8
+.L469:
+	call	asinf
+.L470:
+	j	.L8
+.L8:
+.L7:
+.L5:
+.L3:
+	ret
+.L298:
+	
+__safe_asin_function_end:
+	.size	safe_asin,__safe_asin_function_end-safe_asin
+.L184:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.safe_sqrt',code,cluster('safe_sqrt')
+	.sect	'.text.WP_Math.safe_sqrt'
+	.align	2
+	
+	.global	safe_sqrt
+; Function safe_sqrt
+.L133:
+safe_sqrt:	.type	func
+	call	sqrtf
+.L471:
+	mov	d15,d2
+.L473:
+	mov	d4,d15
+.L472:
+	call	_isnanf
+.L474:
+	jeq	d2,#0,.L9
+.L713:
+	mov	d2,#0
+.L714:
+	j	.L10
+.L9:
+	mov	d2,d15
+.L475:
+	j	.L11
+.L11:
+.L10:
+	ret
+.L300:
+	
+__safe_sqrt_function_end:
+	.size	safe_sqrt,__safe_sqrt_function_end-safe_sqrt
+.L189:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.fast_atan',code,cluster('fast_atan')
+	.sect	'.text.WP_Math.fast_atan'
+	.align	2
+	
+	.global	fast_atan
+; Function fast_atan
+.L135:
+fast_atan:	.type	func
+	mul.f	d15,d4,d4
+.L476:
+	mov	d0,#11735
+	addih	d0,d0,#16096
+.L719:
+	mov.u	d1,#59353
+	addih	d1,d1,#16343
+.L720:
+	madd.f	d15,d1,d15,d0
+.L477:
+	mul.f	d15,d4,d15
+.L721:
+	mov.u	d0,#59356
+	addih	d0,d0,#16343
+.L722:
+	madd.f	d0,d0,d4,d4
+.L723:
+	div.f	d2,d15,d0
+.L724:
+	j	.L12
+.L12:
+	ret
+.L303:
+	
+__fast_atan_function_end:
+	.size	fast_atan,__fast_atan_function_end-fast_atan
+.L194:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.fast_atan2',code,cluster('fast_atan2')
+	.sect	'.text.WP_Math.fast_atan2'
+	.align	2
+	
+	.global	fast_atan2
+; Function fast_atan2
+.L137:
+fast_atan2:	.type	func
+	extr.u	d15,d5,#23,#8
+	eq	d15,d15,#0
+.L729:
+	jeq	d15,#0,.L13
+.L730:
+	mov	d15,#0
+.L731:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L732:
+	jeq	d15,#0,.L14
+.L733:
+	mov	d2,#4058
+	addih	d2,d2,#16329
+.L734:
+	j	.L15
+.L14:
+	extr.u	d15,d4,#23,#8
+	eq	d15,d15,#0
+.L735:
+	jeq	d15,#0,.L16
+.L736:
+	mov	d2,#0
+.L737:
+	j	.L17
+.L16:
+	mov	d2,#4058
+	addih	d2,d2,#49097
+.L738:
+	j	.L18
+.L13:
+	div.f	d0,d4,d5
+.L478:
+	insert	d15,d0,#0,#31,#1
+.L739:
+	movh	d1,#16256
+.L740:
+	cmp.f	d15,d15,d1
+	extr.u	d15,d15,#0,#1
+.L741:
+	jeq	d15,#0,.L19
+.L742:
+	mov	d15,#23593
+	addih	d15,d15,#16015
+.L743:
+	mul.f	d15,d0,d15
+.L744:
+	movh	d1,#16256
+.L745:
+	madd.f	d15,d1,d15,d0
+.L746:
+	div.f	d2,d0,d15
+.L480:
+	mov	d15,#0
+.L747:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#0,#1
+.L748:
+	jeq	d15,#0,.L20
+.L749:
+	mov	d15,#0
+.L750:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L751:
+	jeq	d15,#0,.L21
+.L752:
+	mov	d15,#4059
+	addih	d15,d15,#16457
+.L753:
+	sub.f	d2,d2,d15
+.L481:
+	j	.L22
+.L21:
+	mov	d15,#4059
+	addih	d15,d15,#16457
+.L754:
+	add.f	d2,d2,d15
+.L482:
+	j	.L23
+.L20:
+	j	.L24
+.L19:
+	mov	d15,#4058
+	addih	d15,d15,#16329
+.L755:
+	mov	d1,#23593
+	addih	d1,d1,#16015
+.L756:
+	madd.f	d1,d1,d0,d0
+.L757:
+	div.f	d0,d0,d1
+.L479:
+	sub.f	d2,d15,d0
+.L483:
+	mov	d15,#0
+.L758:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L759:
+	jeq	d15,#0,.L25
+.L760:
+	mov	d15,#4059
+	addih	d15,d15,#16457
+.L761:
+	sub.f	d2,d2,d15
+.L484:
+	j	.L26
+.L25:
+.L24:
+	j	.L27
+.L27:
+.L26:
+.L23:
+.L22:
+.L18:
+.L17:
+.L15:
+	ret
+.L306:
+	
+__fast_atan2_function_end:
+	.size	fast_atan2,__fast_atan2_function_end-fast_atan2
+.L199:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.constrain_float',code,cluster('constrain_float')
+	.sect	'.text.WP_Math.constrain_float'
+	.align	2
+	
+	.global	constrain_float
+; Function constrain_float
+.L139:
+constrain_float:	.type	func
+	mov	e8,d5,d4
+	mov	d10,d6
+.L486:
+	mov	d4,d8
+.L487:
+	call	_isnanf
+.L485:
+	jeq	d2,#0,.L28
+.L488:
+	add.f	d15,d9,d10
+.L489:
+	movh	d0,#16128
+.L766:
+	mul.f	d2,d15,d0
+.L767:
+	j	.L29
+.L28:
+	cmp.f	d15,d8,d9
+.L490:
+	extr.u	d15,d15,#0,#1
+.L768:
+	jeq	d15,#0,.L30
+.L769:
+	j	.L31
+.L30:
+	cmp.f	d15,d8,d10
+.L491:
+	jnz.t	d15:2,.L32
+.L770:
+	j	.L33
+.L32:
+	mov	d8,d10
+.L33:
+	mov	d9,d8
+.L31:
+	mov	d2,d9
+.L492:
+	j	.L34
+.L34:
+.L29:
+	ret
+.L311:
+	
+__constrain_float_function_end:
+	.size	constrain_float,__constrain_float_function_end-constrain_float
+.L204:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.constrain_int16',code,cluster('constrain_int16')
+	.sect	'.text.WP_Math.constrain_int16'
+	.align	2
+	
+	.global	constrain_int16
+; Function constrain_int16
+.L141:
+constrain_int16:	.type	func
+	jge	d4,d5,.L35
+.L775:
+	j	.L36
+.L35:
+	jge	d6,d4,.L37
+.L776:
+	j	.L38
+.L37:
+	mov	d6,d4
+.L38:
+	mov	d5,d6
+.L36:
+	mov	d2,d5
+	j	.L39
+.L39:
+	ret
+.L316:
+	
+__constrain_int16_function_end:
+	.size	constrain_int16,__constrain_int16_function_end-constrain_int16
+.L209:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.constrain_int32',code,cluster('constrain_int32')
+	.sect	'.text.WP_Math.constrain_int32'
+	.align	2
+	
+	.global	constrain_int32
+; Function constrain_int32
+.L143:
+constrain_int32:	.type	func
+	jge	d4,d5,.L40
+.L781:
+	j	.L41
+.L40:
+	jge	d6,d4,.L42
+.L782:
+	j	.L43
+.L42:
+	mov	d6,d4
+.L43:
+	mov	d5,d6
+.L41:
+	mov	d2,d5
+	j	.L44
+.L44:
+	ret
+.L321:
+	
+__constrain_int32_function_end:
+	.size	constrain_int32,__constrain_int32_function_end-constrain_int32
+.L214:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.radians',code,cluster('radians')
+	.sect	'.text.WP_Math.radians'
+	.align	2
+	
+	.global	radians
+; Function radians
+.L145:
+radians:	.type	func
+	mov.u	d15,#64053
+	addih	d15,d15,#15502
+.L787:
+	mul.f	d2,d4,d15
+.L788:
+	j	.L45
+.L45:
+	ret
+.L325:
+	
+__radians_function_end:
+	.size	radians,__radians_function_end-radians
+.L219:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.degrees',code,cluster('degrees')
+	.sect	'.text.WP_Math.degrees'
+	.align	2
+	
+	.global	degrees
+; Function degrees
+.L147:
+degrees:	.type	func
+	mov	d15,#12001
+	addih	d15,d15,#16997
+.L793:
+	mul.f	d2,d4,d15
+.L794:
+	j	.L46
+.L46:
+	ret
+.L327:
+	
+__degrees_function_end:
+	.size	degrees,__degrees_function_end-degrees
+.L224:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.sq',code,cluster('sq')
+	.sect	'.text.WP_Math.sq'
+	.align	2
+	
+	.global	sq
+; Function sq
+.L149:
+sq:	.type	func
+	mul.f	d2,d4,d4
+.L799:
+	j	.L47
+.L47:
+	ret
+.L329:
+	
+__sq_function_end:
+	.size	sq,__sq_function_end-sq
+.L229:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.pythagorous2',code,cluster('pythagorous2')
+	.sect	'.text.WP_Math.pythagorous2'
+	.align	2
+	
+	.global	pythagorous2
+; Function pythagorous2
+.L151:
+pythagorous2:	.type	func
+	mov	d15,d5
+.L494:
+	call	sq
+.L493:
+	mov	d8,d2
+.L804:
+	mov	d4,d15
+.L495:
+	call	sq
+.L496:
+	add.f	d4,d8,d2
+	call	sqrtf
+.L805:
+	j	.L48
+.L48:
+	ret
+.L331:
+	
+__pythagorous2_function_end:
+	.size	pythagorous2,__pythagorous2_function_end-pythagorous2
+.L234:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.pythagorous3',code,cluster('pythagorous3')
+	.sect	'.text.WP_Math.pythagorous3'
+	.align	2
+	
+	.global	pythagorous3
+; Function pythagorous3
+.L153:
+pythagorous3:	.type	func
+	mov	d15,d5
+.L498:
+	mov	d8,d6
+.L500:
+	call	sq
+.L497:
+	mov	d9,d2
+.L810:
+	mov	d4,d15
+.L501:
+	call	sq
+.L502:
+	add.f	d15,d9,d2
+.L499:
+	mov	d4,d8
+.L503:
+	call	sq
+.L504:
+	add.f	d4,d15,d2
+	call	sqrtf
+.L811:
+	j	.L49
+.L49:
+	ret
+.L334:
+	
+__pythagorous3_function_end:
+	.size	pythagorous3,__pythagorous3_function_end-pythagorous3
+.L239:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.Modf',code,cluster('Modf')
+	.sect	'.text.WP_Math.Modf'
+	.align	2
+	
+	.global	Modf
+; Function Modf
+.L155:
+Modf:	.type	func
+	mov	d0,d4
+.L505:
+	mov	d15,#0
+.L1265:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L1266:
+	jeq	d15,#0,.L50
+.L1267:
+	insn.t	d0,d4:31,d4:31
+.L50:
+	movh	d15,#19328
+.L1268:
+	cmp.f	d15,d0,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L1269:
+	jeq	d15,#0,.L51
+.L1270:
+	st.w	[a4],d4
+.L1271:
+	mov	d2,#0
+.L1272:
+	j	.L52
+.L51:
+	movh	d15,#16256
+.L1273:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+.L1274:
+	jeq	d15,#0,.L53
+.L1275:
+	mov	d15,#0
+.L1276:
+	st.w	[a4],d15
+.L1277:
+	mov	d2,d4
+.L506:
+	j	.L54
+.L53:
+	ftoiz	d15,d0
+.L1278:
+	itof	d0,d15
+.L1279:
+	mov	d15,#0
+.L1280:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L1281:
+	jeq	d15,#0,.L55
+.L1282:
+	insn.t	d0,d0:31,d0:31
+.L55:
+	sub.f	d2,d4,d0
+.L507:
+	st.w	[a4],d0
+.L1283:
+	j	.L56
+.L56:
+.L54:
+.L52:
+	ret
+.L461:
+	
+__Modf_function_end:
+	.size	Modf,__Modf_function_end-Modf
+.L294:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastPow',code,cluster('FastPow')
+	.sect	'.text.WP_Math.FastPow'
+	.align	2
+	
+	.global	FastPow
+; Function FastPow
+.L157:
+FastPow:	.type	func
+	sub.a	a10,#24
+.L508:
+	mov	d8,d5
+.L511:
+	lea	a2,[a10]16
+.L513:
+	lea	a4,[a10]16
+.L515:
+	movh.a	a15,#@his(_999001_a1l)
+.L517:
+	lea	a15,[a15]@los(_999001_a1l)
+.L844:
+	movh.a	a5,#@his(_999002_a2l)
+.L519:
+	lea	a5,[a5]@los(_999002_a2l)
+.L845:
+	mov	d9,#0
+.L520:
+	extr.u	d0,d4,#23,#8
+	eq	d15,d0,#0
+.L846:
+	jeq	d15,#0,.L57
+.L847:
+	extr.u	d15,d8,#23,#8
+	eq	d15,d15,#0
+.L848:
+	jeq	d15,#0,.L58
+.L849:
+	movh	d2,#16256
+.L850:
+	j	.L59
+.L58:
+	mov	d15,#0
+.L851:
+	cmp.f	d15,d8,d15
+	extr.u	d15,d15,#2,#1
+.L852:
+	jeq	d15,#0,.L60
+.L853:
+	mov	d2,#0
+.L854:
+	j	.L61
+.L60:
+	mov.u	d2,#65535
+	addih	d2,d2,#32639
+.L855:
+	j	.L62
+.L57:
+	mov	d0,#0
+.L856:
+	cmp.f	d0,d4,d0
+	extr.u	d15,d0,#0,#1
+.L857:
+	jeq	d15,#0,.L63
+.L858:
+	ftoiz	d0,d8
+.L521:
+	itof	d15,d0
+.L859:
+	cmp.f	d15,d15,d8
+	and	d15,#2
+	eq	d15,d15,#0
+.L860:
+	jeq	d15,#0,.L64
+.L861:
+	mov	d2,#0
+.L862:
+	j	.L65
+.L64:
+	insn.t	d4,d4:31,d4:31
+.L863:
+	and	d9,d0,#1
+.L63:
+	st.w	[a10]16,d4
+.L864:
+	ld.w	d0,[a2]
+.L865:
+	sha	d15,d0,#-23
+.L522:
+	add	d1,d15,#-126
+.L523:
+	ld.w	d15,[a2]
+.L866:
+	insert	d15,d15,#0,#23,#8
+.L867:
+	movh	d0,#16128
+.L868:
+	or	d15,d0
+.L869:
+	st.w	[a2],d15
+.L870:
+	ld.w	d2,[a4]
+.L524:
+	mov	d3,#1
+.L526:
+	ld.w	d15,[a15]36
+.L871:
+	cmp.f	d15,d2,d15
+	and	d15,#3
+	ne	d15,d15,#0
+.L872:
+	jeq	d15,#0,.L66
+.L873:
+	mov	d3,#9
+.L66:
+	add	d15,d3,#4
+.L874:
+	mul	d15,d15,#4
+	addsc.a	a2,a15,d15,#0
+.L514:
+	ld.w	d0,[a2]
+.L875:
+	cmp.f	d15,d2,d0
+	and	d15,#3
+	ne	d15,d15,#0
+.L876:
+	jeq	d15,#0,.L67
+.L877:
+	add	d3,#4
+.L67:
+	add	d15,d3,#2
+.L878:
+	mul	d15,d15,#4
+	addsc.a	a2,a15,d15,#0
+	ld.w	d15,[a2]
+.L879:
+	cmp.f	d15,d2,d15
+	and	d15,#3
+	ne	d15,d15,#0
+.L880:
+	jeq	d15,#0,.L68
+.L881:
+	add	d3,#2
+.L68:
+	add	d3,#1
+.L882:
+	mul	d15,d3,#4
+	addsc.a	a2,a15,d15,#0
+	ld.w	d15,[a2]
+.L883:
+	sub.f	d0,d2,d15
+.L527:
+	sha	d15,d3,#-1
+.L884:
+	mul	d15,d15,#4
+	addsc.a	a2,a5,d15,#0
+	ld.w	d15,[a2]
+.L885:
+	sub.f	d0,d0,d15
+.L886:
+	mul	d15,d3,#4
+	addsc.a	a2,a15,d15,#0
+	ld.w	d15,[a2]
+.L887:
+	add.f	d15,d2,d15
+.L529:
+	add	d3,#-1
+.L888:
+	div.f	d2,d0,d15
+.L525:
+	st.w	[a10],d2
+.L889:
+	div.f	d2,d0,d15
+.L890:
+	div.f	d15,d0,d15
+.L530:
+	add.f	d15,d2,d15
+.L891:
+	st.w	[a10],d15
+.L892:
+	ld.w	d15,[a10]
+.L893:
+	ld.w	d0,[a10]
+.L528:
+	mul.f	d15,d15,d0
+.L531:
+	mov.u	d0,#59392
+	addih	d0,d0,#15436
+.L894:
+	mul.f	d0,d15,d0
+.L533:
+	mov.u	d2,#43690
+	addih	d2,d2,#15786
+.L895:
+	add.f	d0,d0,d2
+.L896:
+	mul.f	d15,d0,d15
+.L532:
+	ld.w	d0,[a10]
+.L897:
+	mul.f	d15,d15,d0
+.L898:
+	mov.u	d0,#43245
+	addih	d0,d0,#16098
+.L899:
+	madd.f	d15,d15,d15,d0
+.L900:
+	ld.w	d0,[a10]
+.L901:
+	mov.u	d2,#43245
+	addih	d2,d2,#16098
+.L902:
+	mul.f	d0,d0,d2
+.L535:
+	add.f	d15,d15,d0
+.L534:
+	ld.w	d0,[a10]
+.L903:
+	add.f	d10,d15,d0
+.L536:
+	mul	d15,d1,#16
+.L904:
+	sub	d15,d3
+.L905:
+	itof	d15,d15
+.L537:
+	movh	d0,#15744
+.L906:
+	mul.f	d11,d15,d0
+.L538:
+	movh	d15,#16768
+.L907:
+	mul.f	d4,d8,d15
+.L509:
+	lea	a4,[a10]4
+.L516:
+	call	Modf
+.L510:
+	ld.w	d15,[a10]4
+.L908:
+	movh	d0,#15744
+.L909:
+	mul.f	d15,d15,d0
+.L910:
+	st.w	[a10]4,d15
+.L911:
+	ld.w	d15,[a10]4
+.L912:
+	sub.f	d0,d8,d15
+.L539:
+	mul.f	d15,d11,d0
+.L913:
+	st.w	[a10]12,d15
+.L914:
+	mul.f	d15,d11,d0
+.L915:
+	madd.f	d15,d15,d10,d8
+.L916:
+	st.w	[a10]12,d15
+.L917:
+	ld.w	d15,[a10]12
+.L918:
+	movh	d0,#16768
+.L540:
+	mul.f	d4,d15,d0
+.L919:
+	lea	a4,[a10]8
+	call	Modf
+.L920:
+	ld.w	d15,[a10]8
+.L921:
+	movh	d0,#15744
+.L922:
+	mul.f	d15,d15,d0
+.L923:
+	st.w	[a10]8,d15
+.L924:
+	ld.w	d0,[a10]12
+.L925:
+	ld.w	d15,[a10]8
+.L926:
+	sub.f	d8,d0,d15
+.L512:
+	ld.w	d15,[a10]4
+.L927:
+	mul.f	d15,d11,d15
+.L928:
+	st.w	[a10]12,d15
+.L929:
+	ld.w	d0,[a10]4
+.L930:
+	ld.w	d15,[a10]8
+.L931:
+	madd.f	d15,d15,d11,d0
+.L932:
+	st.w	[a10]12,d15
+.L933:
+	ld.w	d15,[a10]12
+.L934:
+	movh	d0,#16768
+.L935:
+	mul.f	d4,d15,d0
+.L936:
+	lea	a4,[a10]8
+	call	Modf
+.L937:
+	ld.w	d15,[a10]8
+.L938:
+	movh	d0,#15744
+.L939:
+	mul.f	d15,d15,d0
+.L940:
+	st.w	[a10]8,d15
+.L941:
+	ld.w	d0,[a10]12
+.L942:
+	ld.w	d15,[a10]8
+.L943:
+	sub.f	d15,d0,d15
+.L542:
+	add.f	d8,d8,d15
+.L944:
+	movh	d15,#16768
+.L543:
+	mul.f	d4,d8,d15
+.L945:
+	lea	a4,[a10]12
+	call	Modf
+.L946:
+	ld.w	d15,[a10]12
+.L947:
+	movh	d0,#15744
+.L948:
+	mul.f	d15,d15,d0
+.L949:
+	st.w	[a10]12,d15
+.L950:
+	ld.w	d0,[a10]8
+.L951:
+	ld.w	d15,[a10]12
+.L952:
+	add.f	d15,d0,d15
+.L544:
+	movh	d0,#16768
+.L953:
+	mul.f	d15,d15,d0
+.L954:
+	ftoiz	d1,d15
+.L546:
+	ld.w	d15,[a10]12
+.L545:
+	sub.f	d2,d8,d15
+.L541:
+	itof	d15,d1
+.L955:
+	mov.u	d0,#49152
+	addih	d0,d0,#17663
+.L956:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L957:
+	jeq	d15,#0,.L69
+.L958:
+	mov.u	d2,#65535
+.L548:
+	addih	d2,d2,#32639
+.L959:
+	jne	d9,#1,.L70
+.L960:
+	insn.t	d2,d2:31,d2:31
+.L70:
+	j	.L71
+.L69:
+	mov	d15,#0
+.L961:
+	cmp.f	d15,d2,d15
+	extr.u	d15,d15,#2,#1
+.L962:
+	jeq	d15,#0,.L72
+.L963:
+	movh	d15,#15744
+.L964:
+	sub.f	d2,d2,d15
+.L965:
+	add	d1,#1
+.L72:
+	itof	d15,d1
+.L966:
+	mov.u	d0,#57344
+	addih	d0,d0,#50427
+.L967:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#0,#1
+.L968:
+	jeq	d15,#0,.L73
+.L969:
+	mov	d2,#0
+.L549:
+	j	.L74
+.L73:
+	jge	d1,#0,.L75
+.L970:
+	mov	d0,#0
+.L551:
+	j	.L76
+.L75:
+	mov	d0,#1
+.L76:
+	mov	d15,#16
+.L971:
+	div	e4,d1,d15
+.L553:
+	add	d0,d4
+.L972:
+	mul	d15,d0,#16
+.L973:
+	sub	d4,d15,d1
+.L554:
+	mov	d1,#5400
+.L547:
+	addih	d1,d1,#15019
+.L974:
+	mul.f	d1,d2,d1
+.L975:
+	st.w	[a10],d1
+.L976:
+	ld.w	d1,[a10]
+.L977:
+	mov.u	d3,#36171
+	addih	d3,d3,#15389
+.L978:
+	add.f	d1,d1,d3
+.L979:
+	st.w	[a10],d1
+.L980:
+	ld.w	d1,[a10]
+.L981:
+	mul.f	d1,d1,d2
+.L982:
+	st.w	[a10],d1
+.L983:
+	ld.w	d1,[a10]
+.L984:
+	mov	d3,#22583
+	addih	d3,d3,#15715
+.L985:
+	add.f	d1,d1,d3
+.L986:
+	st.w	[a10],d1
+.L987:
+	ld.w	d1,[a10]
+.L988:
+	mul.f	d1,d1,d2
+.L989:
+	st.w	[a10],d1
+.L990:
+	ld.w	d15,[a10]
+.L991:
+	mov.u	d1,#65008
+	addih	d1,d1,#15989
+.L992:
+	add.f	d15,d15,d1
+.L993:
+	st.w	[a10],d15
+.L994:
+	ld.w	d15,[a10]
+.L995:
+	mul.f	d15,d15,d2
+.L996:
+	st.w	[a10],d15
+.L997:
+	ld.w	d15,[a10]
+.L998:
+	mov	d1,#29208
+	addih	d1,d1,#16177
+.L999:
+	add.f	d15,d15,d1
+.L1000:
+	st.w	[a10],d15
+.L1001:
+	ld.w	d15,[a10]
+.L1002:
+	mul.f	d15,d15,d2
+.L1003:
+	st.w	[a10],d15
+.L1004:
+	ld.w	d1,[a10]
+.L1005:
+	add	d15,d4,#1
+.L1006:
+	mul	d15,d15,#4
+	addsc.a	a2,a15,d15,#0
+	ld.w	d15,[a2]
+.L1007:
+	mul.f	d15,d1,d15
+.L1008:
+	st.w	[a10],d15
+.L1009:
+	add	d4,#1
+.L555:
+	mul	d15,d4,#4
+	addsc.a	a15,a15,d15,#0
+.L518:
+	ld.w	d15,[a15]
+.L1010:
+	ld.w	d1,[a10]
+.L1011:
+	add.f	d15,d15,d1
+.L1012:
+	st.w	[a10],d15
+.L1013:
+	lea	a15,[a10]0
+.L556:
+	ld.w	d15,[a15]
+.L1014:
+	sha	d15,d15,#-23
+.L557:
+	and	d15,#255
+.L1015:
+	add	d15,d15,#-127
+.L1016:
+	add	d0,d15
+.L1017:
+	add	d15,d0,#127
+.L552:
+	and	d15,#255
+.L1018:
+	ld.w	d0,[a15]
+.L1019:
+	insert	d0,d0,#0,#23,#8
+.L1020:
+	st.w	[a15],d0
+.L1021:
+	ld.w	d0,[a15]
+.L1022:
+	sha	d15,d15,#23
+.L558:
+	or	d0,d15
+.L1023:
+	st.w	[a15],d0
+.L1024:
+	ld.w	d2,[a15]
+.L550:
+	jeq	d9,#0,.L77
+.L1025:
+	insn.t	d2,d2:31,d2:31
+.L77:
+	j	.L78
+.L78:
+.L74:
+.L71:
+.L65:
+.L62:
+.L61:
+.L59:
+	ret
+.L352:
+	
+__FastPow_function_end:
+	.size	FastPow,__FastPow_function_end-FastPow
+.L249:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastTan',code,cluster('FastTan')
+	.sect	'.text.WP_Math.FastTan'
+	.align	2
+	
+	.global	FastTan
+; Function FastTan
+.L159:
+FastTan:	.type	func
+	mov	d15,#11289
+	addih	d15,d15,#17934
+.L1030:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L79
+.L1031:
+	mov	d15,#11289
+	addih	d15,d15,#50702
+.L1032:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+	jeq	d15,#0,.L80
+.L79:
+	mov	d2,#0
+.L1033:
+	j	.L81
+.L80:
+	ftoiz	d15,d4
+.L1034:
+	itof	d0,d15
+.L560:
+	sub.f	d1,d4,d0
+.L562:
+	movh	d2,#16128
+.L564:
+	mov	d15,#0
+.L1035:
+	cmp.f	d15,d4,d15
+	and	d15,#3
+	ne	d15,d15,#0
+.L1036:
+	jeq	d15,#0,.L82
+.L1037:
+	insn.t	d2,d2:31,d2:31
+.L82:
+	mov.u	d15,#63875
+	addih	d15,d15,#16162
+.L1038:
+	madd.f	d15,d2,d4,d15
+.L1039:
+	ftoiz	d4,d15
+.L559:
+	itof	d2,d4
+.L565:
+	movh	d3,#16329
+.L1040:
+	msub.f	d0,d0,d2,d3
+.L561:
+	add.f	d0,d0,d1
+.L1041:
+	movh	d1,#14846
+.L563:
+	msub.f	d0,d0,d2,d1
+.L1042:
+	mov.u	d1,#48083
+	addih	d1,d1,#46379
+.L1043:
+	msub.f	d2,d0,d2,d1
+.L566:
+	mov	d0,#0
+.L1044:
+	cmp.f	d15,d2,d0
+	jnz.t	d15:0,.L83
+.L1045:
+	mov	d0,d2
+.L568:
+	j	.L84
+.L83:
+	insn.t	d0,d2:31,d2:31
+.L84:
+	mov	d1,#1267
+	addih	d1,d1,#14773
+.L1046:
+	cmp.f	d0,d0,d1
+.L569:
+	extr.u	d15,d0,#0,#1
+.L1047:
+	jeq	d15,#0,.L85
+.L1048:
+	jz.t	d4:0,.L86
+.L1049:
+	movh	d15,#49024
+.L1050:
+	div.f	d2,d15,d2
+.L1051:
+	j	.L87
+.L86:
+.L87:
+	j	.L88
+.L85:
+	mul.f	d15,d2,d2
+.L570:
+	mov.u	d0,#60469
+	addih	d0,d0,#14988
+.L1052:
+	mul.f	d0,d15,d0
+.L572:
+	mov	d1,#4472
+	addih	d1,d1,#48612
+.L1053:
+	add.f	d0,d0,d1
+.L1054:
+	mul.f	d0,d0,d15
+.L1055:
+	mul.f	d0,d0,d2
+.L1056:
+	add.f	d0,d0,d2
+.L1057:
+	mov.u	d1,#55970
+	addih	d1,d1,#15490
+.L1058:
+	mul.f	d1,d15,d1
+.L573:
+	mov.u	d2,#44808
+.L567:
+	addih	d2,d2,#48867
+.L1059:
+	add.f	d1,d1,d2
+.L1060:
+	mul.f	d15,d1,d15
+.L571:
+	movh	d1,#16256
+.L1061:
+	add.f	d15,d15,d1
+.L1062:
+	jz.t	d4:0,.L89
+.L1063:
+	mov	d1,d0
+.L574:
+	insn.t	d0,d15:31,d15:31
+.L1064:
+	mov	d15,d1
+.L89:
+	div.f	d2,d0,d15
+.L575:
+	j	.L90
+.L90:
+.L88:
+.L81:
+	ret
+.L388:
+	
+__FastTan_function_end:
+	.size	FastTan,__FastTan_function_end-FastTan
+.L254:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastLn',code,cluster('FastLn')
+	.sect	'.text.WP_Math.FastLn'
+	.align	2
+	
+	.global	FastLn
+; Function FastLn
+.L161:
+FastLn:	.type	func
+	movh	d15,#32640
+.L816:
+	and	d15,d4
+.L817:
+	sha	d0,d15,#-23
+.L577:
+	movh	d15,#16256
+.L579:
+	and	d4,d15
+.L576:
+	mov	d15,#1267
+	addih	d15,d15,#16181
+.L818:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L91
+.L819:
+	add	d0,#-1
+.L820:
+	movh	d15,#16128
+.L821:
+	sub.f	d15,d4,d15
+.L581:
+	movh	d1,#16128
+.L822:
+	movh	d2,#16128
+.L823:
+	madd.f	d1,d2,d4,d1
+.L582:
+	j	.L92
+.L91:
+	movh	d15,#16256
+.L824:
+	sub.f	d15,d4,d15
+.L583:
+	movh	d1,#16128
+.L825:
+	movh	d2,#16128
+.L826:
+	madd.f	d1,d2,d4,d1
+.L92:
+	itof	d4,d0
+.L580:
+	div.f	d15,d15,d1
+.L584:
+	mul.f	d0,d15,d15
+.L578:
+	mov	d1,#8366
+.L585:
+	addih	d1,d1,#48970
+.L827:
+	mov	d2,#4689
+	addih	d2,d2,#16771
+.L828:
+	madd.f	d1,d2,d0,d1
+.L829:
+	mov	d2,#16377
+	addih	d2,d2,#49792
+.L830:
+	madd.f	d1,d2,d1,d0
+.L588:
+	mov.u	d2,#44034
+	addih	d2,d2,#49678
+.L831:
+	madd.f	d2,d2,d15,d15
+.L832:
+	mov	d3,#1056
+	addih	d3,d3,#17308
+.L833:
+	madd.f	d2,d3,d2,d0
+.L834:
+	mov	d3,#24565
+	addih	d3,d3,#50240
+.L835:
+	madd.f	d2,d3,d2,d0
+.L590:
+	div.f	d1,d1,d2
+.L589:
+	mul.f	d0,d1,d0
+.L587:
+	madd.f	d15,d15,d0,d15
+.L586:
+	mov.u	d0,#32768
+	addih	d0,d0,#16177
+.L836:
+	madd.f	d15,d15,d4,d0
+.L592:
+	mov.u	d0,#32899
+	addih	d0,d0,#47454
+.L837:
+	mul.f	d0,d4,d0
+.L593:
+	add.f	d15,d15,d0
+.L838:
+	mov	d0,#19955
+.L594:
+	addih	d0,d0,#43382
+.L839:
+	mul.f	d0,d4,d0
+.L595:
+	add.f	d2,d15,d0
+.L591:
+	j	.L93
+.L93:
+	ret
+.L338:
+	
+__FastLn_function_end:
+	.size	FastLn,__FastLn_function_end-FastLn
+.L244:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastAsin',code,cluster('FastAsin')
+	.sect	'.text.WP_Math.FastAsin'
+	.align	2
+	
+	.global	FastAsin
+; Function FastAsin
+.L163:
+FastAsin:	.type	func
+	movh	d8,#16256
+.L598:
+	mov	d15,#0
+.L1069:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L1070:
+	jeq	d15,#0,.L94
+.L1071:
+	insn.t	d4,d4:31,d4:31
+.L1072:
+	insn.t	d8,d8:31,d8:31
+.L94:
+	movh	d15,#16128
+.L1073:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L1074:
+	jeq	d15,#0,.L95
+.L1075:
+	mov	d9,#1
+.L599:
+	movh	d0,#16256
+.L1076:
+	cmp.f	d0,d4,d0
+	extr.u	d15,d0,#2,#1
+.L1077:
+	jeq	d15,#0,.L96
+.L1078:
+	mov	d2,#0
+.L596:
+	j	.L97
+.L96:
+	movh	d0,#16256
+.L1079:
+	sub.f	d0,d0,d4
+.L1080:
+	movh	d1,#16128
+.L1081:
+	mul.f	d10,d0,d1
+.L600:
+	mov	d4,d10
+.L597:
+	call	FastSqrt
+.L601:
+	movh	d15,#49152
+.L1082:
+	mul.f	d4,d2,d15
+.L602:
+	j	.L98
+.L95:
+	mov	d9,#0
+.L604:
+	mov	d15,#1267
+	addih	d15,d15,#14773
+.L1083:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L1084:
+	jeq	d15,#0,.L99
+.L1085:
+	mov	d15,#0
+.L1086:
+	cmp.f	d15,d8,d15
+	extr.u	d15,d15,#0,#1
+.L1087:
+	jeq	d15,#0,.L100
+.L1088:
+	insn.t	d4,d4:31,d4:31
+.L100:
+	mov	d2,d4
+.L605:
+	j	.L101
+.L99:
+	mul.f	d10,d4,d4
+.L98:
+	mov	d15,#12607
+	addih	d15,d15,#48920
+.L1089:
+	mov.u	d0,#63968
+	addih	d0,d0,#16441
+.L1090:
+	madd.f	d15,d0,d10,d15
+.L1091:
+	mov	d0,#6944
+	addih	d0,d0,#49200
+.L1092:
+	madd.f	d15,d0,d15,d10
+.L1093:
+	mul.f	d15,d15,d10
+.L606:
+	mov	d0,#22405
+	addih	d0,d0,#49445
+.L1094:
+	add.f	d0,d10,d0
+.L1095:
+	mov.u	d1,#60151
+	addih	d1,d1,#16838
+.L1096:
+	madd.f	d0,d1,d0,d10
+.L1097:
+	mov	d1,#5208
+	addih	d1,d1,#49540
+.L1098:
+	madd.f	d0,d1,d0,d10
+.L607:
+	div.f	d15,d15,d0
+.L603:
+	madd.f	d2,d4,d15,d4
+.L608:
+	jne	d9,#1,.L102
+.L1099:
+	mov	d15,#4059
+	addih	d15,d15,#16329
+.L1100:
+	add.f	d2,d2,d15
+.L102:
+	mov	d15,#0
+.L1101:
+	cmp.f	d15,d8,d15
+	extr.u	d15,d15,#0,#1
+.L1102:
+	jeq	d15,#0,.L103
+.L1103:
+	insn.t	d2,d2:31,d2:31
+.L103:
+	j	.L104
+.L104:
+.L101:
+.L97:
+	ret
+.L399:
+	
+__FastAsin_function_end:
+	.size	FastAsin,__FastAsin_function_end-FastAsin
+.L259:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastAtan2',code,cluster('FastAtan2')
+	.sect	'.text.WP_Math.FastAtan2'
+	.align	2
+	
+	.global	FastAtan2
+; Function FastAtan2
+.L165:
+FastAtan2:	.type	func
+	extr.u	d15,d5,#23,#8
+	eq	d15,d15,#0
+.L1108:
+	jeq	d15,#0,.L105
+.L1109:
+	extr.u	d15,d4,#23,#8
+	eq	d15,d15,#0
+.L1110:
+	jeq	d15,#0,.L106
+.L1111:
+	mov	d2,#0
+.L609:
+	j	.L107
+.L106:
+	mov	d2,#4059
+.L610:
+	addih	d2,d2,#16329
+.L1112:
+	mov	d15,#0
+.L1113:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L1114:
+	jeq	d15,#0,.L108
+.L1115:
+	j	.L109
+.L108:
+	mov	d15,#0
+.L1116:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L1117:
+	jeq	d15,#0,.L110
+.L1118:
+	insn.t	d2,d2:31,d2:31
+.L1119:
+	j	.L111
+.L110:
+.L105:
+	mov	d2,#0
+.L611:
+	mov	e0,d5,d4
+.L1120:
+	mov	d15,#0
+.L1121:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L1122:
+	jeq	d15,#0,.L112
+.L1123:
+	insn.t	d0,d4:31,d4:31
+.L112:
+	mov	d15,#0
+.L1124:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#0,#1
+.L1125:
+	jeq	d15,#0,.L113
+.L1126:
+	insn.t	d1,d5:31,d5:31
+.L113:
+	cmp.f	d15,d0,d1
+.L613:
+	extr.u	d15,d15,#2,#1
+.L1127:
+	jeq	d15,#0,.L114
+.L614:
+	mov	d15,d1
+.L615:
+	mov	d1,d0
+.L616:
+	mov	d0,d15
+.L618:
+	mov	d2,#2
+.L114:
+	div.f	d1,d0,d1
+.L617:
+	mov	d15,#12451
+	addih	d15,d15,#16009
+.L1128:
+	cmp.f	d15,d1,d15
+	extr.u	d15,d15,#2,#1
+.L1129:
+	jeq	d15,#0,.L115
+.L1130:
+	mov	d15,#26543
+	addih	d15,d15,#16187
+.L1131:
+	mul.f	d15,d1,d15
+.L1132:
+	movh	d0,#16256
+.L1133:
+	sub.f	d15,d15,d0
+.L1134:
+	add.f	d15,d15,d1
+.L619:
+	mov.u	d0,#46039
+	addih	d0,d0,#16349
+.L1135:
+	add.f	d0,d1,d0
+.L620:
+	div.f	d1,d15,d0
+.L1136:
+	add	d2,#1
+.L115:
+	mov	d0,d1
+.L621:
+	mov	d15,#0
+.L1137:
+	cmp.f	d15,d1,d15
+	extr.u	d15,d15,#0,#1
+.L1138:
+	jeq	d15,#0,.L116
+.L1139:
+	insn.t	d0,d1:31,d1:31
+.L116:
+	mov	d15,#1267
+	addih	d15,d15,#14773
+.L1140:
+	cmp.f	d15,d0,d15
+	jnz.t	d15:0,.L117
+.L1141:
+	mul.f	d15,d1,d1
+.L622:
+	mov	d0,#21422
+	addih	d0,d0,#48952
+.L1142:
+	mov	d3,#21672
+	addih	d3,d3,#49080
+.L1143:
+	madd.f	d0,d3,d15,d0
+.L1144:
+	mul.f	d0,d0,d15
+.L624:
+	mov	d3,#4668
+	addih	d3,d3,#16536
+.L1145:
+	madd.f	d3,d3,d1,d1
+.L1146:
+	mov	d6,#16254
+	addih	d6,d6,#16522
+.L1147:
+	madd.f	d15,d6,d3,d15
+.L623:
+	div.f	d15,d0,d15
+.L625:
+	madd.f	d1,d1,d15,d1
+.L1148:
+	j	.L118
+.L117:
+.L118:
+	jlt	d2,#2,.L119
+.L1149:
+	insn.t	d1,d1:31,d1:31
+.L119:
+	mul	d15,d2,#4
+.L1150:
+	movh.a	a15,#@his(_999003_a)
+	lea	a15,[a15]@los(_999003_a)
+.L1151:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L1152:
+	add.f	d2,d1,d15
+.L612:
+	mov	d15,#0
+.L1153:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#0,#1
+.L1154:
+	jeq	d15,#0,.L120
+.L1155:
+	mov	d15,#4059
+	addih	d15,d15,#16457
+.L1156:
+	sub.f	d2,d15,d2
+.L120:
+	mov	d15,#0
+.L1157:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L1158:
+	jeq	d15,#0,.L121
+.L1159:
+	insn.t	d2,d2:31,d2:31
+.L121:
+	j	.L122
+.L122:
+.L111:
+.L109:
+.L107:
+	ret
+.L408:
+	
+__FastAtan2_function_end:
+	.size	FastAtan2,__FastAtan2_function_end-FastAtan2
+.L264:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastSqrtI',code,cluster('FastSqrtI')
+	.sect	'.text.WP_Math.FastSqrtI'
+	.align	2
+	
+	.global	FastSqrtI
+; Function FastSqrtI
+.L167:
+FastSqrtI:	.type	func
+	mov	d15,#5138
+	addih	d15,d15,#24351
+.L1164:
+	sh	d0,d4,#-1
+.L627:
+	sub	d15,d0
+.L626:
+	mov	d0,#20991
+	addih	d0,d0,#16344
+.L1165:
+	mov.u	d1,#54034
+	addih	d1,d1,#16182
+.L1166:
+	mul.f	d1,d4,d1
+.L1167:
+	mul.f	d1,d1,d15
+.L1168:
+	msub.f	d0,d0,d1,d15
+.L1169:
+	mul.f	d2,d15,d0
+.L1170:
+	j	.L123
+.L123:
+	ret
+.L418:
+	
+__FastSqrtI_function_end:
+	.size	FastSqrtI,__FastSqrtI_function_end-FastSqrtI
+.L269:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastSqrt',code,cluster('FastSqrt')
+	.sect	'.text.WP_Math.FastSqrt'
+	.align	2
+	
+	.global	FastSqrt
+; Function FastSqrt
+.L169:
+FastSqrt:	.type	func
+	mov	d15,d4
+.L629:
+	mov	d4,d15
+	call	FastSqrtI
+.L628:
+	mul.f	d2,d15,d2
+.L1175:
+	j	.L124
+.L124:
+	ret
+.L421:
+	
+__FastSqrt_function_end:
+	.size	FastSqrt,__FastSqrt_function_end-FastSqrt
+.L274:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastSinCos',code,cluster('FastSinCos')
+	.sect	'.text.WP_Math.FastSinCos'
+	.align	2
+	
+	.global	FastSinCos
+; Function FastSinCos
+.L171:
+FastSinCos:	.type	func
+	mov.aa	a12,a4
+.L632:
+	mov.aa	a13,a5
+.L633:
+	mov.u	d15,#63875
+	addih	d15,d15,#15906
+.L1213:
+	mul.f	d0,d4,d15
+.L634:
+	ftoiz	d1,d0
+.L636:
+	mov	d15,#0
+.L1214:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+.L1215:
+	jeq	d15,#0,.L125
+.L1216:
+	add	d1,#-1
+.L125:
+	itof	d15,d1
+.L1217:
+	sub.f	d15,d0,d15
+.L635:
+	movh	d0,#17408
+.L1218:
+	mul.f	d8,d15,d0
+.L638:
+	mov	d4,d8
+.L631:
+	call	__f_ftous
+.L630:
+	and	d3,d2,#511
+.L640:
+	add	d0,d3,#128
+.L1219:
+	and	d4,d0,#511
+.L642:
+	utof	d0,d3
+.L1220:
+	sub.f	d5,d8,d0
+.L644:
+	mul	d15,d4,#4
+.L637:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1221:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d6,[a15]
+.L645:
+	add	d15,d4,#1
+.L1222:
+	mul	d15,d15,#4
+.L1223:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1224:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d0,[a15]
+.L646:
+	mul	d15,d3,#4
+.L1225:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1226:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d1,[a15]
+.L1227:
+	insn.t	d7,d1:31,d1:31
+.L648:
+	add	d15,d3,#1
+.L1228:
+	mul	d15,d15,#4
+.L1229:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1230:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d1,[a15]
+.L1231:
+	insn.t	d1,d1:31,d1:31
+.L650:
+	mov	d8,#4059
+.L639:
+	addih	d8,d8,#15433
+.L1232:
+	sub.f	d0,d0,d6
+.L647:
+	add.f	d2,d7,d1
+.L1233:
+	mul.f	d15,d8,d2
+.L1234:
+	movh	d2,#16384
+.L1235:
+	msub.f	d15,d15,d0,d2
+.L653:
+	movh	d2,#16448
+.L1236:
+	mul.f	d0,d0,d2
+.L652:
+	movh	d2,#16384
+.L1237:
+	madd.f	d1,d1,d7,d2
+.L651:
+	msub.f	d0,d0,d1,d8
+.L1238:
+	madd.f	d15,d0,d5,d15
+.L1239:
+	mul.f	d0,d7,d8
+.L1240:
+	madd.f	d15,d0,d5,d15
+.L1241:
+	madd.f	d15,d6,d5,d15
+.L654:
+	st.w	[a13],d15
+.L1242:
+	mul	d15,d3,#4
+.L1243:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1244:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d6,[a15]
+.L1245:
+	add	d3,#1
+.L641:
+	mul	d15,d3,#4
+.L1246:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1247:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d0,[a15]
+.L655:
+	mul	d15,d4,#4
+.L1248:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1249:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d3,[a15]
+.L649:
+	add	d4,#1
+.L643:
+	mul	d15,d4,#4
+.L1250:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1251:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L657:
+	sub.f	d0,d0,d6
+.L656:
+	add.f	d1,d3,d15
+.L1252:
+	mul.f	d1,d8,d1
+.L1253:
+	movh	d2,#16384
+.L1254:
+	msub.f	d1,d1,d0,d2
+.L660:
+	movh	d2,#16448
+.L1255:
+	mul.f	d0,d0,d2
+.L659:
+	movh	d2,#16384
+.L1256:
+	madd.f	d15,d15,d3,d2
+.L658:
+	msub.f	d15,d0,d15,d8
+.L1257:
+	madd.f	d15,d15,d5,d1
+.L661:
+	mul.f	d0,d3,d8
+.L1258:
+	madd.f	d15,d0,d5,d15
+.L1259:
+	madd.f	d15,d6,d5,d15
+.L662:
+	st.w	[a12],d15
+.L1260:
+	ret
+.L444:
+	
+__FastSinCos_function_end:
+	.size	FastSinCos,__FastSinCos_function_end-FastSinCos
+.L289:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastSin',code,cluster('FastSin')
+	.sect	'.text.WP_Math.FastSin'
+	.align	2
+	
+	.global	FastSin
+; Function FastSin
+.L173:
+FastSin:	.type	func
+	mov.u	d15,#63875
+	addih	d15,d15,#15906
+.L1180:
+	mul.f	d0,d4,d15
+.L664:
+	ftoiz	d1,d0
+.L666:
+	mov	d15,#0
+.L1181:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L1182:
+	jeq	d15,#0,.L126
+.L1183:
+	add	d1,#-1
+.L126:
+	itof	d15,d1
+.L1184:
+	sub.f	d15,d0,d15
+.L665:
+	movh	d0,#17408
+.L1185:
+	mul.f	d15,d15,d0
+.L668:
+	mov	d4,d15
+.L663:
+	call	__f_ftous
+.L667:
+	and	d0,d2,#511
+.L670:
+	utof	d1,d0
+.L1186:
+	sub.f	d1,d15,d1
+.L672:
+	mul	d15,d0,#4
+.L669:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1187:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d2,[a15]
+.L673:
+	add	d0,#1
+.L671:
+	mul	d15,d0,#4
+.L1188:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1189:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L675:
+	movh	d0,#16256
+.L1190:
+	sub.f	d0,d0,d1
+.L1191:
+	mul.f	d15,d1,d15
+.L676:
+	madd.f	d2,d15,d0,d2
+.L674:
+	j	.L127
+.L127:
+	ret
+.L423:
+	
+__FastSin_function_end:
+	.size	FastSin,__FastSin_function_end-FastSin
+.L279:
+	; End of function
+	
+	.sdecl	'.text.WP_Math.FastCos',code,cluster('FastCos')
+	.sect	'.text.WP_Math.FastCos'
+	.align	2
+	
+	.global	FastCos
+; Function FastCos
+.L175:
+FastCos:	.type	func
+	mov.u	d15,#63875
+	addih	d15,d15,#15906
+.L1196:
+	movh	d0,#16000
+.L1197:
+	madd.f	d0,d0,d4,d15
+.L678:
+	ftoiz	d1,d0
+.L680:
+	mov	d15,#0
+.L1198:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+.L1199:
+	jeq	d15,#0,.L128
+.L1200:
+	add	d1,#-1
+.L128:
+	itof	d15,d1
+.L1201:
+	sub.f	d15,d0,d15
+.L679:
+	movh	d0,#17408
+.L1202:
+	mul.f	d15,d15,d0
+.L682:
+	mov	d4,d15
+.L677:
+	call	__f_ftous
+.L681:
+	and	d0,d2,#511
+.L684:
+	utof	d1,d0
+.L1203:
+	sub.f	d1,d15,d1
+.L686:
+	mul	d15,d0,#4
+.L683:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1204:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d2,[a15]
+.L687:
+	add	d0,#1
+.L685:
+	mul	d15,d0,#4
+.L1205:
+	movh.a	a15,#@his(sinTable)
+	lea	a15,[a15]@los(sinTable)
+.L1206:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L689:
+	movh	d0,#16256
+.L1207:
+	sub.f	d0,d0,d1
+.L1208:
+	mul.f	d15,d1,d15
+.L690:
+	madd.f	d2,d15,d0,d2
+.L688:
+	j	.L129
+.L129:
+	ret
+.L434:
+	
+__FastCos_function_end:
+	.size	FastCos,__FastCos_function_end-FastCos
+.L284:
+	; End of function
+	
+	.sdecl	'.rodata.WP_Math._999001_a1l',data,rom,cluster('_999001_a1l')
+	.sect	'.rodata.WP_Math._999001_a1l'
+	.align	2
+_999001_a1l:	.type	object
+	.size	_999001_a1l,72
+	.space	4
+	.word	1065353216,1064641917,1063960774,1063308510,1062683900,1062085772,1061513002,1060964515
+	.word	1060439283,1059936318,1059454678,1058993458,1058551792,1058128851,1057723841,1057336003
+	.word	1056964608
+	.sdecl	'.rodata.WP_Math._999002_a2l',data,rom,cluster('_999002_a2l')
+	.sect	'.rodata.WP_Math._999002_a2l'
+	.align	2
+_999002_a2l:	.type	object
+	.size	_999002_a2l,36
+	.space	4
+	.word	833168438,862726804,833158180,857692172,862601889,851518274,854021667,852465808
+	.sdecl	'.rodata.WP_Math._999003_a',data,rom,cluster('_999003_a')
+	.sect	'.rodata.WP_Math._999003_a'
+	.align	2
+_999003_a:	.type	object
+	.size	_999003_a,16
+	.space	4
+	.word	1057360530,1070141403,1065749138
+	.sdecl	'.rodata.WP_Math.sinTable',data,rom,cluster('sinTable')
+	.sect	'.rodata.WP_Math.sinTable'
+	.global	sinTable
+	.align	2
+sinTable:	.type	object
+	.size	sinTable,2052
+	.space	4
+	.word	1011420818,1019808433,1024901931,1028193070,1031482229,1033283844,1034925696,1036565814
+	.word	1038203951,1039839859,1040830343,1041645699,1042459573,1043271842,1044082383,1044891074
+	.word	1045697793,1046502419,1047304831,1048104908,1048739264,1049136787,1049532962,1049927730
+	.word	1050321030,1050712805,1051102994,1051491540,1051878383,1052263466,1052646729,1053028117
+	.word	1053407571,1053785034,1054160449,1054533760,1054904911,1055273845,1055640507,1056004842
+	.word	1056366795,1056726311,1057023972,1057201213,1057377154,1057551771,1057725035,1057896922
+	.word	1058067405,1058236458,1058404057,1058570176,1058734790,1058897873,1059059403,1059219353
+	.word	1059377701,1059534422,1059689493,1059842890,1059994590,1060144571,1060292809,1060439283
+	.word	1060583971,1060726850,1060867899,1061007097,1061144423,1061279856,1061413377,1061544963
+	.word	1061674597,1061802258,1061927928,1062051586,1062173216,1062292797,1062410313,1062525745
+	.word	1062639077,1062750291,1062859370,1062966298,1063071059,1063173637,1063274017,1063372183
+	.word	1063468122,1063561817,1063653256,1063742424,1063829308,1063913895,1063996172,1064076126
+	.word	1064153747,1064229022,1064301939,1064372488,1064440658,1064506439,1064569821,1064630795
+	.word	1064689350,1064745479,1064799173,1064850424,1064899224,1064945565,1064989442,1065030846
+	.word	1065069773,1065106216,1065140169,1065171628,1065200588,1065227043,1065250992,1065272429
+	.word	1065291352,1065307757,1065321643,1065333007,1065341847,1065348163,1065351953,1065353216
+	.word	1065351953,1065348163,1065341847,1065333007,1065321643,1065307757,1065291352,1065272429
+	.word	1065250992,1065227043,1065200588,1065171628,1065140169,1065106216,1065069773,1065030846
+	.word	1064989442,1064945565,1064899224,1064850424,1064799173,1064745479,1064689350,1064630795
+	.word	1064569821,1064506439,1064440658,1064372488,1064301939,1064229022,1064153747,1064076126
+	.word	1063996172,1063913895,1063829308,1063742424,1063653256,1063561817,1063468122,1063372183
+	.word	1063274017,1063173637,1063071059,1062966298,1062859370,1062750291,1062639077,1062525745
+	.word	1062410313,1062292797,1062173216,1062051586,1061927928,1061802258,1061674597,1061544963
+	.word	1061413377,1061279856,1061144423,1061007097,1060867899,1060726850,1060583971,1060439283
+	.word	1060292809,1060144571,1059994590,1059842890,1059689493,1059534422,1059377701,1059219353
+	.word	1059059403,1058897873,1058734790,1058570176,1058404057,1058236458,1058067405,1057896922
+	.word	1057725035,1057551771,1057377154,1057201213,1057023972,1056726311,1056366795,1056004842
+	.word	1055640507,1055273845,1054904911,1054533760,1054160449,1053785034,1053407571,1053028117
+	.word	1052646729,1052263466,1051878383,1051491540,1051102994,1050712805,1050321030,1049927730
+	.word	1049532962,1049136787,1048739264,1048104908,1047304831,1046502419,1045697793,1044891074
+	.word	1044082383,1043271842,1042459573,1041645699,1040830343,1039839859,1038203951,1036565814
+	.word	1034925696,1033283844,1031482229,1028193070
+	.word	1024901931,1019808433,1011420818
+	.space	4
+	.word	-1136062830,-1127675215,-1122581717,-1119290578,-1116001419,-1114199804,-1112557952,-1110917834
+	.word	-1109279697,-1107643789,-1106653305,-1105837949,-1105024075,-1104211806,-1103401265,-1102592574
+	.word	-1101785855,-1100981229,-1100178817,-1099378740,-1098744384,-1098346861,-1097950686,-1097555918
+	.word	-1097162618,-1096770843,-1096380654,-1095992108,-1095605265,-1095220182,-1094836919,-1094455531
+	.word	-1094076077,-1093698614,-1093323199,-1092949888,-1092578737,-1092209803,-1091843141,-1091478806
+	.word	-1091116853,-1090757337,-1090459676,-1090282435,-1090106494,-1089931877,-1089758613,-1089586726
+	.word	-1089416243,-1089247190,-1089079591,-1088913472,-1088748858,-1088585775,-1088424245,-1088264295
+	.word	-1088105947,-1087949226,-1087794155,-1087640758,-1087489058,-1087339077,-1087190839,-1087044365
+	.word	-1086899677,-1086756798,-1086615749,-1086476551,-1086339225,-1086203792,-1086070271,-1085938685
+	.word	-1085809051,-1085681390,-1085555720,-1085432062,-1085310432,-1085190851,-1085073335,-1084957903
+	.word	-1084844571,-1084733357,-1084624278,-1084517350,-1084412589,-1084310011,-1084209631,-1084111465
+	.word	-1084015526,-1083921831,-1083830392,-1083741224,-1083654340,-1083569753,-1083487476,-1083407522
+	.word	-1083329901,-1083254626,-1083181709,-1083111160,-1083042990,-1082977209,-1082913827,-1082852853
+	.word	-1082794298,-1082738169,-1082684475,-1082633224,-1082584424,-1082538083,-1082494206,-1082452802
+	.word	-1082413875,-1082377432,-1082343479,-1082312020,-1082283060,-1082256605,-1082232656,-1082211219
+	.word	-1082192296,-1082175891,-1082162005,-1082150641,-1082141801,-1082135485,-1082131695,-1082130432
+	.word	-1082131695,-1082135485,-1082141801,-1082150641,-1082162005,-1082175891,-1082192296,-1082211219
+	.word	-1082232656,-1082256605,-1082283060,-1082312020,-1082343479,-1082377432,-1082413875,-1082452802
+	.word	-1082494206,-1082538083,-1082584424,-1082633224,-1082684475,-1082738169,-1082794298,-1082852853
+	.word	-1082913827,-1082977209,-1083042990,-1083111160,-1083181709,-1083254626,-1083329901,-1083407522
+	.word	-1083487476,-1083569753,-1083654340,-1083741224,-1083830392,-1083921831,-1084015526,-1084111465
+	.word	-1084209631,-1084310011,-1084412589,-1084517350,-1084624278,-1084733357,-1084844571,-1084957903
+	.word	-1085073335,-1085190851,-1085310432,-1085432062,-1085555720,-1085681390,-1085809051,-1085938685
+	.word	-1086070271,-1086203792,-1086339225,-1086476551,-1086615749,-1086756798,-1086899677,-1087044365
+	.word	-1087190839,-1087339077,-1087489058,-1087640758,-1087794155,-1087949226,-1088105947,-1088264295
+	.word	-1088424245,-1088585775,-1088748858,-1088913472,-1089079591,-1089247190,-1089416243,-1089586726
+	.word	-1089758613,-1089931877,-1090106494,-1090282435,-1090459676,-1090757337,-1091116853,-1091478806
+	.word	-1091843141,-1092209803,-1092578737,-1092949888,-1093323199,-1093698614,-1094076077,-1094455531
+	.word	-1094836919,-1095220182,-1095605265,-1095992108,-1096380654,-1096770843,-1097162618,-1097555918
+	.word	-1097950686,-1098346861,-1098744384,-1099378740,-1100178817,-1100981229,-1101785855,-1102592574
+	.word	-1103401265,-1104211806,-1105024075,-1105837949,-1106653305,-1107643789,-1109279697,-1110917834
+	.word	-1112557952,-1114199804,-1116001419,-1119290578,-1122581717,-1127675215,-1136062830,-2147483648
+	.calls	'FastSinCos','__f_ftous'
+	.calls	'FastSin','__f_ftous'
+	.calls	'FastCos','__f_ftous'
+	.calls	'safe_asin','_isnanf'
+	.calls	'safe_asin','asinf'
+	.calls	'safe_sqrt','sqrtf'
+	.calls	'safe_sqrt','_isnanf'
+	.calls	'constrain_float','_isnanf'
+	.calls	'pythagorous2','sq'
+	.calls	'pythagorous2','sqrtf'
+	.calls	'pythagorous3','sq'
+	.calls	'pythagorous3','sqrtf'
+	.calls	'FastPow','Modf'
+	.calls	'FastAsin','FastSqrt'
+	.calls	'FastSqrt','FastSqrtI'
+	.calls	'safe_asin','',0
+	.calls	'safe_sqrt','',0
+	.calls	'fast_atan','',0
+	.calls	'fast_atan2','',0
+	.calls	'constrain_float','',0
+	.calls	'constrain_int16','',0
+	.calls	'constrain_int32','',0
+	.calls	'radians','',0
+	.calls	'degrees','',0
+	.calls	'sq','',0
+	.calls	'pythagorous2','',0
+	.calls	'pythagorous3','',0
+	.calls	'Modf','',0
+	.calls	'FastPow','',24
+	.calls	'FastTan','',0
+	.calls	'FastLn','',0
+	.calls	'FastAsin','',0
+	.calls	'FastAtan2','',0
+	.calls	'FastSqrtI','',0
+	.calls	'FastSqrt','',0
+	.calls	'FastSinCos','',0
+	.calls	'FastSin','',0
+	.extern	asinf
+	.extern	sqrtf
+	.extern	_isnanf
+	.extern	__f_ftous
+	.calls	'FastCos','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L177:
+	.word	590
+	.half	3
+	.word	.L178
+	.byte	4
+.L176:
+	.byte	1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L179
+.L297:
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'__fabs',0
+	.word	237
+	.byte	1,1,1,1,4
+	.byte	'd',0
+	.word	237
+	.byte	0,5
+	.byte	'asinf',0,1,98,25
+	.word	237
+	.byte	1,1,1,1,6,1,98,43
+	.word	237
+	.byte	0,5
+	.byte	'sqrtf',0,1,187,1,25
+	.word	237
+	.byte	1,1,1,1,6,1,187,1,43
+	.word	237
+	.byte	0
+.L320:
+	.byte	2
+	.byte	'int',0,4,5,5
+	.byte	'_isnanf',0,1,153,2,25
+	.word	326
+	.byte	1,1,1,1,6,1,153,2,51
+	.word	237
+	.byte	0
+.L315:
+	.byte	2
+	.byte	'short int',0,2,5
+.L340:
+	.byte	2
+	.byte	'unsigned int',0,4,7
+.L365:
+	.byte	2
+	.byte	'long int',0,4,5
+.L379:
+	.byte	7
+	.word	237
+.L383:
+	.byte	7
+	.word	393
+	.byte	8,72
+	.word	393
+	.byte	9,17,0
+.L386:
+	.byte	10
+	.word	415
+	.byte	8,36
+	.word	393
+	.byte	9,8,0
+.L387:
+	.byte	10
+	.word	429
+	.byte	8,16
+	.word	237
+	.byte	9,3,0
+.L417:
+	.byte	10
+	.word	443
+.L428:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,11,1,7
+	.word	479
+	.byte	12
+	.byte	'__codeptr',0,2,1,1
+	.word	481
+	.byte	12
+	.byte	'__intptr_t',0,2,1,1
+	.word	326
+	.byte	12
+	.byte	'__uintptr_t',0,2,1,1
+	.word	377
+	.byte	12
+	.byte	'int16_t',0,3,245,1,41
+	.word	364
+	.byte	12
+	.byte	'int32_t',0,3,253,1,41
+	.word	326
+	.byte	8,132,16
+	.word	237
+	.byte	9,128,4,0
+.L466:
+	.byte	10
+	.word	577
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L178:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,4,5,0,3,8,73,19,0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5
+	.byte	0,58,15,59,15,57,15,73,19,0,0,7,15,0,73,19,0,0,8,1,1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,38,0,73,19,0
+	.byte	0,11,21,0,54,15,0,0,12,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L179:
+	.word	.L692-.L691
+.L691:
+	.half	3
+	.word	.L694-.L693
+.L693:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\develop\\ads\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'math.h',0,1,0,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0
+	.byte	'stdint.h',0,1,0,0,0
+.L694:
+.L692:
+	.sdecl	'.debug_info',debug,cluster('safe_asin')
+	.sect	'.debug_info'
+.L180:
+	.word	300
+	.half	3
+	.word	.L181
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L183,.L182
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'safe_asin',0,1,13,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L131,.L298,.L130
+	.byte	4
+	.byte	'v',0,1,13,23
+	.word	.L297,.L299
+	.byte	5
+	.word	.L131,.L298
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('safe_asin')
+	.sect	'.debug_abbrev'
+.L181:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('safe_asin')
+	.sect	'.debug_line'
+.L182:
+	.word	.L696-.L695
+.L695:
+	.half	3
+	.word	.L698-.L697
+.L697:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L698:
+	.byte	5,7,7,0,5,2
+	.word	.L131
+	.byte	3,12,1,9
+	.half	.L468-.L131
+	.byte	3,2,1,5,3,9
+	.half	.L467-.L468
+	.byte	1,5,12,7,9
+	.half	.L699-.L467
+	.byte	3,1,1,5,5,9
+	.half	.L700-.L699
+	.byte	1,5,12,9
+	.half	.L2-.L700
+	.byte	3,2,1,5,9,9
+	.half	.L701-.L2
+	.byte	1,5,3,9
+	.half	.L702-.L701
+	.byte	1,5,14,7,9
+	.half	.L703-.L702
+	.byte	3,1,1,5,5,9
+	.half	.L704-.L703
+	.byte	1,5,12,9
+	.half	.L4-.L704
+	.byte	3,2,1,5,9,9
+	.half	.L705-.L4
+	.byte	1,5,3,9
+	.half	.L706-.L705
+	.byte	1,5,15,7,9
+	.half	.L707-.L706
+	.byte	3,1,1,5,5,9
+	.half	.L708-.L707
+	.byte	1,5,16,9
+	.half	.L6-.L708
+	.byte	3,2,1,5,3,9
+	.half	.L470-.L6
+	.byte	1,5,1,9
+	.half	.L3-.L470
+	.byte	3,1,1,7,9
+	.half	.L184-.L3
+	.byte	0,1,1
+.L696:
+	.sdecl	'.debug_ranges',debug,cluster('safe_asin')
+	.sect	'.debug_ranges'
+.L183:
+	.word	-1,.L131,0,.L184-.L131,0,0
+	.sdecl	'.debug_info',debug,cluster('safe_sqrt')
+	.sect	'.debug_info'
+.L185:
+	.word	317
+	.half	3
+	.word	.L186
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L188,.L187
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'safe_sqrt',0,1,33,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L133,.L300,.L132
+	.byte	4
+	.byte	'v',0,1,33,23
+	.word	.L297,.L301
+	.byte	5
+	.word	.L133,.L300
+	.byte	6
+	.byte	'ret',0,1,35,9
+	.word	.L297,.L302
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('safe_sqrt')
+	.sect	'.debug_abbrev'
+.L186:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('safe_sqrt')
+	.sect	'.debug_line'
+.L187:
+	.word	.L710-.L709
+.L709:
+	.half	3
+	.word	.L712-.L711
+.L711:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L712:
+	.byte	5,21,7,0,5,2
+	.word	.L133
+	.byte	3,34,1,5,13,9
+	.half	.L471-.L133
+	.byte	1,5,7,9
+	.half	.L473-.L471
+	.byte	3,1,1,5,3,9
+	.half	.L474-.L473
+	.byte	1,5,12,7,9
+	.half	.L713-.L474
+	.byte	3,1,1,5,5,9
+	.half	.L714-.L713
+	.byte	1,5,3,9
+	.half	.L9-.L714
+	.byte	3,2,1,5,1,9
+	.half	.L10-.L9
+	.byte	3,1,1,7,9
+	.half	.L189-.L10
+	.byte	0,1,1
+.L710:
+	.sdecl	'.debug_ranges',debug,cluster('safe_sqrt')
+	.sect	'.debug_ranges'
+.L188:
+	.word	-1,.L133,0,.L189-.L133,0,0
+	.sdecl	'.debug_info',debug,cluster('fast_atan')
+	.sect	'.debug_info'
+.L190:
+	.word	316
+	.half	3
+	.word	.L191
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L193,.L192
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'fast_atan',0,1,43,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L135,.L303,.L134
+	.byte	4
+	.byte	'v',0,1,43,23
+	.word	.L297,.L304
+	.byte	5
+	.word	.L135,.L303
+	.byte	6
+	.byte	'v2',0,1,45,9
+	.word	.L297,.L305
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('fast_atan')
+	.sect	'.debug_abbrev'
+.L191:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('fast_atan')
+	.sect	'.debug_line'
+.L192:
+	.word	.L716-.L715
+.L715:
+	.half	3
+	.word	.L718-.L717
+.L717:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L718:
+	.byte	5,15,7,0,5,2
+	.word	.L135
+	.byte	3,44,1,5,33,9
+	.half	.L476-.L135
+	.byte	3,1,1,5,14,9
+	.half	.L719-.L476
+	.byte	1,5,28,9
+	.half	.L720-.L719
+	.byte	1,5,12,9
+	.half	.L477-.L720
+	.byte	1,5,49,9
+	.half	.L721-.L477
+	.byte	1,5,63,9
+	.half	.L722-.L721
+	.byte	1,5,47,9
+	.half	.L723-.L722
+	.byte	1,5,3,9
+	.half	.L724-.L723
+	.byte	1,5,1,9
+	.half	.L12-.L724
+	.byte	3,1,1,7,9
+	.half	.L194-.L12
+	.byte	0,1,1
+.L716:
+	.sdecl	'.debug_ranges',debug,cluster('fast_atan')
+	.sect	'.debug_ranges'
+.L193:
+	.word	-1,.L135,0,.L194-.L135,0,0
+	.sdecl	'.debug_info',debug,cluster('fast_atan2')
+	.sect	'.debug_info'
+.L195:
+	.word	357
+	.half	3
+	.word	.L196
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L198,.L197
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'fast_atan2',0,1,55,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L137,.L306,.L136
+	.byte	4
+	.byte	'y',0,1,55,24
+	.word	.L297,.L307
+	.byte	4
+	.byte	'x',0,1,55,33
+	.word	.L297,.L308
+	.byte	5
+	.word	.L137,.L306
+	.byte	5
+	.word	.L13,.L306
+	.byte	6
+	.byte	'atan',0,1,66,9
+	.word	.L297,.L309
+	.byte	6
+	.byte	'z',0,1,67,9
+	.word	.L297,.L310
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('fast_atan2')
+	.sect	'.debug_abbrev'
+.L196:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('fast_atan2')
+	.sect	'.debug_line'
+.L197:
+	.word	.L726-.L725
+.L725:
+	.half	3
+	.word	.L728-.L727
+.L727:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L728:
+	.byte	5,9,7,0,5,2
+	.word	.L137
+	.byte	3,56,1,5,3,9
+	.half	.L729-.L137
+	.byte	1,5,13,7,9
+	.half	.L730-.L729
+	.byte	3,1,1,5,11,9
+	.half	.L731-.L730
+	.byte	1,5,5,9
+	.half	.L732-.L731
+	.byte	1,5,14,7,9
+	.half	.L733-.L732
+	.byte	3,1,1,5,7,9
+	.half	.L734-.L733
+	.byte	1,5,11,9
+	.half	.L14-.L734
+	.byte	3,2,1,5,5,9
+	.half	.L735-.L14
+	.byte	1,5,14,7,9
+	.half	.L736-.L735
+	.byte	3,1,1,5,7,9
+	.half	.L737-.L736
+	.byte	1,5,12,9
+	.half	.L16-.L737
+	.byte	3,2,1,5,5,9
+	.half	.L738-.L16
+	.byte	1,5,14,9
+	.half	.L13-.L738
+	.byte	3,3,1,5,7,9
+	.half	.L478-.L13
+	.byte	3,1,1,5,19,9
+	.half	.L739-.L478
+	.byte	1,5,17,9
+	.half	.L740-.L739
+	.byte	1,5,3,9
+	.half	.L741-.L740
+	.byte	1,5,24,7,9
+	.half	.L742-.L741
+	.byte	3,1,1,5,30,9
+	.half	.L743-.L742
+	.byte	1,5,17,9
+	.half	.L744-.L743
+	.byte	1,5,22,9
+	.half	.L745-.L744
+	.byte	1,5,14,9
+	.half	.L746-.L745
+	.byte	1,5,13,9
+	.half	.L480-.L746
+	.byte	3,1,1,5,11,9
+	.half	.L747-.L480
+	.byte	1,5,5,9
+	.half	.L748-.L747
+	.byte	1,5,15,7,9
+	.half	.L749-.L748
+	.byte	3,1,1,5,13,9
+	.half	.L750-.L749
+	.byte	1,5,7,9
+	.half	.L751-.L750
+	.byte	1,5,23,7,9
+	.half	.L752-.L751
+	.byte	3,1,1,5,21,9
+	.half	.L753-.L752
+	.byte	1,5,9,9
+	.half	.L481-.L753
+	.byte	1,5,21,9
+	.half	.L21-.L481
+	.byte	3,2,1,5,19,9
+	.half	.L754-.L21
+	.byte	1,5,7,9
+	.half	.L482-.L754
+	.byte	1,5,5,9
+	.half	.L20-.L482
+	.byte	3,124,1,5,12,9
+	.half	.L19-.L20
+	.byte	3,7,1,5,51,9
+	.half	.L755-.L19
+	.byte	1,5,49,9
+	.half	.L756-.L755
+	.byte	1,5,40,9
+	.half	.L757-.L756
+	.byte	1,5,35,9
+	.half	.L479-.L757
+	.byte	1,5,13,9
+	.half	.L483-.L479
+	.byte	3,1,1,5,11,9
+	.half	.L758-.L483
+	.byte	1,5,5,9
+	.half	.L759-.L758
+	.byte	1,5,21,7,9
+	.half	.L760-.L759
+	.byte	3,1,1,5,19,9
+	.half	.L761-.L760
+	.byte	1,5,7,9
+	.half	.L484-.L761
+	.byte	1,5,3,9
+	.half	.L24-.L484
+	.byte	3,3,1,5,1,9
+	.half	.L15-.L24
+	.byte	3,1,1,7,9
+	.half	.L199-.L15
+	.byte	0,1,1
+.L726:
+	.sdecl	'.debug_ranges',debug,cluster('fast_atan2')
+	.sect	'.debug_ranges'
+.L198:
+	.word	-1,.L137,0,.L199-.L137,0,0
+	.sdecl	'.debug_info',debug,cluster('constrain_float')
+	.sect	'.debug_info'
+.L200:
+	.word	341
+	.half	3
+	.word	.L201
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L203,.L202
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'constrain_float',0,1,87,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L139,.L311,.L138
+	.byte	4
+	.byte	'amt',0,1,87,29
+	.word	.L297,.L312
+	.byte	4
+	.byte	'low',0,1,87,40
+	.word	.L297,.L313
+	.byte	4
+	.byte	'high',0,1,87,51
+	.word	.L297,.L314
+	.byte	5
+	.word	.L139,.L311
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('constrain_float')
+	.sect	'.debug_abbrev'
+.L201:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('constrain_float')
+	.sect	'.debug_line'
+.L202:
+	.word	.L763-.L762
+.L762:
+	.half	3
+	.word	.L765-.L764
+.L764:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L765:
+	.byte	5,7,7,0,5,2
+	.word	.L139
+	.byte	3,214,0,1,9
+	.half	.L486-.L139
+	.byte	3,6,1,5,3,9
+	.half	.L485-.L486
+	.byte	1,5,16,7,9
+	.half	.L488-.L485
+	.byte	3,1,1,5,23,9
+	.half	.L489-.L488
+	.byte	1,5,22,9
+	.half	.L766-.L489
+	.byte	1,5,5,9
+	.half	.L767-.L766
+	.byte	1,5,16,9
+	.half	.L28-.L767
+	.byte	3,2,1,5,11,9
+	.half	.L768-.L28
+	.byte	1,5,28,7,9
+	.half	.L769-.L768
+	.byte	1,5,30,9
+	.half	.L30-.L769
+	.byte	1,5,49,9
+	.half	.L770-.L30
+	.byte	1,5,42,9
+	.half	.L32-.L770
+	.byte	1,5,22,9
+	.half	.L33-.L32
+	.byte	1,5,3,9
+	.half	.L31-.L33
+	.byte	1,5,1,9
+	.half	.L29-.L31
+	.byte	3,1,1,7,9
+	.half	.L204-.L29
+	.byte	0,1,1
+.L763:
+	.sdecl	'.debug_ranges',debug,cluster('constrain_float')
+	.sect	'.debug_ranges'
+.L203:
+	.word	-1,.L139,0,.L204-.L139,0,0
+	.sdecl	'.debug_info',debug,cluster('constrain_int16')
+	.sect	'.debug_info'
+.L205:
+	.word	341
+	.half	3
+	.word	.L206
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L208,.L207
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'constrain_int16',0,1,100,9
+	.word	.L315
+	.byte	1,1,1
+	.word	.L141,.L316,.L140
+	.byte	4
+	.byte	'amt',0,1,100,33
+	.word	.L315,.L317
+	.byte	4
+	.byte	'low',0,1,100,46
+	.word	.L315,.L318
+	.byte	4
+	.byte	'high',0,1,100,59
+	.word	.L315,.L319
+	.byte	5
+	.word	.L141,.L316
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('constrain_int16')
+	.sect	'.debug_abbrev'
+.L206:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('constrain_int16')
+	.sect	'.debug_line'
+.L207:
+	.word	.L772-.L771
+.L771:
+	.half	3
+	.word	.L774-.L773
+.L773:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L774:
+	.byte	5,11,7,0,5,2
+	.word	.L141
+	.byte	3,228,0,1,5,28,7,9
+	.half	.L775-.L141
+	.byte	1,5,30,9
+	.half	.L35-.L775
+	.byte	1,5,49,7,9
+	.half	.L776-.L35
+	.byte	1,5,42,9
+	.half	.L37-.L776
+	.byte	1,5,22,9
+	.half	.L38-.L37
+	.byte	1,5,3,9
+	.half	.L36-.L38
+	.byte	1,5,1,9
+	.half	.L39-.L36
+	.byte	3,1,1,7,9
+	.half	.L209-.L39
+	.byte	0,1,1
+.L772:
+	.sdecl	'.debug_ranges',debug,cluster('constrain_int16')
+	.sect	'.debug_ranges'
+.L208:
+	.word	-1,.L141,0,.L209-.L141,0,0
+	.sdecl	'.debug_info',debug,cluster('constrain_int32')
+	.sect	'.debug_info'
+.L210:
+	.word	341
+	.half	3
+	.word	.L211
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L213,.L212
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'constrain_int32',0,1,105,9
+	.word	.L320
+	.byte	1,1,1
+	.word	.L143,.L321,.L142
+	.byte	4
+	.byte	'amt',0,1,105,33
+	.word	.L320,.L322
+	.byte	4
+	.byte	'low',0,1,105,46
+	.word	.L320,.L323
+	.byte	4
+	.byte	'high',0,1,105,59
+	.word	.L320,.L324
+	.byte	5
+	.word	.L143,.L321
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('constrain_int32')
+	.sect	'.debug_abbrev'
+.L211:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('constrain_int32')
+	.sect	'.debug_line'
+.L212:
+	.word	.L778-.L777
+.L777:
+	.half	3
+	.word	.L780-.L779
+.L779:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L780:
+	.byte	5,11,7,0,5,2
+	.word	.L143
+	.byte	3,233,0,1,5,28,7,9
+	.half	.L781-.L143
+	.byte	1,5,30,9
+	.half	.L40-.L781
+	.byte	1,5,49,7,9
+	.half	.L782-.L40
+	.byte	1,5,42,9
+	.half	.L42-.L782
+	.byte	1,5,22,9
+	.half	.L43-.L42
+	.byte	1,5,3,9
+	.half	.L41-.L43
+	.byte	1,5,1,9
+	.half	.L44-.L41
+	.byte	3,1,1,7,9
+	.half	.L214-.L44
+	.byte	0,1,1
+.L778:
+	.sdecl	'.debug_ranges',debug,cluster('constrain_int32')
+	.sect	'.debug_ranges'
+.L213:
+	.word	-1,.L143,0,.L214-.L143,0,0
+	.sdecl	'.debug_info',debug,cluster('radians')
+	.sect	'.debug_info'
+.L215:
+	.word	300
+	.half	3
+	.word	.L216
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L218,.L217
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'radians',0,1,110,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L145,.L325,.L144
+	.byte	4
+	.byte	'deg',0,1,110,21
+	.word	.L297,.L326
+	.byte	5
+	.word	.L145,.L325
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('radians')
+	.sect	'.debug_abbrev'
+.L216:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('radians')
+	.sect	'.debug_line'
+.L217:
+	.word	.L784-.L783
+.L783:
+	.half	3
+	.word	.L786-.L785
+.L785:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L786:
+	.byte	5,16,7,0,5,2
+	.word	.L145
+	.byte	3,238,0,1,5,14,9
+	.half	.L787-.L145
+	.byte	1,5,3,9
+	.half	.L788-.L787
+	.byte	1,5,1,9
+	.half	.L45-.L788
+	.byte	3,1,1,7,9
+	.half	.L219-.L45
+	.byte	0,1,1
+.L784:
+	.sdecl	'.debug_ranges',debug,cluster('radians')
+	.sect	'.debug_ranges'
+.L218:
+	.word	-1,.L145,0,.L219-.L145,0,0
+	.sdecl	'.debug_info',debug,cluster('degrees')
+	.sect	'.debug_info'
+.L220:
+	.word	300
+	.half	3
+	.word	.L221
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L223,.L222
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'degrees',0,1,115,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L147,.L327,.L146
+	.byte	4
+	.byte	'rad',0,1,115,21
+	.word	.L297,.L328
+	.byte	5
+	.word	.L147,.L327
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('degrees')
+	.sect	'.debug_abbrev'
+.L221:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('degrees')
+	.sect	'.debug_line'
+.L222:
+	.word	.L790-.L789
+.L789:
+	.half	3
+	.word	.L792-.L791
+.L791:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L792:
+	.byte	5,16,7,0,5,2
+	.word	.L147
+	.byte	3,243,0,1,5,14,9
+	.half	.L793-.L147
+	.byte	1,5,3,9
+	.half	.L794-.L793
+	.byte	1,5,1,9
+	.half	.L46-.L794
+	.byte	3,1,1,7,9
+	.half	.L224-.L46
+	.byte	0,1,1
+.L790:
+	.sdecl	'.debug_ranges',debug,cluster('degrees')
+	.sect	'.debug_ranges'
+.L223:
+	.word	-1,.L147,0,.L224-.L147,0,0
+	.sdecl	'.debug_info',debug,cluster('sq')
+	.sect	'.debug_info'
+.L225:
+	.word	293
+	.half	3
+	.word	.L226
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L228,.L227
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'sq',0,1,120,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L149,.L329,.L148
+	.byte	4
+	.byte	'v',0,1,120,16
+	.word	.L297,.L330
+	.byte	5
+	.word	.L149,.L329
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('sq')
+	.sect	'.debug_abbrev'
+.L226:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('sq')
+	.sect	'.debug_line'
+.L227:
+	.word	.L796-.L795
+.L795:
+	.half	3
+	.word	.L798-.L797
+.L797:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L798:
+	.byte	5,11,7,0,5,2
+	.word	.L149
+	.byte	3,248,0,1,5,3,9
+	.half	.L799-.L149
+	.byte	1,5,1,9
+	.half	.L47-.L799
+	.byte	3,1,1,7,9
+	.half	.L229-.L47
+	.byte	0,1,1
+.L796:
+	.sdecl	'.debug_ranges',debug,cluster('sq')
+	.sect	'.debug_ranges'
+.L228:
+	.word	-1,.L149,0,.L229-.L149,0,0
+	.sdecl	'.debug_info',debug,cluster('pythagorous2')
+	.sect	'.debug_info'
+.L230:
+	.word	317
+	.half	3
+	.word	.L231
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L233,.L232
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'pythagorous2',0,1,125,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L151,.L331,.L150
+	.byte	4
+	.byte	'a',0,1,125,26
+	.word	.L297,.L332
+	.byte	4
+	.byte	'b',0,1,125,35
+	.word	.L297,.L333
+	.byte	5
+	.word	.L151,.L331
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pythagorous2')
+	.sect	'.debug_abbrev'
+.L231:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pythagorous2')
+	.sect	'.debug_line'
+.L232:
+	.word	.L801-.L800
+.L800:
+	.half	3
+	.word	.L803-.L802
+.L802:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L803:
+	.byte	5,7,7,0,5,2
+	.word	.L151
+	.byte	3,252,0,1,5,19,9
+	.half	.L494-.L151
+	.byte	3,1,1,5,21,9
+	.half	.L493-.L494
+	.byte	1,5,25,9
+	.half	.L804-.L493
+	.byte	1,5,21,9
+	.half	.L496-.L804
+	.byte	1,5,3,9
+	.half	.L805-.L496
+	.byte	1,5,1,9
+	.half	.L48-.L805
+	.byte	3,1,1,7,9
+	.half	.L234-.L48
+	.byte	0,1,1
+.L801:
+	.sdecl	'.debug_ranges',debug,cluster('pythagorous2')
+	.sect	'.debug_ranges'
+.L233:
+	.word	-1,.L151,0,.L234-.L151,0,0
+	.sdecl	'.debug_info',debug,cluster('pythagorous3')
+	.sect	'.debug_info'
+.L235:
+	.word	335
+	.half	3
+	.word	.L236
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L238,.L237
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'pythagorous3',0,1,130,1,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L153,.L334,.L152
+	.byte	4
+	.byte	'a',0,1,130,1,26
+	.word	.L297,.L335
+	.byte	4
+	.byte	'b',0,1,130,1,35
+	.word	.L297,.L336
+	.byte	4
+	.byte	'c',0,1,130,1,44
+	.word	.L297,.L337
+	.byte	5
+	.word	.L153,.L334
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pythagorous3')
+	.sect	'.debug_abbrev'
+.L236:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pythagorous3')
+	.sect	'.debug_line'
+.L237:
+	.word	.L807-.L806
+.L806:
+	.half	3
+	.word	.L809-.L808
+.L808:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L809:
+	.byte	5,7,7,0,5,2
+	.word	.L153
+	.byte	3,129,1,1,5,19,9
+	.half	.L500-.L153
+	.byte	3,1,1,5,21,9
+	.half	.L497-.L500
+	.byte	1,5,25,9
+	.half	.L810-.L497
+	.byte	1,5,21,9
+	.half	.L502-.L810
+	.byte	1,5,31,9
+	.half	.L499-.L502
+	.byte	1,5,27,9
+	.half	.L504-.L499
+	.byte	1,5,3,9
+	.half	.L811-.L504
+	.byte	1,5,1,9
+	.half	.L49-.L811
+	.byte	3,1,1,7,9
+	.half	.L239-.L49
+	.byte	0,1,1
+.L807:
+	.sdecl	'.debug_ranges',debug,cluster('pythagorous3')
+	.sect	'.debug_ranges'
+.L238:
+	.word	-1,.L153,0,.L239-.L153,0,0
+	.sdecl	'.debug_info',debug,cluster('FastLn')
+	.sect	'.debug_info'
+.L240:
+	.word	513
+	.half	3
+	.word	.L241
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L243,.L242
+	.byte	2
+	.word	.L176
+	.byte	3,1,183,3,3,4,4
+	.byte	'i',0
+	.word	.L340
+	.byte	4,2,35,0,4
+	.byte	'f',0
+	.word	.L297
+	.byte	4,2,35,0,0,5
+	.byte	'FastLn',0,1,181,3,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L161,.L338,.L160
+	.byte	6
+	.byte	'x',0,1,181,3,20
+	.word	.L297,.L339
+	.byte	7
+	.word	.L161,.L338
+	.byte	8
+	.byte	'e',0,1,183,3,37
+	.word	246,.L341
+	.byte	9
+	.byte	'xn',0,1,184,3,9
+	.word	.L297,.L342
+	.byte	9
+	.byte	'z',0,1,185,3,9
+	.word	.L297,.L343
+	.byte	9
+	.byte	'w',0,1,186,3,9
+	.word	.L297,.L344
+	.byte	9
+	.byte	'a',0,1,187,3,9
+	.word	.L297,.L345
+	.byte	9
+	.byte	'b',0,1,188,3,9
+	.word	.L297,.L346
+	.byte	9
+	.byte	'r',0,1,189,3,9
+	.word	.L297,.L347
+	.byte	9
+	.byte	'result',0,1,190,3,9
+	.word	.L297,.L348
+	.byte	9
+	.byte	'znum',0,1,191,3,9
+	.word	.L297,.L349
+	.byte	9
+	.byte	'zden',0,1,191,3,15
+	.word	.L297,.L350
+	.byte	9
+	.byte	'exponent',0,1,193,3,7
+	.word	.L320,.L351
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastLn')
+	.sect	'.debug_abbrev'
+.L241:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,23,1,58,15,59,15,57,15,11,15,0,0
+	.byte	4,13,0,3,8,73,16,11,15,56,9,0,0,5,46,1,3,8,58,15,59,15,57,15,73,16,54,15,39,12,63,12,17,1,18,1,64,6,0
+	.byte	0,6,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,11,1,17,1,18,1,0,0,8,52,0,3,8,58,15,59,15,57,15,73,19,2
+	.byte	6,0,0,9,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastLn')
+	.sect	'.debug_line'
+.L242:
+	.word	.L813-.L812
+.L812:
+	.half	3
+	.word	.L815-.L814
+.L814:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L815:
+	.byte	5,33,7,0,5,2
+	.word	.L161
+	.byte	3,192,3,1,5,31,9
+	.half	.L816-.L161
+	.byte	1,5,45,9
+	.half	.L817-.L816
+	.byte	1,5,24,9
+	.half	.L577-.L817
+	.byte	3,1,1,5,22,9
+	.half	.L579-.L577
+	.byte	1,5,12,9
+	.half	.L576-.L579
+	.byte	3,2,1,5,3,9
+	.half	.L818-.L576
+	.byte	1,5,14,9
+	.half	.L819-.L818
+	.byte	3,5,1,5,18,9
+	.half	.L820-.L819
+	.byte	3,1,1,5,16,9
+	.half	.L821-.L820
+	.byte	1,5,18,9
+	.half	.L581-.L821
+	.byte	3,1,1,5,25,9
+	.half	.L822-.L581
+	.byte	1,5,23,9
+	.half	.L823-.L822
+	.byte	1,5,22,9
+	.half	.L582-.L823
+	.byte	3,122,1,5,18,9
+	.half	.L91-.L582
+	.byte	1,5,16,9
+	.half	.L824-.L91
+	.byte	1,5,18,9
+	.half	.L583-.L824
+	.byte	3,1,1,5,25,9
+	.half	.L825-.L583
+	.byte	1,5,23,9
+	.half	.L826-.L825
+	.byte	1,5,8,9
+	.half	.L92-.L826
+	.byte	3,7,1,5,12,9
+	.half	.L580-.L92
+	.byte	3,1,1,5,9,9
+	.half	.L584-.L580
+	.byte	3,1,1,5,8,9
+	.half	.L578-.L584
+	.byte	3,1,1,5,26,9
+	.half	.L827-.L578
+	.byte	1,5,24,9
+	.half	.L828-.L827
+	.byte	1,5,45,9
+	.half	.L829-.L828
+	.byte	1,5,43,9
+	.half	.L830-.L829
+	.byte	1,5,13,9
+	.half	.L588-.L830
+	.byte	3,1,1,5,11,9
+	.half	.L831-.L588
+	.byte	1,5,32,9
+	.half	.L832-.L831
+	.byte	1,5,30,9
+	.half	.L833-.L832
+	.byte	1,5,51,9
+	.half	.L834-.L833
+	.byte	1,5,49,9
+	.half	.L835-.L834
+	.byte	1,5,9,9
+	.half	.L590-.L835
+	.byte	3,1,1,5,13,9
+	.half	.L589-.L590
+	.byte	1,5,21,9
+	.half	.L587-.L589
+	.byte	1,5,17,9
+	.half	.L586-.L587
+	.byte	3,1,1,5,25,9
+	.half	.L836-.L586
+	.byte	1,5,12,9
+	.half	.L592-.L836
+	.byte	3,1,1,5,10,9
+	.half	.L837-.L592
+	.byte	1,9
+	.half	.L593-.L837
+	.byte	3,1,1,5,12,9
+	.half	.L838-.L593
+	.byte	3,1,1,5,10,9
+	.half	.L839-.L838
+	.byte	1,9
+	.half	.L595-.L839
+	.byte	3,1,1,5,3,9
+	.half	.L591-.L595
+	.byte	3,1,1,5,1,9
+	.half	.L93-.L591
+	.byte	3,1,1,7,9
+	.half	.L244-.L93
+	.byte	0,1,1
+.L813:
+	.sdecl	'.debug_ranges',debug,cluster('FastLn')
+	.sect	'.debug_ranges'
+.L243:
+	.word	-1,.L161,0,.L244-.L161,0,0
+	.sdecl	'.debug_info',debug,cluster('FastPow')
+	.sect	'.debug_info'
+.L245:
+	.word	817
+	.half	3
+	.word	.L246
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L248,.L247
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'FastPow',0,1,171,1,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L157,.L352,.L156
+	.byte	4
+	.byte	'x',0,1,171,1,21
+	.word	.L297,.L353
+	.byte	4
+	.byte	'y',0,1,171,1,29
+	.word	.L297,.L354
+	.byte	5
+	.word	.L157,.L352
+	.byte	6
+	.byte	'tmp',0,1,173,1,9
+	.word	.L297,.L355
+	.byte	6
+	.byte	'znum',0,1,174,1,9
+	.word	.L297,.L356
+	.byte	6
+	.byte	'zden',0,1,174,1,15
+	.word	.L297,.L357
+	.byte	6
+	.byte	'result',0,1,174,1,21
+	.word	.L297,.L358
+	.byte	6
+	.byte	'g',0,1,175,1,9
+	.word	.L297,.L359
+	.byte	6
+	.byte	'r',0,1,175,1,12
+	.word	.L297,.L360
+	.byte	6
+	.byte	'u1',0,1,175,1,15
+	.word	.L297,.L361
+	.byte	6
+	.byte	'u2',0,1,175,1,19
+	.word	.L297,.L362
+	.byte	6
+	.byte	'v',0,1,175,1,23
+	.word	.L297,.L363
+	.byte	6
+	.byte	'z',0,1,175,1,26
+	.word	.L297,.L364
+	.byte	6
+	.byte	'm',0,1,176,1,8
+	.word	.L365,.L366
+	.byte	6
+	.byte	'p',0,1,176,1,11
+	.word	.L365,.L367
+	.byte	6
+	.byte	'negate',0,1,176,1,14
+	.word	.L365,.L368
+	.byte	6
+	.byte	'y_int',0,1,176,1,22
+	.word	.L365,.L369
+	.byte	6
+	.byte	'n',0,1,176,1,29
+	.word	.L365,.L370
+	.byte	6
+	.byte	'mi',0,1,177,1,8
+	.word	.L365,.L371
+	.byte	6
+	.byte	'pi',0,1,177,1,12
+	.word	.L365,.L372
+	.byte	6
+	.byte	'iw1',0,1,177,1,16
+	.word	.L365,.L373
+	.byte	6
+	.byte	'y1',0,1,178,1,9
+	.word	.L297,.L374
+	.byte	6
+	.byte	'y2',0,1,178,1,13
+	.word	.L297,.L375
+	.byte	6
+	.byte	'w1',0,1,178,1,17
+	.word	.L297,.L376
+	.byte	6
+	.byte	'w2',0,1,178,1,21
+	.word	.L297,.L377
+	.byte	6
+	.byte	'w',0,1,178,1,25
+	.word	.L297,.L378
+	.byte	6
+	.byte	'a1',0,1,179,1,10
+	.word	.L379,.L380
+	.byte	6
+	.byte	'a2',0,1,179,1,15
+	.word	.L379,.L381
+	.byte	6
+	.byte	'xtmp',0,1,180,1,9
+	.word	.L297,.L382
+	.byte	6
+	.byte	'lPtr',0,1,181,1,9
+	.word	.L383,.L384
+	.byte	6
+	.byte	'fPtr',0,1,182,1,10
+	.word	.L379,.L385
+	.byte	7
+	.byte	'a1l',0,1,183,1,21
+	.word	.L386
+	.byte	5,3
+	.word	_999001_a1l
+	.byte	7
+	.byte	'a2l',0,1,201,1,21
+	.word	.L387
+	.byte	5,3
+	.word	_999002_a2l
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastPow')
+	.sect	'.debug_abbrev'
+.L246:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastPow')
+	.sect	'.debug_line'
+.L247:
+	.word	.L841-.L840
+.L840:
+	.half	3
+	.word	.L843-.L842
+.L842:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L843:
+	.byte	5,7,7,0,5,2
+	.word	.L157
+	.byte	3,170,1,1,5,25,9
+	.half	.L511-.L157
+	.byte	3,10,1,5,18,9
+	.half	.L513-.L511
+	.byte	3,1,1,5,17,9
+	.half	.L515-.L513
+	.byte	3,29,1,9
+	.half	.L844-.L515
+	.byte	3,1,1,5,10,9
+	.half	.L845-.L844
+	.byte	3,1,1,5,9,9
+	.half	.L520-.L845
+	.byte	3,2,1,5,3,9
+	.half	.L846-.L520
+	.byte	1,5,11,7,9
+	.half	.L847-.L846
+	.byte	3,1,1,5,5,9
+	.half	.L848-.L847
+	.byte	1,5,21,7,9
+	.half	.L849-.L848
+	.byte	3,1,1,5,7,9
+	.half	.L850-.L849
+	.byte	1,5,25,9
+	.half	.L58-.L850
+	.byte	3,2,1,5,16,9
+	.half	.L851-.L58
+	.byte	1,5,10,9
+	.half	.L852-.L851
+	.byte	1,5,21,7,9
+	.half	.L853-.L852
+	.byte	3,1,1,5,7,9
+	.half	.L854-.L853
+	.byte	1,5,21,9
+	.half	.L60-.L854
+	.byte	3,3,1,5,7,9
+	.half	.L855-.L60
+	.byte	1,5,23,9
+	.half	.L57-.L855
+	.byte	3,3,1,5,14,9
+	.half	.L856-.L57
+	.byte	1,5,8,9
+	.half	.L857-.L856
+	.byte	1,5,13,7,9
+	.half	.L858-.L857
+	.byte	3,1,1,5,9,9
+	.half	.L521-.L858
+	.byte	3,1,1,5,24,9
+	.half	.L859-.L521
+	.byte	1,5,5,9
+	.half	.L860-.L859
+	.byte	1,5,21,7,9
+	.half	.L861-.L860
+	.byte	3,1,1,5,7,9
+	.half	.L862-.L861
+	.byte	1,5,9,9
+	.half	.L64-.L862
+	.byte	3,3,1,5,20,9
+	.half	.L863-.L64
+	.byte	3,1,1,5,8,9
+	.half	.L63-.L863
+	.byte	3,3,1,9
+	.half	.L864-.L63
+	.byte	3,1,1,5,14,9
+	.half	.L865-.L864
+	.byte	1,5,9,9
+	.half	.L522-.L865
+	.byte	3,1,1,5,12,9
+	.half	.L523-.L522
+	.byte	3,2,1,5,18,9
+	.half	.L866-.L523
+	.byte	1,5,39,9
+	.half	.L867-.L866
+	.byte	1,5,32,9
+	.half	.L868-.L867
+	.byte	1,5,9,9
+	.half	.L869-.L868
+	.byte	1,5,7,9
+	.half	.L870-.L869
+	.byte	3,1,1,5,5,9
+	.half	.L524-.L870
+	.byte	3,2,1,5,14,9
+	.half	.L526-.L524
+	.byte	3,1,1,5,9,9
+	.half	.L871-.L526
+	.byte	1,5,3,9
+	.half	.L872-.L871
+	.byte	1,5,7,7,9
+	.half	.L873-.L872
+	.byte	3,1,1,5,17,9
+	.half	.L66-.L873
+	.byte	3,2,1,5,14,9
+	.half	.L874-.L66
+	.byte	1,5,9,9
+	.half	.L875-.L874
+	.byte	1,5,3,9
+	.half	.L876-.L875
+	.byte	1,5,11,7,9
+	.half	.L877-.L876
+	.byte	3,1,1,5,17,9
+	.half	.L67-.L877
+	.byte	3,2,1,5,14,9
+	.half	.L878-.L67
+	.byte	1,5,9,9
+	.half	.L879-.L878
+	.byte	1,5,3,9
+	.half	.L880-.L879
+	.byte	1,5,11,7,9
+	.half	.L881-.L880
+	.byte	3,1,1,5,9,9
+	.half	.L68-.L881
+	.byte	3,3,1,5,16,9
+	.half	.L882-.L68
+	.byte	3,1,1,5,12,9
+	.half	.L883-.L882
+	.byte	1,5,22,9
+	.half	.L527-.L883
+	.byte	3,1,1,5,19,9
+	.half	.L884-.L527
+	.byte	1,5,15,9
+	.half	.L885-.L884
+	.byte	1,5,16,9
+	.half	.L886-.L885
+	.byte	3,2,1,5,12,9
+	.half	.L887-.L886
+	.byte	1,5,9,9
+	.half	.L529-.L887
+	.byte	3,2,1,5,12,9
+	.half	.L888-.L529
+	.byte	3,2,1,5,5,9
+	.half	.L525-.L888
+	.byte	1,5,7,9
+	.half	.L889-.L525
+	.byte	3,1,1,5,11,9
+	.half	.L890-.L889
+	.byte	1,5,9,9
+	.half	.L530-.L890
+	.byte	1,5,5,9
+	.half	.L891-.L530
+	.byte	1,5,7,9
+	.half	.L892-.L891
+	.byte	3,2,1,5,11,9
+	.half	.L893-.L892
+	.byte	1,5,9,9
+	.half	.L528-.L893
+	.byte	1,5,7,9
+	.half	.L531-.L528
+	.byte	3,2,1,5,18,9
+	.half	.L894-.L531
+	.byte	1,5,11,9
+	.half	.L533-.L894
+	.byte	3,1,1,5,9,9
+	.half	.L895-.L533
+	.byte	1,9
+	.half	.L896-.L895
+	.byte	3,1,1,5,11,9
+	.half	.L532-.L896
+	.byte	3,1,1,5,9,9
+	.half	.L897-.L532
+	.byte	1,5,11,9
+	.half	.L898-.L897
+	.byte	3,2,1,5,9,9
+	.half	.L899-.L898
+	.byte	1,5,23,9
+	.half	.L900-.L899
+	.byte	3,1,1,5,8,9
+	.half	.L901-.L900
+	.byte	1,5,21,9
+	.half	.L902-.L901
+	.byte	1,5,10,9
+	.half	.L535-.L902
+	.byte	3,1,1,5,13,9
+	.half	.L534-.L535
+	.byte	3,1,1,5,11,9
+	.half	.L903-.L534
+	.byte	1,5,19,9
+	.half	.L536-.L903
+	.byte	3,2,1,5,25,9
+	.half	.L904-.L536
+	.byte	1,5,8,9
+	.half	.L905-.L904
+	.byte	1,5,13,9
+	.half	.L537-.L905
+	.byte	3,1,1,5,11,9
+	.half	.L906-.L537
+	.byte	1,5,8,9
+	.half	.L538-.L906
+	.byte	3,2,1,5,14,9
+	.half	.L907-.L538
+	.byte	1,5,21,9
+	.half	.L509-.L907
+	.byte	1,5,8,9
+	.half	.L510-.L509
+	.byte	3,1,1,5,13,9
+	.half	.L908-.L510
+	.byte	1,5,11,9
+	.half	.L909-.L908
+	.byte	1,5,6,9
+	.half	.L910-.L909
+	.byte	1,5,12,9
+	.half	.L911-.L910
+	.byte	3,2,1,5,10,9
+	.half	.L912-.L911
+	.byte	1,9
+	.half	.L539-.L912
+	.byte	3,2,1,5,5,9
+	.half	.L913-.L539
+	.byte	1,5,13,9
+	.half	.L914-.L913
+	.byte	3,2,1,5,11,9
+	.half	.L915-.L914
+	.byte	1,5,5,9
+	.half	.L916-.L915
+	.byte	1,5,16,9
+	.half	.L917-.L916
+	.byte	3,2,1,5,8,9
+	.half	.L918-.L917
+	.byte	1,5,14,9
+	.half	.L540-.L918
+	.byte	1,5,21,9
+	.half	.L919-.L540
+	.byte	1,5,8,9
+	.half	.L920-.L919
+	.byte	3,1,1,5,13,9
+	.half	.L921-.L920
+	.byte	1,5,11,9
+	.half	.L922-.L921
+	.byte	1,5,6,9
+	.half	.L923-.L922
+	.byte	1,5,8,9
+	.half	.L924-.L923
+	.byte	3,2,1,5,12,9
+	.half	.L925-.L924
+	.byte	1,5,10,9
+	.half	.L926-.L925
+	.byte	1,5,12,9
+	.half	.L512-.L926
+	.byte	3,2,1,5,10,9
+	.half	.L927-.L512
+	.byte	1,5,5,9
+	.half	.L928-.L927
+	.byte	1,5,7,9
+	.half	.L929-.L928
+	.byte	3,1,1,5,11,9
+	.half	.L930-.L929
+	.byte	1,5,9,9
+	.half	.L931-.L930
+	.byte	1,5,5,9
+	.half	.L932-.L931
+	.byte	1,5,16,9
+	.half	.L933-.L932
+	.byte	3,2,1,5,8,9
+	.half	.L934-.L933
+	.byte	1,5,14,9
+	.half	.L935-.L934
+	.byte	1,5,21,9
+	.half	.L936-.L935
+	.byte	1,5,8,9
+	.half	.L937-.L936
+	.byte	3,1,1,5,13,9
+	.half	.L938-.L937
+	.byte	1,5,11,9
+	.half	.L939-.L938
+	.byte	1,5,6,9
+	.half	.L940-.L939
+	.byte	1,5,9,9
+	.half	.L941-.L940
+	.byte	3,2,1,5,13,9
+	.half	.L942-.L941
+	.byte	1,5,11,9
+	.half	.L943-.L942
+	.byte	1,9
+	.half	.L542-.L943
+	.byte	3,1,1,5,8,9
+	.half	.L944-.L542
+	.byte	3,2,1,5,14,9
+	.half	.L543-.L944
+	.byte	1,5,22,9
+	.half	.L945-.L543
+	.byte	1,5,7,9
+	.half	.L946-.L945
+	.byte	3,1,1,5,11,9
+	.half	.L947-.L946
+	.byte	1,5,9,9
+	.half	.L948-.L947
+	.byte	1,5,5,9
+	.half	.L949-.L948
+	.byte	1,5,9,9
+	.half	.L950-.L949
+	.byte	3,2,1,5,14,9
+	.half	.L951-.L950
+	.byte	1,5,12,9
+	.half	.L952-.L951
+	.byte	1,5,9,9
+	.half	.L544-.L952
+	.byte	3,1,1,5,15,9
+	.half	.L953-.L544
+	.byte	1,5,9,9
+	.half	.L954-.L953
+	.byte	3,1,1,5,13,9
+	.half	.L546-.L954
+	.byte	3,2,1,5,11,9
+	.half	.L545-.L546
+	.byte	1,5,7,9
+	.half	.L541-.L545
+	.byte	3,2,1,5,13,9
+	.half	.L955-.L541
+	.byte	1,5,11,9
+	.half	.L956-.L955
+	.byte	1,5,3,9
+	.half	.L957-.L956
+	.byte	1,5,21,7,9
+	.half	.L958-.L957
+	.byte	3,1,1,5,5,9
+	.half	.L959-.L958
+	.byte	3,1,1,5,16,7,9
+	.half	.L960-.L959
+	.byte	3,1,1,5,5,9
+	.half	.L70-.L960
+	.byte	3,2,1,5,12,9
+	.half	.L69-.L70
+	.byte	3,3,1,5,10,9
+	.half	.L961-.L69
+	.byte	1,5,3,9
+	.half	.L962-.L961
+	.byte	1,5,15,7,9
+	.half	.L963-.L962
+	.byte	3,1,1,5,13,9
+	.half	.L964-.L963
+	.byte	1,5,8,9
+	.half	.L965-.L964
+	.byte	3,1,1,5,7,9
+	.half	.L72-.L965
+	.byte	3,3,1,5,13,9
+	.half	.L966-.L72
+	.byte	1,5,11,9
+	.half	.L967-.L966
+	.byte	1,5,3,9
+	.half	.L968-.L967
+	.byte	1,5,19,7,9
+	.half	.L969-.L968
+	.byte	3,1,1,5,5,9
+	.half	.L549-.L969
+	.byte	1,5,3,9
+	.half	.L73-.L549
+	.byte	3,3,1,5,8,7,9
+	.half	.L970-.L73
+	.byte	3,1,1,5,11,9
+	.half	.L551-.L970
+	.byte	1,5,8,9
+	.half	.L75-.L551
+	.byte	3,3,1,5,13,9
+	.half	.L76-.L75
+	.byte	3,2,1,5,11,9
+	.half	.L971-.L76
+	.byte	1,9
+	.half	.L553-.L971
+	.byte	3,1,1,5,12,9
+	.half	.L972-.L553
+	.byte	3,1,1,5,18,9
+	.half	.L973-.L972
+	.byte	1,5,7,9
+	.half	.L554-.L973
+	.byte	3,2,1,5,18,9
+	.half	.L974-.L554
+	.byte	1,5,5,9
+	.half	.L975-.L974
+	.byte	1,5,7,9
+	.half	.L976-.L975
+	.byte	3,1,1,5,11,9
+	.half	.L977-.L976
+	.byte	1,5,9,9
+	.half	.L978-.L977
+	.byte	1,5,5,9
+	.half	.L979-.L978
+	.byte	1,5,7,9
+	.half	.L980-.L979
+	.byte	3,1,1,5,9,9
+	.half	.L981-.L980
+	.byte	1,5,5,9
+	.half	.L982-.L981
+	.byte	1,5,7,9
+	.half	.L983-.L982
+	.byte	3,1,1,5,11,9
+	.half	.L984-.L983
+	.byte	1,5,9,9
+	.half	.L985-.L984
+	.byte	1,5,5,9
+	.half	.L986-.L985
+	.byte	1,5,7,9
+	.half	.L987-.L986
+	.byte	3,1,1,5,9,9
+	.half	.L988-.L987
+	.byte	1,5,5,9
+	.half	.L989-.L988
+	.byte	1,5,7,9
+	.half	.L990-.L989
+	.byte	3,1,1,5,11,9
+	.half	.L991-.L990
+	.byte	1,5,9,9
+	.half	.L992-.L991
+	.byte	1,5,5,9
+	.half	.L993-.L992
+	.byte	1,5,7,9
+	.half	.L994-.L993
+	.byte	3,1,1,5,9,9
+	.half	.L995-.L994
+	.byte	1,5,5,9
+	.half	.L996-.L995
+	.byte	1,5,7,9
+	.half	.L997-.L996
+	.byte	3,1,1,5,11,9
+	.half	.L998-.L997
+	.byte	1,5,9,9
+	.half	.L999-.L998
+	.byte	1,5,5,9
+	.half	.L1000-.L999
+	.byte	1,5,7,9
+	.half	.L1001-.L1000
+	.byte	3,1,1,5,9,9
+	.half	.L1002-.L1001
+	.byte	1,5,5,9
+	.half	.L1003-.L1002
+	.byte	1,5,7,9
+	.half	.L1004-.L1003
+	.byte	3,2,1,5,17,9
+	.half	.L1005-.L1004
+	.byte	1,5,13,9
+	.half	.L1006-.L1005
+	.byte	1,5,9,9
+	.half	.L1007-.L1006
+	.byte	1,5,5,9
+	.half	.L1008-.L1007
+	.byte	1,5,13,9
+	.half	.L1009-.L1008
+	.byte	3,1,1,5,9,9
+	.half	.L555-.L1009
+	.byte	1,5,20,9
+	.half	.L1010-.L555
+	.byte	1,5,18,9
+	.half	.L1011-.L1010
+	.byte	1,5,5,9
+	.half	.L1012-.L1011
+	.byte	1,5,11,9
+	.half	.L1013-.L1012
+	.byte	3,2,1,5,8,9
+	.half	.L556-.L1013
+	.byte	3,2,1,5,14,9
+	.half	.L1014-.L556
+	.byte	1,5,21,9
+	.half	.L557-.L1014
+	.byte	1,5,9,9
+	.half	.L1015-.L557
+	.byte	3,1,1,5,11,9
+	.half	.L1016-.L1015
+	.byte	3,1,1,9
+	.half	.L1017-.L1016
+	.byte	3,1,1,9
+	.half	.L552-.L1017
+	.byte	3,2,1,9
+	.half	.L1018-.L552
+	.byte	3,1,1,5,17,9
+	.half	.L1019-.L1018
+	.byte	1,5,9,9
+	.half	.L1020-.L1019
+	.byte	1,5,11,9
+	.half	.L1021-.L1020
+	.byte	3,1,1,5,22,9
+	.half	.L1022-.L1021
+	.byte	1,5,17,9
+	.half	.L558-.L1022
+	.byte	1,5,9,9
+	.half	.L1023-.L558
+	.byte	1,5,12,9
+	.half	.L1024-.L1023
+	.byte	3,2,1,5,3,9
+	.half	.L550-.L1024
+	.byte	3,2,1,5,14,7,9
+	.half	.L1025-.L550
+	.byte	3,1,1,5,3,9
+	.half	.L77-.L1025
+	.byte	3,3,1,5,1,9
+	.half	.L59-.L77
+	.byte	3,1,1,7,9
+	.half	.L249-.L59
+	.byte	0,1,1
+.L841:
+	.sdecl	'.debug_ranges',debug,cluster('FastPow')
+	.sect	'.debug_ranges'
+.L248:
+	.word	-1,.L157,0,.L249-.L157,0,0
+	.sdecl	'.debug_info',debug,cluster('FastTan')
+	.sect	'.debug_info'
+.L250:
+	.word	458
+	.half	3
+	.word	.L251
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L253,.L252
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'FastTan',0,1,244,2,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L159,.L388,.L158
+	.byte	4
+	.byte	'x',0,1,244,2,21
+	.word	.L297,.L389
+	.byte	5
+	.word	.L159,.L388
+	.byte	6
+	.byte	'n',0,1,246,2,8
+	.word	.L365,.L390
+	.byte	6
+	.byte	'xn',0,1,247,2,9
+	.word	.L297,.L391
+	.byte	6
+	.byte	'f',0,1,248,2,9
+	.word	.L297,.L392
+	.byte	6
+	.byte	'g',0,1,248,2,12
+	.word	.L297,.L393
+	.byte	6
+	.byte	'x_int',0,1,249,2,9
+	.word	.L297,.L394
+	.byte	6
+	.byte	'x_fract',0,1,249,2,16
+	.word	.L297,.L395
+	.byte	6
+	.byte	'result',0,1,250,2,9
+	.word	.L297,.L396
+	.byte	6
+	.byte	'xnum',0,1,251,2,9
+	.word	.L297,.L397
+	.byte	6
+	.byte	'xden',0,1,251,2,15
+	.word	.L297,.L398
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastTan')
+	.sect	'.debug_abbrev'
+.L251:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastTan')
+	.sect	'.debug_line'
+.L252:
+	.word	.L1027-.L1026
+.L1026:
+	.half	3
+	.word	.L1029-.L1028
+.L1028:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1029:
+	.byte	5,19,7,0,5,2
+	.word	.L159
+	.byte	3,252,2,1,5,7,9
+	.half	.L1030-.L159
+	.byte	1,5,41,9
+	.half	.L1031-.L1030
+	.byte	1,5,32,9
+	.half	.L1032-.L1031
+	.byte	1,5,19,9
+	.half	.L79-.L1032
+	.byte	3,1,1,5,5,9
+	.half	.L1033-.L79
+	.byte	1,5,19,9
+	.half	.L80-.L1033
+	.byte	3,3,1,5,11,9
+	.half	.L1034-.L80
+	.byte	1,5,15,9
+	.half	.L560-.L1034
+	.byte	3,1,1,5,14,9
+	.half	.L562-.L560
+	.byte	3,2,1,5,19,9
+	.half	.L564-.L562
+	.byte	3,1,1,5,9,9
+	.half	.L1035-.L564
+	.byte	1,5,3,9
+	.half	.L1036-.L1035
+	.byte	1,5,9,7,9
+	.half	.L1037-.L1036
+	.byte	3,1,1,5,25,9
+	.half	.L82-.L1037
+	.byte	3,2,1,5,34,9
+	.half	.L1038-.L82
+	.byte	1,5,7,9
+	.half	.L1039-.L1038
+	.byte	1,5,8,9
+	.half	.L559-.L1039
+	.byte	3,1,1,5,20,9
+	.half	.L565-.L559
+	.byte	3,2,1,5,13,9
+	.half	.L1040-.L565
+	.byte	1,5,9,9
+	.half	.L561-.L1040
+	.byte	3,1,1,5,16,9
+	.half	.L1041-.L561
+	.byte	3,1,1,5,9,9
+	.half	.L563-.L1041
+	.byte	1,5,16,9
+	.half	.L1042-.L563
+	.byte	3,1,1,5,9,9
+	.half	.L1043-.L1042
+	.byte	1,5,18,9
+	.half	.L566-.L1043
+	.byte	3,2,1,5,3,9
+	.half	.L1044-.L566
+	.byte	1,5,7,9
+	.half	.L1045-.L1044
+	.byte	3,4,1,5,11,9
+	.half	.L568-.L1045
+	.byte	3,125,1,5,9,9
+	.half	.L83-.L568
+	.byte	1,5,18,9
+	.half	.L84-.L83
+	.byte	3,5,1,5,9,9
+	.half	.L1046-.L84
+	.byte	1,5,3,9
+	.half	.L1047-.L1046
+	.byte	1,5,5,7,9
+	.half	.L1048-.L1047
+	.byte	3,1,1,5,16,7,9
+	.half	.L1049-.L1048
+	.byte	3,1,1,5,22,9
+	.half	.L1050-.L1049
+	.byte	1,5,25,9
+	.half	.L1051-.L1050
+	.byte	1,5,5,9
+	.half	.L87-.L1051
+	.byte	3,5,1,5,9,9
+	.half	.L85-.L87
+	.byte	3,3,1,5,14,9
+	.half	.L570-.L85
+	.byte	3,1,1,5,12,9
+	.half	.L1052-.L570
+	.byte	1,5,17,9
+	.half	.L572-.L1052
+	.byte	3,1,1,5,15,9
+	.half	.L1053-.L572
+	.byte	1,9
+	.half	.L1054-.L1053
+	.byte	3,1,1,9
+	.half	.L1055-.L1054
+	.byte	3,1,1,9
+	.half	.L1056-.L1055
+	.byte	3,1,1,5,14,9
+	.half	.L1057-.L1056
+	.byte	3,2,1,5,12,9
+	.half	.L1058-.L1057
+	.byte	1,5,17,9
+	.half	.L573-.L1058
+	.byte	3,1,1,5,15,9
+	.half	.L1059-.L573
+	.byte	1,9
+	.half	.L1060-.L1059
+	.byte	3,1,1,5,17,9
+	.half	.L571-.L1060
+	.byte	3,1,1,5,15,9
+	.half	.L1061-.L571
+	.byte	1,5,3,9
+	.half	.L1062-.L1061
+	.byte	3,2,1,5,12,7,9
+	.half	.L1063-.L1062
+	.byte	3,1,1,9
+	.half	.L574-.L1063
+	.byte	3,1,1,5,10,9
+	.half	.L1064-.L574
+	.byte	3,1,1,5,17,9
+	.half	.L89-.L1064
+	.byte	3,2,1,5,3,9
+	.half	.L575-.L89
+	.byte	3,1,1,5,1,9
+	.half	.L81-.L575
+	.byte	3,1,1,7,9
+	.half	.L254-.L81
+	.byte	0,1,1
+.L1027:
+	.sdecl	'.debug_ranges',debug,cluster('FastTan')
+	.sect	'.debug_ranges'
+.L253:
+	.word	-1,.L159,0,.L254-.L159,0,0
+	.sdecl	'.debug_info',debug,cluster('FastAsin')
+	.sect	'.debug_info'
+.L255:
+	.word	419
+	.half	3
+	.word	.L256
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L258,.L257
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'FastAsin',0,1,219,3,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L163,.L399,.L162
+	.byte	4
+	.byte	'x',0,1,219,3,22
+	.word	.L297,.L400
+	.byte	5
+	.word	.L163,.L399
+	.byte	6
+	.byte	'y',0,1,221,3,9
+	.word	.L297,.L401
+	.byte	6
+	.byte	'g',0,1,221,3,12
+	.word	.L297,.L402
+	.byte	6
+	.byte	'num',0,1,222,3,9
+	.word	.L297,.L403
+	.byte	6
+	.byte	'den',0,1,222,3,14
+	.word	.L297,.L404
+	.byte	6
+	.byte	'result',0,1,222,3,19
+	.word	.L297,.L405
+	.byte	6
+	.byte	'i',0,1,223,3,8
+	.word	.L365,.L406
+	.byte	6
+	.byte	'sign',0,1,224,3,9
+	.word	.L297,.L407
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastAsin')
+	.sect	'.debug_abbrev'
+.L256:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastAsin')
+	.sect	'.debug_line'
+.L257:
+	.word	.L1066-.L1065
+.L1065:
+	.half	3
+	.word	.L1068-.L1067
+.L1067:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1068:
+	.byte	5,16,7,0,5,2
+	.word	.L163
+	.byte	3,223,3,1,5,18,9
+	.half	.L598-.L163
+	.byte	3,3,1,5,9,9
+	.half	.L1069-.L598
+	.byte	1,5,3,9
+	.half	.L1070-.L1069
+	.byte	1,5,9,7,9
+	.half	.L1071-.L1070
+	.byte	3,1,1,5,12,9
+	.half	.L1072-.L1071
+	.byte	3,1,1,5,18,9
+	.half	.L94-.L1072
+	.byte	3,3,1,5,9,9
+	.half	.L1073-.L94
+	.byte	1,5,3,9
+	.half	.L1074-.L1073
+	.byte	1,5,7,7,9
+	.half	.L1075-.L1074
+	.byte	3,1,1,5,20,9
+	.half	.L599-.L1075
+	.byte	3,1,1,5,11,9
+	.half	.L1076-.L599
+	.byte	1,5,5,9
+	.half	.L1077-.L1076
+	.byte	1,5,14,7,9
+	.half	.L1078-.L1077
+	.byte	3,1,1,5,7,9
+	.half	.L596-.L1078
+	.byte	3,1,1,5,10,9
+	.half	.L96-.L596
+	.byte	3,2,1,5,15,9
+	.half	.L1079-.L96
+	.byte	1,5,22,9
+	.half	.L1080-.L1079
+	.byte	1,5,20,9
+	.half	.L1081-.L1080
+	.byte	1,5,26,9
+	.half	.L600-.L1081
+	.byte	3,1,1,5,9,9
+	.half	.L601-.L600
+	.byte	1,5,25,9
+	.half	.L1082-.L601
+	.byte	1,5,26,9
+	.half	.L602-.L1082
+	.byte	3,127,1,5,7,9
+	.half	.L95-.L602
+	.byte	3,4,1,5,20,9
+	.half	.L604-.L95
+	.byte	3,1,1,5,11,9
+	.half	.L1083-.L604
+	.byte	1,5,5,9
+	.half	.L1084-.L1083
+	.byte	1,5,25,7,9
+	.half	.L1085-.L1084
+	.byte	3,2,1,5,16,9
+	.half	.L1086-.L1085
+	.byte	1,5,7,9
+	.half	.L1087-.L1086
+	.byte	1,5,18,7,9
+	.half	.L1088-.L1087
+	.byte	3,1,1,5,7,9
+	.half	.L100-.L1088
+	.byte	3,2,1,5,11,9
+	.half	.L99-.L100
+	.byte	3,2,1,9
+	.half	.L98-.L99
+	.byte	3,2,1,5,29,9
+	.half	.L1089-.L98
+	.byte	1,5,27,9
+	.half	.L1090-.L1089
+	.byte	1,5,48,9
+	.half	.L1091-.L1090
+	.byte	1,5,46,9
+	.half	.L1092-.L1091
+	.byte	1,5,61,9
+	.half	.L1093-.L1092
+	.byte	1,5,15,9
+	.half	.L606-.L1093
+	.byte	3,1,1,5,13,9
+	.half	.L1094-.L606
+	.byte	1,5,34,9
+	.half	.L1095-.L1094
+	.byte	1,5,32,9
+	.half	.L1096-.L1095
+	.byte	1,5,53,9
+	.half	.L1097-.L1096
+	.byte	1,5,51,9
+	.half	.L1098-.L1097
+	.byte	1,5,16,9
+	.half	.L607-.L1098
+	.byte	3,1,1,5,23,9
+	.half	.L603-.L607
+	.byte	3,1,1,5,3,9
+	.half	.L608-.L603
+	.byte	3,1,1,5,30,7,9
+	.half	.L1099-.L608
+	.byte	3,1,1,5,21,9
+	.half	.L1100-.L1099
+	.byte	1,9
+	.half	.L102-.L1100
+	.byte	3,2,1,5,12,9
+	.half	.L1101-.L102
+	.byte	1,5,3,9
+	.half	.L1102-.L1101
+	.byte	1,5,14,7,9
+	.half	.L1103-.L1102
+	.byte	3,1,1,5,3,9
+	.half	.L103-.L1103
+	.byte	3,2,1,5,1,9
+	.half	.L97-.L103
+	.byte	3,1,1,7,9
+	.half	.L259-.L97
+	.byte	0,1,1
+.L1066:
+	.sdecl	'.debug_ranges',debug,cluster('FastAsin')
+	.sect	'.debug_ranges'
+.L258:
+	.word	-1,.L163,0,.L259-.L163,0,0
+	.sdecl	'.debug_info',debug,cluster('FastAtan2')
+	.sect	'.debug_info'
+.L260:
+	.word	434
+	.half	3
+	.word	.L261
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L263,.L262
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'FastAtan2',0,1,137,4,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L165,.L408,.L164
+	.byte	4
+	.byte	'y',0,1,137,4,23
+	.word	.L297,.L409
+	.byte	4
+	.byte	'x',0,1,137,4,32
+	.word	.L297,.L410
+	.byte	5
+	.word	.L165,.L408
+	.byte	6
+	.byte	'f',0,1,139,4,9
+	.word	.L297,.L411
+	.byte	6
+	.byte	'g',0,1,139,4,12
+	.word	.L297,.L412
+	.byte	6
+	.byte	'num',0,1,140,4,9
+	.word	.L297,.L413
+	.byte	6
+	.byte	'den',0,1,140,4,14
+	.word	.L297,.L414
+	.byte	6
+	.byte	'result',0,1,141,4,9
+	.word	.L297,.L415
+	.byte	6
+	.byte	'n',0,1,142,4,7
+	.word	.L320,.L416
+	.byte	7
+	.byte	'a',0,1,144,4,22
+	.word	.L417
+	.byte	5,3
+	.word	_999003_a
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastAtan2')
+	.sect	'.debug_abbrev'
+.L261:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastAtan2')
+	.sect	'.debug_line'
+.L262:
+	.word	.L1105-.L1104
+.L1104:
+	.half	3
+	.word	.L1107-.L1106
+.L1106:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1107:
+	.byte	5,9,7,0,5,2
+	.word	.L165
+	.byte	3,145,4,1,5,3,9
+	.half	.L1108-.L165
+	.byte	1,5,11,7,9
+	.half	.L1109-.L1108
+	.byte	3,1,1,5,5,9
+	.half	.L1110-.L1109
+	.byte	1,5,14,7,9
+	.half	.L1111-.L1110
+	.byte	3,1,1,5,7,9
+	.half	.L609-.L1111
+	.byte	3,1,1,5,21,9
+	.half	.L106-.L609
+	.byte	3,3,1,5,20,9
+	.half	.L1112-.L106
+	.byte	3,1,1,5,11,9
+	.half	.L1113-.L1112
+	.byte	1,5,5,9
+	.half	.L1114-.L1113
+	.byte	1,5,7,7,9
+	.half	.L1115-.L1114
+	.byte	3,1,1,5,20,9
+	.half	.L108-.L1115
+	.byte	3,2,1,5,11,9
+	.half	.L1116-.L108
+	.byte	1,5,5,9
+	.half	.L1117-.L1116
+	.byte	1,5,16,7,9
+	.half	.L1118-.L1117
+	.byte	3,1,1,5,7,9
+	.half	.L1119-.L1118
+	.byte	3,1,1,5,5,9
+	.half	.L105-.L1119
+	.byte	3,3,1,5,7,9
+	.half	.L611-.L105
+	.byte	3,1,1,5,20,9
+	.half	.L1120-.L611
+	.byte	3,3,1,5,11,9
+	.half	.L1121-.L1120
+	.byte	1,5,3,9
+	.half	.L1122-.L1121
+	.byte	1,5,11,7,9
+	.half	.L1123-.L1122
+	.byte	3,1,1,5,20,9
+	.half	.L112-.L1123
+	.byte	3,2,1,5,11,9
+	.half	.L1124-.L112
+	.byte	1,5,3,9
+	.half	.L1125-.L1124
+	.byte	1,5,11,7,9
+	.half	.L1126-.L1125
+	.byte	3,1,1,9
+	.half	.L113-.L1126
+	.byte	3,2,1,5,3,9
+	.half	.L1127-.L113
+	.byte	1,5,7,7,9
+	.half	.L614-.L1127
+	.byte	3,1,1,5,9,9
+	.half	.L615-.L614
+	.byte	3,1,1,9
+	.half	.L616-.L615
+	.byte	3,1,1,5,7,9
+	.half	.L618-.L616
+	.byte	3,1,1,5,11,9
+	.half	.L114-.L618
+	.byte	3,2,1,5,18,9
+	.half	.L617-.L114
+	.byte	3,2,1,5,9,9
+	.half	.L1128-.L617
+	.byte	1,5,3,9
+	.half	.L1129-.L1128
+	.byte	1,5,22,7,9
+	.half	.L1130-.L1129
+	.byte	3,1,1,5,13,9
+	.half	.L1131-.L1130
+	.byte	1,5,38,9
+	.half	.L1132-.L1131
+	.byte	1,5,36,9
+	.half	.L1133-.L1132
+	.byte	1,5,43,9
+	.half	.L1134-.L1133
+	.byte	1,5,18,9
+	.half	.L619-.L1134
+	.byte	3,1,1,5,24,9
+	.half	.L1135-.L619
+	.byte	1,5,13,9
+	.half	.L620-.L1135
+	.byte	3,1,1,5,11,9
+	.half	.L1136-.L620
+	.byte	3,1,1,5,5,9
+	.half	.L115-.L1136
+	.byte	3,3,1,5,18,9
+	.half	.L621-.L115
+	.byte	3,1,1,5,9,9
+	.half	.L1137-.L621
+	.byte	1,5,3,9
+	.half	.L1138-.L1137
+	.byte	1,5,9,7,9
+	.half	.L1139-.L1138
+	.byte	3,1,1,5,18,9
+	.half	.L116-.L1139
+	.byte	3,3,1,5,3,9
+	.half	.L1140-.L116
+	.byte	1,5,11,9
+	.half	.L1141-.L1140
+	.byte	3,4,1,5,12,9
+	.half	.L622-.L1141
+	.byte	3,1,1,5,30,9
+	.half	.L1142-.L622
+	.byte	1,5,28,9
+	.half	.L1143-.L1142
+	.byte	1,5,43,9
+	.half	.L1144-.L1143
+	.byte	1,5,16,9
+	.half	.L624-.L1144
+	.byte	3,1,1,5,14,9
+	.half	.L1145-.L624
+	.byte	1,5,35,9
+	.half	.L1146-.L1145
+	.byte	1,5,33,9
+	.half	.L1147-.L1146
+	.byte	1,5,18,9
+	.half	.L623-.L1147
+	.byte	3,1,1,5,25,9
+	.half	.L625-.L623
+	.byte	3,1,1,5,15,9
+	.half	.L1148-.L625
+	.byte	3,121,1,5,3,9
+	.half	.L118-.L1148
+	.byte	3,9,1,5,14,7,9
+	.half	.L1149-.L118
+	.byte	3,1,1,5,22,9
+	.half	.L119-.L1149
+	.byte	3,2,1,5,21,9
+	.half	.L1150-.L119
+	.byte	1,5,22,9
+	.half	.L1151-.L1150
+	.byte	1,5,19,9
+	.half	.L1152-.L1151
+	.byte	1,5,18,9
+	.half	.L612-.L1152
+	.byte	3,2,1,5,9,9
+	.half	.L1153-.L612
+	.byte	1,5,3,9
+	.half	.L1154-.L1153
+	.byte	1,5,14,7,9
+	.half	.L1155-.L1154
+	.byte	3,1,1,5,17,9
+	.half	.L1156-.L1155
+	.byte	1,5,18,9
+	.half	.L120-.L1156
+	.byte	3,2,1,5,9,9
+	.half	.L1157-.L120
+	.byte	1,5,3,9
+	.half	.L1158-.L1157
+	.byte	1,5,14,7,9
+	.half	.L1159-.L1158
+	.byte	3,1,1,5,3,9
+	.half	.L121-.L1159
+	.byte	3,2,1,5,1,9
+	.half	.L107-.L121
+	.byte	3,1,1,7,9
+	.half	.L264-.L107
+	.byte	0,1,1
+.L1105:
+	.sdecl	'.debug_ranges',debug,cluster('FastAtan2')
+	.sect	'.debug_ranges'
+.L263:
+	.word	-1,.L165,0,.L264-.L165,0,0
+	.sdecl	'.debug_info',debug,cluster('FastSqrtI')
+	.sect	'.debug_info'
+.L265:
+	.word	349
+	.half	3
+	.word	.L266
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L268,.L267
+	.byte	2
+	.word	.L176
+	.byte	3,1,230,4,3,4,4
+	.byte	'i',0
+	.word	.L340
+	.byte	4,2,35,0,4
+	.byte	'f',0
+	.word	.L297
+	.byte	4,2,35,0,0,5
+	.byte	'FastSqrtI',0,1,216,4,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L167,.L418,.L166
+	.byte	6
+	.byte	'x',0,1,216,4,23
+	.word	.L297,.L419
+	.byte	7
+	.word	.L167,.L418
+	.byte	8
+	.byte	'l2f',0,1,230,4,37
+	.word	246,.L420
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastSqrtI')
+	.sect	'.debug_abbrev'
+.L266:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,23,1,58,15,59,15,57,15,11,15,0,0
+	.byte	4,13,0,3,8,73,16,11,15,56,9,0,0,5,46,1,3,8,58,15,59,15,57,15,73,16,54,15,39,12,63,12,17,1,18,1,64,6,0
+	.byte	0,6,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,11,1,17,1,18,1,0,0,8,52,0,3,8,58,15,59,15,57,15,73,19,2
+	.byte	6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastSqrtI')
+	.sect	'.debug_line'
+.L267:
+	.word	.L1161-.L1160
+.L1160:
+	.half	3
+	.word	.L1163-.L1162
+.L1162:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1163:
+	.byte	5,11,7,0,5,2
+	.word	.L167
+	.byte	3,231,4,1,5,31,9
+	.half	.L1164-.L167
+	.byte	1,5,22,9
+	.half	.L627-.L1164
+	.byte	1,5,19,9
+	.half	.L626-.L627
+	.byte	3,1,1,5,33,9
+	.half	.L1165-.L626
+	.byte	1,5,46,9
+	.half	.L1166-.L1165
+	.byte	1,5,50,9
+	.half	.L1167-.L1166
+	.byte	1,5,31,9
+	.half	.L1168-.L1167
+	.byte	1,5,16,9
+	.half	.L1169-.L1168
+	.byte	1,5,3,9
+	.half	.L1170-.L1169
+	.byte	1,5,1,9
+	.half	.L123-.L1170
+	.byte	3,1,1,7,9
+	.half	.L269-.L123
+	.byte	0,1,1
+.L1161:
+	.sdecl	'.debug_ranges',debug,cluster('FastSqrtI')
+	.sect	'.debug_ranges'
+.L268:
+	.word	-1,.L167,0,.L269-.L167,0,0
+	.sdecl	'.debug_info',debug,cluster('FastSqrt')
+	.sect	'.debug_info'
+.L270:
+	.word	301
+	.half	3
+	.word	.L271
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L273,.L272
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'FastSqrt',0,1,236,4,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L169,.L421,.L168
+	.byte	4
+	.byte	'x',0,1,236,4,22
+	.word	.L297,.L422
+	.byte	5
+	.word	.L169,.L421
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastSqrt')
+	.sect	'.debug_abbrev'
+.L271:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastSqrt')
+	.sect	'.debug_line'
+.L272:
+	.word	.L1172-.L1171
+.L1171:
+	.half	3
+	.word	.L1174-.L1173
+.L1173:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1174:
+	.byte	5,7,7,0,5,2
+	.word	.L169
+	.byte	3,235,4,1,5,24,9
+	.half	.L629-.L169
+	.byte	3,2,1,5,12,9
+	.half	.L628-.L629
+	.byte	1,5,3,9
+	.half	.L1175-.L628
+	.byte	1,5,1,9
+	.half	.L124-.L1175
+	.byte	3,1,1,7,9
+	.half	.L274-.L124
+	.byte	0,1,1
+.L1172:
+	.sdecl	'.debug_ranges',debug,cluster('FastSqrt')
+	.sect	'.debug_ranges'
+.L273:
+	.word	-1,.L169,0,.L274-.L169,0,0
+	.sdecl	'.debug_info',debug,cluster('FastSin')
+	.sect	'.debug_info'
+.L275:
+	.word	440
+	.half	3
+	.word	.L276
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L278,.L277
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'FastSin',0,1,144,6,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L173,.L423,.L172
+	.byte	4
+	.byte	'x',0,1,144,6,21
+	.word	.L297,.L424
+	.byte	5
+	.word	.L173,.L423
+	.byte	6
+	.byte	'sinVal',0,1,146,6,9
+	.word	.L297,.L425
+	.byte	6
+	.byte	'fract',0,1,146,6,17
+	.word	.L297,.L426
+	.byte	6
+	.byte	'in',0,1,146,6,24
+	.word	.L297,.L427
+	.byte	6
+	.byte	'index',0,1,147,6,18
+	.word	.L428,.L429
+	.byte	6
+	.byte	'a',0,1,148,6,9
+	.word	.L297,.L430
+	.byte	6
+	.byte	'b',0,1,148,6,12
+	.word	.L297,.L431
+	.byte	6
+	.byte	'n',0,1,149,6,7
+	.word	.L320,.L432
+	.byte	6
+	.byte	'findex',0,1,150,6,9
+	.word	.L297,.L433
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastSin')
+	.sect	'.debug_abbrev'
+.L276:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastSin')
+	.sect	'.debug_line'
+.L277:
+	.word	.L1177-.L1176
+.L1176:
+	.half	3
+	.word	.L1179-.L1178
+.L1178:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1179:
+	.byte	5,12,7,0,5,2
+	.word	.L173
+	.byte	3,153,6,1,5,10,9
+	.half	.L1180-.L173
+	.byte	1,5,7,9
+	.half	.L664-.L1180
+	.byte	3,3,1,5,10,9
+	.half	.L666-.L664
+	.byte	3,3,1,5,8,9
+	.half	.L1181-.L666
+	.byte	1,5,3,9
+	.half	.L1182-.L1181
+	.byte	1,5,6,7,9
+	.half	.L1183-.L1182
+	.byte	3,1,1,5,13,9
+	.half	.L126-.L1183
+	.byte	3,4,1,5,11,9
+	.half	.L1184-.L126
+	.byte	1,5,12,9
+	.half	.L665-.L1184
+	.byte	3,3,1,5,42,9
+	.half	.L1185-.L665
+	.byte	1,5,12,9
+	.half	.L668-.L1185
+	.byte	3,1,1,5,36,9
+	.half	.L667-.L668
+	.byte	1,5,20,9
+	.half	.L670-.L667
+	.byte	3,3,1,5,18,9
+	.half	.L1186-.L670
+	.byte	1,5,15,9
+	.half	.L672-.L1186
+	.byte	3,3,1,5,7,9
+	.half	.L669-.L672
+	.byte	1,5,15,9
+	.half	.L1187-.L669
+	.byte	1,5,21,9
+	.half	.L673-.L1187
+	.byte	3,1,1,5,15,9
+	.half	.L671-.L673
+	.byte	1,5,7,9
+	.half	.L1188-.L671
+	.byte	1,5,15,9
+	.half	.L1189-.L1188
+	.byte	1,5,13,9
+	.half	.L675-.L1189
+	.byte	3,3,1,5,17,9
+	.half	.L1190-.L675
+	.byte	1,5,34,9
+	.half	.L1191-.L1190
+	.byte	1,5,27,9
+	.half	.L676-.L1191
+	.byte	1,5,3,9
+	.half	.L674-.L676
+	.byte	3,3,1,5,1,9
+	.half	.L127-.L674
+	.byte	3,1,1,7,9
+	.half	.L279-.L127
+	.byte	0,1,1
+.L1177:
+	.sdecl	'.debug_ranges',debug,cluster('FastSin')
+	.sect	'.debug_ranges'
+.L278:
+	.word	-1,.L173,0,.L279-.L173,0,0
+	.sdecl	'.debug_info',debug,cluster('FastCos')
+	.sect	'.debug_info'
+.L280:
+	.word	440
+	.half	3
+	.word	.L281
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L283,.L282
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'FastCos',0,1,185,6,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L175,.L434,.L174
+	.byte	4
+	.byte	'x',0,1,185,6,21
+	.word	.L297,.L435
+	.byte	5
+	.word	.L175,.L434
+	.byte	6
+	.byte	'cosVal',0,1,187,6,9
+	.word	.L297,.L436
+	.byte	6
+	.byte	'fract',0,1,187,6,17
+	.word	.L297,.L437
+	.byte	6
+	.byte	'in',0,1,187,6,24
+	.word	.L297,.L438
+	.byte	6
+	.byte	'index',0,1,188,6,18
+	.word	.L428,.L439
+	.byte	6
+	.byte	'a',0,1,189,6,9
+	.word	.L297,.L440
+	.byte	6
+	.byte	'b',0,1,189,6,12
+	.word	.L297,.L441
+	.byte	6
+	.byte	'n',0,1,190,6,7
+	.word	.L320,.L442
+	.byte	6
+	.byte	'findex',0,1,191,6,9
+	.word	.L297,.L443
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastCos')
+	.sect	'.debug_abbrev'
+.L281:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastCos')
+	.sect	'.debug_line'
+.L282:
+	.word	.L1193-.L1192
+.L1192:
+	.half	3
+	.word	.L1195-.L1194
+.L1194:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1195:
+	.byte	5,12,7,0,5,2
+	.word	.L175
+	.byte	3,194,6,1,5,30,9
+	.half	.L1196-.L175
+	.byte	1,5,28,9
+	.half	.L1197-.L1196
+	.byte	1,5,7,9
+	.half	.L678-.L1197
+	.byte	3,3,1,5,11,9
+	.half	.L680-.L678
+	.byte	3,3,1,5,9,9
+	.half	.L1198-.L680
+	.byte	1,5,3,9
+	.half	.L1199-.L1198
+	.byte	1,5,6,7,9
+	.half	.L1200-.L1199
+	.byte	3,1,1,5,13,9
+	.half	.L128-.L1200
+	.byte	3,4,1,5,11,9
+	.half	.L1201-.L128
+	.byte	1,5,12,9
+	.half	.L679-.L1201
+	.byte	3,3,1,5,42,9
+	.half	.L1202-.L679
+	.byte	1,5,12,9
+	.half	.L682-.L1202
+	.byte	3,1,1,5,36,9
+	.half	.L681-.L682
+	.byte	1,5,20,9
+	.half	.L684-.L681
+	.byte	3,3,1,5,18,9
+	.half	.L1203-.L684
+	.byte	1,5,15,9
+	.half	.L686-.L1203
+	.byte	3,3,1,5,7,9
+	.half	.L683-.L686
+	.byte	1,5,15,9
+	.half	.L1204-.L683
+	.byte	1,5,21,9
+	.half	.L687-.L1204
+	.byte	3,1,1,5,15,9
+	.half	.L685-.L687
+	.byte	1,5,7,9
+	.half	.L1205-.L685
+	.byte	1,5,15,9
+	.half	.L1206-.L1205
+	.byte	1,5,13,9
+	.half	.L689-.L1206
+	.byte	3,3,1,5,17,9
+	.half	.L1207-.L689
+	.byte	1,5,34,9
+	.half	.L1208-.L1207
+	.byte	1,5,27,9
+	.half	.L690-.L1208
+	.byte	1,5,3,9
+	.half	.L688-.L690
+	.byte	3,3,1,5,1,9
+	.half	.L129-.L688
+	.byte	3,1,1,7,9
+	.half	.L284-.L129
+	.byte	0,1,1
+.L1193:
+	.sdecl	'.debug_ranges',debug,cluster('FastCos')
+	.sect	'.debug_ranges'
+.L283:
+	.word	-1,.L175,0,.L284-.L175,0,0
+	.sdecl	'.debug_info',debug,cluster('FastSinCos')
+	.sect	'.debug_info'
+.L285:
+	.word	564
+	.half	3
+	.word	.L286
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L288,.L287
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'FastSinCos',0,1,212,5,6,1,1,1
+	.word	.L171,.L444,.L170
+	.byte	4
+	.byte	'x',0,1,212,5,23
+	.word	.L297,.L445
+	.byte	4
+	.byte	'sinVal',0,1,212,5,33
+	.word	.L379,.L446
+	.byte	4
+	.byte	'cosVal',0,1,212,5,48
+	.word	.L379,.L447
+	.byte	5
+	.word	.L171,.L444
+	.byte	6
+	.byte	'fract',0,1,214,5,9
+	.word	.L297,.L448
+	.byte	6
+	.byte	'in',0,1,214,5,16
+	.word	.L297,.L449
+	.byte	6
+	.byte	'indexS',0,1,215,5,18
+	.word	.L428,.L450
+	.byte	6
+	.byte	'indexC',0,1,215,5,26
+	.word	.L428,.L451
+	.byte	6
+	.byte	'f1',0,1,216,5,9
+	.word	.L297,.L452
+	.byte	6
+	.byte	'f2',0,1,216,5,13
+	.word	.L297,.L453
+	.byte	6
+	.byte	'd1',0,1,216,5,17
+	.word	.L297,.L454
+	.byte	6
+	.byte	'd2',0,1,216,5,21
+	.word	.L297,.L455
+	.byte	6
+	.byte	'n',0,1,217,5,7
+	.word	.L320,.L456
+	.byte	6
+	.byte	'findex',0,1,218,5,9
+	.word	.L297,.L457
+	.byte	6
+	.byte	'Dn',0,1,218,5,17
+	.word	.L297,.L458
+	.byte	6
+	.byte	'Df',0,1,218,5,21
+	.word	.L297,.L459
+	.byte	6
+	.byte	'temp',0,1,218,5,25
+	.word	.L297,.L460
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('FastSinCos')
+	.sect	'.debug_abbrev'
+.L286:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('FastSinCos')
+	.sect	'.debug_line'
+.L287:
+	.word	.L1210-.L1209
+.L1209:
+	.half	3
+	.word	.L1212-.L1211
+.L1211:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1212:
+	.byte	5,6,7,0,5,2
+	.word	.L171
+	.byte	3,211,5,1,5,12,9
+	.half	.L633-.L171
+	.byte	3,10,1,5,10,9
+	.half	.L1213-.L633
+	.byte	1,5,7,9
+	.half	.L634-.L1213
+	.byte	3,3,1,5,11,9
+	.half	.L636-.L634
+	.byte	3,3,1,5,9,9
+	.half	.L1214-.L636
+	.byte	1,5,3,9
+	.half	.L1215-.L1214
+	.byte	1,5,6,7,9
+	.half	.L1216-.L1215
+	.byte	3,1,1,5,13,9
+	.half	.L125-.L1216
+	.byte	3,3,1,5,11,9
+	.half	.L1217-.L125
+	.byte	1,5,12,9
+	.half	.L635-.L1217
+	.byte	3,3,1,5,42,9
+	.half	.L1218-.L635
+	.byte	1,5,13,9
+	.half	.L638-.L1218
+	.byte	3,1,1,5,37,9
+	.half	.L630-.L638
+	.byte	1,5,20,9
+	.half	.L640-.L630
+	.byte	3,1,1,5,49,9
+	.half	.L1219-.L640
+	.byte	1,5,20,9
+	.half	.L642-.L1219
+	.byte	3,3,1,5,18,9
+	.half	.L1220-.L642
+	.byte	1,5,16,9
+	.half	.L644-.L1220
+	.byte	3,3,1,5,8,9
+	.half	.L637-.L644
+	.byte	1,5,16,9
+	.half	.L1221-.L637
+	.byte	1,5,23,9
+	.half	.L645-.L1221
+	.byte	3,1,1,5,16,9
+	.half	.L1222-.L645
+	.byte	1,5,8,9
+	.half	.L1223-.L1222
+	.byte	1,5,16,9
+	.half	.L1224-.L1223
+	.byte	1,5,17,9
+	.half	.L646-.L1224
+	.byte	3,1,1,5,9,9
+	.half	.L1225-.L646
+	.byte	1,5,17,9
+	.half	.L1226-.L1225
+	.byte	1,5,8,9
+	.half	.L1227-.L1226
+	.byte	1,5,24,9
+	.half	.L648-.L1227
+	.byte	3,1,1,5,17,9
+	.half	.L1228-.L648
+	.byte	1,5,9,9
+	.half	.L1229-.L1228
+	.byte	1,5,17,9
+	.half	.L1230-.L1229
+	.byte	1,5,8,9
+	.half	.L1231-.L1230
+	.byte	1,9
+	.half	.L650-.L1231
+	.byte	3,2,1,5,11,9
+	.half	.L1232-.L650
+	.byte	3,1,1,5,17,9
+	.half	.L647-.L1232
+	.byte	3,1,1,5,12,9
+	.half	.L1233-.L647
+	.byte	1,5,25,9
+	.half	.L1234-.L1233
+	.byte	1,5,23,9
+	.half	.L1235-.L1234
+	.byte	1,5,24,9
+	.half	.L653-.L1235
+	.byte	3,1,1,5,25,9
+	.half	.L1236-.L653
+	.byte	1,5,37,9
+	.half	.L652-.L1236
+	.byte	1,5,35,9
+	.half	.L1237-.L652
+	.byte	1,5,29,9
+	.half	.L651-.L1237
+	.byte	1,5,21,9
+	.half	.L1238-.L651
+	.byte	1,5,25,9
+	.half	.L1239-.L1238
+	.byte	3,1,1,5,21,9
+	.half	.L1240-.L1239
+	.byte	1,5,24,9
+	.half	.L1241-.L1240
+	.byte	3,3,1,5,11,9
+	.half	.L654-.L1241
+	.byte	1,5,16,9
+	.half	.L1242-.L654
+	.byte	3,3,1,5,8,9
+	.half	.L1243-.L1242
+	.byte	1,5,16,9
+	.half	.L1244-.L1243
+	.byte	1,5,23,9
+	.half	.L1245-.L1244
+	.byte	3,1,1,5,16,9
+	.half	.L641-.L1245
+	.byte	1,5,8,9
+	.half	.L1246-.L641
+	.byte	1,5,16,9
+	.half	.L1247-.L1246
+	.byte	1,9
+	.half	.L655-.L1247
+	.byte	3,1,1,5,8,9
+	.half	.L1248-.L655
+	.byte	1,5,16,9
+	.half	.L1249-.L1248
+	.byte	1,5,23,9
+	.half	.L649-.L1249
+	.byte	3,1,1,5,16,9
+	.half	.L643-.L649
+	.byte	1,5,8,9
+	.half	.L1250-.L643
+	.byte	1,5,16,9
+	.half	.L1251-.L1250
+	.byte	1,5,11,9
+	.half	.L657-.L1251
+	.byte	3,2,1,5,17,9
+	.half	.L656-.L657
+	.byte	3,1,1,5,12,9
+	.half	.L1252-.L656
+	.byte	1,5,25,9
+	.half	.L1253-.L1252
+	.byte	1,5,23,9
+	.half	.L1254-.L1253
+	.byte	1,5,24,9
+	.half	.L660-.L1254
+	.byte	3,1,1,5,25,9
+	.half	.L1255-.L660
+	.byte	1,5,37,9
+	.half	.L659-.L1255
+	.byte	1,5,35,9
+	.half	.L1256-.L659
+	.byte	1,5,29,9
+	.half	.L658-.L1256
+	.byte	1,5,21,9
+	.half	.L1257-.L658
+	.byte	1,5,25,9
+	.half	.L661-.L1257
+	.byte	3,1,1,5,21,9
+	.half	.L1258-.L661
+	.byte	1,5,24,9
+	.half	.L1259-.L1258
+	.byte	3,3,1,5,11,9
+	.half	.L662-.L1259
+	.byte	1,5,1,9
+	.half	.L1260-.L662
+	.byte	3,1,1,7,9
+	.half	.L289-.L1260
+	.byte	0,1,1
+.L1210:
+	.sdecl	'.debug_ranges',debug,cluster('FastSinCos')
+	.sect	'.debug_ranges'
+.L288:
+	.word	-1,.L171,0,.L289-.L171,0,0
+	.sdecl	'.debug_info',debug,cluster('Modf')
+	.sect	'.debug_info'
+.L290:
+	.word	347
+	.half	3
+	.word	.L291
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1
+	.word	.L293,.L292
+	.byte	2
+	.word	.L176
+	.byte	3
+	.byte	'Modf',0,1,139,1,7
+	.word	.L297
+	.byte	1,1,1
+	.word	.L155,.L461,.L154
+	.byte	4
+	.byte	'x',0,1,139,1,18
+	.word	.L297,.L462
+	.byte	4
+	.byte	'i',0,1,139,1,28
+	.word	.L379,.L463
+	.byte	5
+	.word	.L155,.L461
+	.byte	6
+	.byte	'y',0,1,141,1,9
+	.word	.L297,.L464
+	.byte	6
+	.byte	'fract',0,1,142,1,9
+	.word	.L297,.L465
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Modf')
+	.sect	'.debug_abbrev'
+.L291:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Modf')
+	.sect	'.debug_line'
+.L292:
+	.word	.L1262-.L1261
+.L1261:
+	.half	3
+	.word	.L1264-.L1263
+.L1263:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/imu/WP_Math.c',0,0,0,0,0
+.L1264:
+	.byte	5,5,7,0,5,2
+	.word	.L155
+	.byte	3,143,1,1,5,18,9
+	.half	.L505-.L155
+	.byte	3,1,1,5,9,9
+	.half	.L1265-.L505
+	.byte	1,5,3,9
+	.half	.L1266-.L1265
+	.byte	1,5,9,7,9
+	.half	.L1267-.L1266
+	.byte	3,1,1,5,19,9
+	.half	.L50-.L1267
+	.byte	3,3,1,5,9,9
+	.half	.L1268-.L50
+	.byte	1,5,3,9
+	.half	.L1269-.L1268
+	.byte	1,5,8,7,9
+	.half	.L1270-.L1269
+	.byte	3,1,1,5,19,9
+	.half	.L1271-.L1270
+	.byte	3,1,1,5,5,9
+	.half	.L1272-.L1271
+	.byte	1,5,18,9
+	.half	.L51-.L1272
+	.byte	3,3,1,5,9,9
+	.half	.L1273-.L51
+	.byte	1,5,3,9
+	.half	.L1274-.L1273
+	.byte	1,5,17,7,9
+	.half	.L1275-.L1274
+	.byte	3,1,1,5,8,9
+	.half	.L1276-.L1275
+	.byte	1,5,5,9
+	.half	.L1277-.L1276
+	.byte	3,1,1,5,15,9
+	.half	.L53-.L1277
+	.byte	3,3,1,5,7,9
+	.half	.L1278-.L53
+	.byte	1,5,18,9
+	.half	.L1279-.L1278
+	.byte	3,2,1,5,9,9
+	.half	.L1280-.L1279
+	.byte	1,5,3,9
+	.half	.L1281-.L1280
+	.byte	1,5,9,7,9
+	.half	.L1282-.L1281
+	.byte	3,1,1,5,13,9
+	.half	.L55-.L1282
+	.byte	3,3,1,5,6,9
+	.half	.L507-.L55
+	.byte	3,1,1,5,3,9
+	.half	.L1283-.L507
+	.byte	3,2,1,5,1,9
+	.half	.L52-.L1283
+	.byte	3,1,1,7,9
+	.half	.L294-.L52
+	.byte	0,1,1
+.L1262:
+	.sdecl	'.debug_ranges',debug,cluster('Modf')
+	.sect	'.debug_ranges'
+.L293:
+	.word	-1,.L155,0,.L294-.L155,0,0
+	.sdecl	'.debug_info',debug,cluster('sinTable')
+	.sect	'.debug_info'
+.L295:
+	.word	260
+	.half	3
+	.word	.L296
+	.byte	4,1
+	.byte	'../code/component/imu/WP_Math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\Seekfree_TC264_general_Opensource_Library\\Seekfree_TC264_Opensource_Library\\Debug\\',0
+	.byte	12,1,2
+	.word	.L176
+	.byte	3
+	.byte	'sinTable',0,2,243,4,13
+	.word	.L466
+	.byte	1,5,3
+	.word	sinTable
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('sinTable')
+	.sect	'.debug_abbrev'
+.L296:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('FastAsin')
+	.sect	'.debug_loc'
+.L162:
+	.word	-1,.L163,0,.L399-.L163
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L404:
+	.word	-1,.L163,.L607-.L163,.L97-.L163
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L402:
+	.word	-1,.L163,.L600-.L163,.L95-.L163
+	.half	1
+	.byte	90
+	.word	.L597-.L163,.L601-.L163
+	.half	1
+	.byte	84
+	.word	.L98-.L163,.L97-.L163
+	.half	1
+	.byte	90
+	.word	0,0
+.L406:
+	.word	-1,.L163,.L599-.L163,.L95-.L163
+	.half	1
+	.byte	89
+	.word	.L604-.L163,.L399-.L163
+	.half	1
+	.byte	89
+	.word	0,0
+.L403:
+	.word	-1,.L163,.L606-.L163,.L603-.L163
+	.half	1
+	.byte	95
+	.word	0,0
+.L405:
+	.word	-1,.L163,0,.L596-.L163
+	.half	1
+	.byte	84
+	.word	.L596-.L163,.L96-.L163
+	.half	1
+	.byte	82
+	.word	.L96-.L163,.L597-.L163
+	.half	1
+	.byte	84
+	.word	.L602-.L163,.L603-.L163
+	.half	1
+	.byte	84
+	.word	.L605-.L163,.L99-.L163
+	.half	1
+	.byte	82
+	.word	.L603-.L163,.L608-.L163
+	.half	1
+	.byte	95
+	.word	.L608-.L163,.L97-.L163
+	.half	1
+	.byte	82
+	.word	0,0
+.L407:
+	.word	-1,.L163,.L598-.L163,.L399-.L163
+	.half	1
+	.byte	88
+	.word	0,0
+.L400:
+	.word	-1,.L163,0,.L597-.L163
+	.half	1
+	.byte	84
+	.word	.L602-.L163,.L399-.L163
+	.half	1
+	.byte	84
+	.word	0,0
+.L401:
+	.word	-1,.L163,0,.L597-.L163
+	.half	1
+	.byte	84
+	.word	.L602-.L163,.L399-.L163
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastAtan2')
+	.sect	'.debug_loc'
+.L164:
+	.word	-1,.L165,0,.L408-.L165
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L414:
+	.word	-1,.L165,.L113-.L165,.L613-.L165
+	.half	1
+	.byte	81
+	.word	.L614-.L165,.L615-.L165
+	.half	1
+	.byte	81
+	.word	.L616-.L165,.L617-.L165
+	.half	1
+	.byte	81
+	.word	.L620-.L165,.L115-.L165
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L623-.L165,.L625-.L165
+	.half	1
+	.byte	95
+	.word	0,0
+.L411:
+	.word	-1,.L165,.L615-.L165,.L114-.L165
+	.half	1
+	.byte	95
+	.word	.L617-.L165,.L107-.L165
+	.half	1
+	.byte	81
+	.word	0,0
+.L412:
+	.word	-1,.L165,.L621-.L165,.L622-.L165
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L622-.L165,.L623-.L165
+	.half	1
+	.byte	95
+	.word	0,0
+.L416:
+	.word	-1,.L165,.L611-.L165,.L612-.L165
+	.half	1
+	.byte	82
+	.word	0,0
+.L413:
+	.word	-1,.L165,.L113-.L165,.L613-.L165
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L615-.L165,.L616-.L165
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L618-.L165,.L617-.L165
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L619-.L165,.L115-.L165
+	.half	1
+	.byte	95
+	.word	.L624-.L165,.L118-.L165
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L415:
+	.word	-1,.L165,.L609-.L165,.L106-.L165
+	.half	1
+	.byte	82
+	.word	.L610-.L165,.L105-.L165
+	.half	1
+	.byte	82
+	.word	.L625-.L165,.L118-.L165
+	.half	1
+	.byte	95
+	.word	.L612-.L165,.L107-.L165
+	.half	1
+	.byte	82
+	.word	0,0
+.L410:
+	.word	-1,.L165,0,.L408-.L165
+	.half	1
+	.byte	85
+	.word	0,0
+.L409:
+	.word	-1,.L165,0,.L408-.L165
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastCos')
+	.sect	'.debug_loc'
+.L174:
+	.word	-1,.L175,0,.L434-.L175
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L440:
+	.word	-1,.L175,.L687-.L175,.L688-.L175
+	.half	1
+	.byte	82
+	.word	0,0
+.L441:
+	.word	-1,.L175,.L689-.L175,.L690-.L175
+	.half	1
+	.byte	95
+	.word	0,0
+.L436:
+	.word	-1,.L175,.L688-.L175,.L434-.L175
+	.half	1
+	.byte	82
+	.word	0,0
+.L443:
+	.word	-1,.L175,.L682-.L175,.L683-.L175
+	.half	1
+	.byte	95
+	.word	.L677-.L175,.L681-.L175
+	.half	1
+	.byte	84
+	.word	0,0
+.L437:
+	.word	-1,.L175,.L686-.L175,.L434-.L175
+	.half	1
+	.byte	81
+	.word	0,0
+.L438:
+	.word	-1,.L175,.L678-.L175,.L679-.L175
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L679-.L175,.L682-.L175
+	.half	1
+	.byte	95
+	.word	0,0
+.L439:
+	.word	-1,.L175,.L684-.L175,.L685-.L175
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L442:
+	.word	-1,.L175,.L680-.L175,.L681-.L175
+	.half	1
+	.byte	81
+	.word	0,0
+.L435:
+	.word	-1,.L175,0,.L677-.L175
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastLn')
+	.sect	'.debug_loc'
+.L160:
+	.word	-1,.L161,0,.L338-.L161
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L345:
+	.word	-1,.L161,.L588-.L161,.L589-.L161
+	.half	1
+	.byte	81
+	.word	0,0
+.L346:
+	.word	-1,.L161,.L590-.L161,.L591-.L161
+	.half	1
+	.byte	82
+	.word	0,0
+.L341:
+	.word	-1,.L161,.L579-.L161,.L580-.L161
+	.half	1
+	.byte	84
+	.word	0,0
+.L351:
+	.word	-1,.L161,.L577-.L161,.L578-.L161
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L347:
+	.word	-1,.L161,.L586-.L161,.L592-.L161
+	.half	1
+	.byte	95
+	.word	.L593-.L161,.L594-.L161
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L595-.L161,.L338-.L161
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L348:
+	.word	-1,.L161,.L592-.L161,.L591-.L161
+	.half	1
+	.byte	95
+	.word	.L591-.L161,.L338-.L161
+	.half	1
+	.byte	82
+	.word	0,0
+.L344:
+	.word	-1,.L161,.L578-.L161,.L587-.L161
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L339:
+	.word	-1,.L161,0,.L576-.L161
+	.half	1
+	.byte	84
+	.word	0,0
+.L342:
+	.word	-1,.L161,.L580-.L161,.L338-.L161
+	.half	1
+	.byte	84
+	.word	0,0
+.L343:
+	.word	-1,.L161,.L584-.L161,.L586-.L161
+	.half	1
+	.byte	95
+	.word	0,0
+.L350:
+	.word	-1,.L161,.L582-.L161,.L91-.L161
+	.half	1
+	.byte	81
+	.word	.L92-.L161,.L585-.L161
+	.half	1
+	.byte	81
+	.word	0,0
+.L349:
+	.word	-1,.L161,.L581-.L161,.L91-.L161
+	.half	1
+	.byte	95
+	.word	.L583-.L161,.L584-.L161
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastPow')
+	.sect	'.debug_loc'
+.L156:
+	.word	-1,.L157,0,.L508-.L157
+	.half	2
+	.byte	138,0
+	.word	.L508-.L157,.L352-.L157
+	.half	2
+	.byte	138,24
+	.word	.L352-.L157,.L352-.L157
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L380:
+	.word	-1,.L157,.L517-.L157,.L518-.L157
+	.half	1
+	.byte	111
+	.word	0,0
+.L381:
+	.word	-1,.L157,.L519-.L157,.L510-.L157
+	.half	1
+	.byte	101
+	.word	0,0
+.L385:
+	.word	-1,.L157,.L515-.L157,.L516-.L157
+	.half	1
+	.byte	100
+	.word	.L556-.L157,.L59-.L157
+	.half	1
+	.byte	111
+	.word	0,0
+.L359:
+	.word	-1,.L157,.L524-.L157,.L525-.L157
+	.half	1
+	.byte	82
+	.word	0,0
+.L373:
+	.word	-1,.L157,.L546-.L157,.L547-.L157
+	.half	1
+	.byte	81
+	.word	0,0
+.L384:
+	.word	-1,.L157,.L513-.L157,.L514-.L157
+	.half	1
+	.byte	98
+	.word	0,0
+.L366:
+	.word	-1,.L157,.L522-.L157,.L523-.L157
+	.half	1
+	.byte	95
+	.word	.L523-.L157,.L510-.L157
+	.half	1
+	.byte	81
+	.word	0,0
+.L371:
+	.word	-1,.L157,.L551-.L157,.L75-.L157
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L76-.L157,.L552-.L157
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L552-.L157,.L558-.L157
+	.half	1
+	.byte	95
+	.word	0,0
+.L370:
+	.word	-1,.L157,.L553-.L157,.L554-.L157
+	.half	1
+	.byte	84
+	.word	.L557-.L157,.L552-.L157
+	.half	1
+	.byte	95
+	.word	0,0
+.L368:
+	.word	-1,.L157,.L520-.L157,.L352-.L157
+	.half	1
+	.byte	89
+	.word	0,0
+.L367:
+	.word	-1,.L157,.L526-.L157,.L510-.L157
+	.half	1
+	.byte	83
+	.word	0,0
+.L372:
+	.word	-1,.L157,.L554-.L157,.L555-.L157
+	.half	1
+	.byte	84
+	.word	0,0
+.L360:
+	.word	-1,.L157,.L533-.L157,.L532-.L157
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L532-.L157,.L534-.L157
+	.half	1
+	.byte	95
+	.word	0,0
+.L358:
+	.word	-1,.L157,.L548-.L157,.L69-.L157
+	.half	1
+	.byte	82
+	.word	.L550-.L157,.L59-.L157
+	.half	1
+	.byte	82
+	.word	0,0
+.L355:
+	.word	-1,.L157,.L542-.L157,.L543-.L157
+	.half	1
+	.byte	95
+	.word	.L544-.L157,.L545-.L157
+	.half	1
+	.byte	95
+	.word	0,0
+.L361:
+	.word	-1,.L157,.L537-.L157,.L538-.L157
+	.half	1
+	.byte	95
+	.word	.L538-.L157,.L59-.L157
+	.half	1
+	.byte	91
+	.word	0,0
+.L362:
+	.word	-1,.L157,.L535-.L157,.L534-.L157
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L534-.L157,.L536-.L157
+	.half	1
+	.byte	95
+	.word	.L536-.L157,.L59-.L157
+	.half	1
+	.byte	90
+	.word	0,0
+.L363:
+	.word	-1,.L157,.L531-.L157,.L532-.L157
+	.half	1
+	.byte	95
+	.word	0,0
+.L378:
+	.word	-1,.L157,0,.L352-.L157
+	.half	2
+	.byte	145,116
+	.word	0,0
+.L376:
+	.word	-1,.L157,0,.L352-.L157
+	.half	2
+	.byte	145,112
+	.word	0,0
+.L377:
+	.word	-1,.L157,.L512-.L157,.L541-.L157
+	.half	1
+	.byte	88
+	.word	.L541-.L157,.L548-.L157
+	.half	1
+	.byte	82
+	.word	.L69-.L157,.L549-.L157
+	.half	1
+	.byte	82
+	.word	.L73-.L157,.L550-.L157
+	.half	1
+	.byte	82
+	.word	0,0
+.L353:
+	.word	-1,.L157,0,.L509-.L157
+	.half	1
+	.byte	84
+	.word	0,0
+.L382:
+	.word	-1,.L157,0,.L352-.L157
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L354:
+	.word	-1,.L157,0,.L510-.L157
+	.half	1
+	.byte	85
+	.word	.L511-.L157,.L512-.L157
+	.half	1
+	.byte	88
+	.word	0,0
+.L374:
+	.word	-1,.L157,0,.L352-.L157
+	.half	2
+	.byte	145,108
+	.word	0,0
+.L375:
+	.word	-1,.L157,.L539-.L157,.L540-.L157
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L369:
+	.word	-1,.L157,.L521-.L157,.L63-.L157
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L364:
+	.word	-1,.L157,0,.L352-.L157
+	.half	2
+	.byte	145,104
+	.word	0,0
+.L357:
+	.word	-1,.L157,.L529-.L157,.L530-.L157
+	.half	1
+	.byte	95
+	.word	0,0
+.L356:
+	.word	-1,.L157,.L527-.L157,.L528-.L157
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastSin')
+	.sect	'.debug_loc'
+.L172:
+	.word	-1,.L173,0,.L423-.L173
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L430:
+	.word	-1,.L173,.L673-.L173,.L674-.L173
+	.half	1
+	.byte	82
+	.word	0,0
+.L431:
+	.word	-1,.L173,.L675-.L173,.L676-.L173
+	.half	1
+	.byte	95
+	.word	0,0
+.L433:
+	.word	-1,.L173,.L668-.L173,.L669-.L173
+	.half	1
+	.byte	95
+	.word	.L663-.L173,.L667-.L173
+	.half	1
+	.byte	84
+	.word	0,0
+.L426:
+	.word	-1,.L173,.L672-.L173,.L423-.L173
+	.half	1
+	.byte	81
+	.word	0,0
+.L427:
+	.word	-1,.L173,.L664-.L173,.L665-.L173
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L665-.L173,.L668-.L173
+	.half	1
+	.byte	95
+	.word	0,0
+.L429:
+	.word	-1,.L173,.L670-.L173,.L671-.L173
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L432:
+	.word	-1,.L173,.L666-.L173,.L667-.L173
+	.half	1
+	.byte	81
+	.word	0,0
+.L425:
+	.word	-1,.L173,.L674-.L173,.L423-.L173
+	.half	1
+	.byte	82
+	.word	0,0
+.L424:
+	.word	-1,.L173,0,.L663-.L173
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastSinCos')
+	.sect	'.debug_loc'
+.L459:
+	.word	-1,.L171,.L647-.L171,.L652-.L171
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L656-.L171,.L659-.L171
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L458:
+	.word	-1,.L171,.L639-.L171,.L444-.L171
+	.half	1
+	.byte	88
+	.word	0,0
+.L170:
+	.word	-1,.L171,0,.L444-.L171
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L447:
+	.word	-1,.L171,0,.L630-.L171
+	.half	1
+	.byte	101
+	.word	.L633-.L171,.L444-.L171
+	.half	1
+	.byte	109
+	.word	0,0
+.L454:
+	.word	-1,.L171,.L648-.L171,.L649-.L171
+	.half	1
+	.byte	87
+	.word	.L649-.L171,.L444-.L171
+	.half	1
+	.byte	83
+	.word	0,0
+.L455:
+	.word	-1,.L171,.L650-.L171,.L651-.L171
+	.half	1
+	.byte	81
+	.word	.L657-.L171,.L658-.L171
+	.half	1
+	.byte	95
+	.word	0,0
+.L452:
+	.word	-1,.L171,.L645-.L171,.L444-.L171
+	.half	1
+	.byte	86
+	.word	0,0
+.L453:
+	.word	-1,.L171,.L646-.L171,.L647-.L171
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L655-.L171,.L656-.L171
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L457:
+	.word	-1,.L171,.L638-.L171,.L639-.L171
+	.half	1
+	.byte	88
+	.word	.L631-.L171,.L630-.L171
+	.half	1
+	.byte	84
+	.word	0,0
+.L448:
+	.word	-1,.L171,.L644-.L171,.L444-.L171
+	.half	1
+	.byte	85
+	.word	0,0
+.L449:
+	.word	-1,.L171,.L634-.L171,.L635-.L171
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L635-.L171,.L637-.L171
+	.half	1
+	.byte	95
+	.word	0,0
+.L451:
+	.word	-1,.L171,.L642-.L171,.L643-.L171
+	.half	1
+	.byte	84
+	.word	0,0
+.L450:
+	.word	-1,.L171,.L640-.L171,.L641-.L171
+	.half	1
+	.byte	83
+	.word	0,0
+.L456:
+	.word	-1,.L171,.L636-.L171,.L630-.L171
+	.half	1
+	.byte	81
+	.word	0,0
+.L446:
+	.word	-1,.L171,0,.L630-.L171
+	.half	1
+	.byte	100
+	.word	.L632-.L171,.L444-.L171
+	.half	1
+	.byte	108
+	.word	0,0
+.L460:
+	.word	-1,.L171,.L653-.L171,.L654-.L171
+	.half	1
+	.byte	95
+	.word	.L660-.L171,.L661-.L171
+	.half	1
+	.byte	81
+	.word	.L661-.L171,.L662-.L171
+	.half	1
+	.byte	95
+	.word	0,0
+.L445:
+	.word	-1,.L171,0,.L631-.L171
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastSqrt')
+	.sect	'.debug_loc'
+.L168:
+	.word	-1,.L169,0,.L421-.L169
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L422:
+	.word	-1,.L169,0,.L628-.L169
+	.half	1
+	.byte	84
+	.word	.L629-.L169,.L421-.L169
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastSqrtI')
+	.sect	'.debug_loc'
+.L166:
+	.word	-1,.L167,0,.L418-.L167
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L420:
+	.word	-1,.L167,0,.L626-.L167
+	.half	1
+	.byte	84
+	.word	.L627-.L167,.L418-.L167
+	.half	1
+	.byte	95
+	.word	0,0
+.L419:
+	.word	-1,.L167,0,.L418-.L167
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('FastTan')
+	.sect	'.debug_loc'
+.L158:
+	.word	-1,.L159,0,.L388-.L159
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L392:
+	.word	-1,.L159,.L561-.L159,.L566-.L159
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L566-.L159,.L567-.L159
+	.half	1
+	.byte	82
+	.word	0,0
+.L393:
+	.word	-1,.L159,.L564-.L159,.L565-.L159
+	.half	1
+	.byte	82
+	.word	.L568-.L159,.L83-.L159
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L84-.L159,.L569-.L159
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L570-.L159,.L571-.L159
+	.half	1
+	.byte	95
+	.word	0,0
+.L390:
+	.word	-1,.L159,.L559-.L159,.L81-.L159
+	.half	1
+	.byte	84
+	.word	0,0
+.L396:
+	.word	-1,.L159,.L566-.L159,.L567-.L159
+	.half	1
+	.byte	82
+	.word	.L574-.L159,.L89-.L159
+	.half	1
+	.byte	81
+	.word	.L575-.L159,.L81-.L159
+	.half	1
+	.byte	82
+	.word	0,0
+.L389:
+	.word	-1,.L159,0,.L559-.L159
+	.half	1
+	.byte	84
+	.word	0,0
+.L395:
+	.word	-1,.L159,.L562-.L159,.L563-.L159
+	.half	1
+	.byte	81
+	.word	0,0
+.L394:
+	.word	-1,.L159,.L560-.L159,.L561-.L159
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L398:
+	.word	-1,.L159,.L573-.L159,.L571-.L159
+	.half	1
+	.byte	81
+	.word	.L571-.L159,.L81-.L159
+	.half	1
+	.byte	95
+	.word	0,0
+.L391:
+	.word	-1,.L159,.L565-.L159,.L566-.L159
+	.half	1
+	.byte	82
+	.word	0,0
+.L397:
+	.word	-1,.L159,.L572-.L159,.L81-.L159
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Modf')
+	.sect	'.debug_loc'
+.L154:
+	.word	-1,.L155,0,.L461-.L155
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L465:
+	.word	-1,.L155,.L507-.L155,.L52-.L155
+	.half	1
+	.byte	82
+	.word	0,0
+.L463:
+	.word	-1,.L155,0,.L461-.L155
+	.half	1
+	.byte	100
+	.word	0,0
+.L462:
+	.word	-1,.L155,0,.L461-.L155
+	.half	1
+	.byte	84
+	.word	.L506-.L155,.L53-.L155
+	.half	1
+	.byte	82
+	.word	0,0
+.L464:
+	.word	-1,.L155,.L505-.L155,.L52-.L155
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('constrain_float')
+	.sect	'.debug_loc'
+.L312:
+	.word	-1,.L139,0,.L485-.L139
+	.half	1
+	.byte	84
+	.word	.L486-.L139,.L487-.L139
+	.half	1
+	.byte	88
+	.word	.L28-.L139,.L490-.L139
+	.half	1
+	.byte	88
+	.word	.L30-.L139,.L491-.L139
+	.half	1
+	.byte	88
+	.word	.L33-.L139,.L31-.L139
+	.half	1
+	.byte	88
+	.word	0,0
+.L138:
+	.word	-1,.L139,0,.L311-.L139
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L314:
+	.word	-1,.L139,0,.L485-.L139
+	.half	1
+	.byte	86
+	.word	.L486-.L139,.L311-.L139
+	.half	1
+	.byte	90
+	.word	0,0
+.L313:
+	.word	-1,.L139,0,.L485-.L139
+	.half	1
+	.byte	85
+	.word	.L488-.L139,.L489-.L139
+	.half	1
+	.byte	89
+	.word	.L28-.L139,.L490-.L139
+	.half	1
+	.byte	89
+	.word	.L31-.L139,.L492-.L139
+	.half	1
+	.byte	89
+	.word	.L492-.L139,.L29-.L139
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('constrain_int16')
+	.sect	'.debug_loc'
+.L317:
+	.word	-1,.L141,0,.L316-.L141
+	.half	1
+	.byte	84
+	.word	0,0
+.L140:
+	.word	-1,.L141,0,.L316-.L141
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L319:
+	.word	-1,.L141,0,.L316-.L141
+	.half	1
+	.byte	86
+	.word	0,0
+.L318:
+	.word	-1,.L141,0,.L316-.L141
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('constrain_int32')
+	.sect	'.debug_loc'
+.L322:
+	.word	-1,.L143,0,.L321-.L143
+	.half	1
+	.byte	84
+	.word	0,0
+.L142:
+	.word	-1,.L143,0,.L321-.L143
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L324:
+	.word	-1,.L143,0,.L321-.L143
+	.half	1
+	.byte	86
+	.word	0,0
+.L323:
+	.word	-1,.L143,0,.L321-.L143
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('degrees')
+	.sect	'.debug_loc'
+.L146:
+	.word	-1,.L147,0,.L327-.L147
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L328:
+	.word	-1,.L147,0,.L327-.L147
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('fast_atan')
+	.sect	'.debug_loc'
+.L134:
+	.word	-1,.L135,0,.L303-.L135
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L304:
+	.word	-1,.L135,0,.L303-.L135
+	.half	1
+	.byte	84
+	.word	0,0
+.L305:
+	.word	-1,.L135,.L476-.L135,.L477-.L135
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('fast_atan2')
+	.sect	'.debug_loc'
+.L309:
+	.word	-1,.L137,.L480-.L137,.L481-.L137
+	.half	1
+	.byte	82
+	.word	.L21-.L137,.L482-.L137
+	.half	1
+	.byte	82
+	.word	.L20-.L137,.L19-.L137
+	.half	1
+	.byte	82
+	.word	.L483-.L137,.L484-.L137
+	.half	1
+	.byte	82
+	.word	.L24-.L137,.L15-.L137
+	.half	1
+	.byte	82
+	.word	0,0
+.L136:
+	.word	-1,.L137,0,.L306-.L137
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L308:
+	.word	-1,.L137,0,.L306-.L137
+	.half	1
+	.byte	85
+	.word	0,0
+.L307:
+	.word	-1,.L137,0,.L306-.L137
+	.half	1
+	.byte	84
+	.word	0,0
+.L310:
+	.word	-1,.L137,.L478-.L137,.L479-.L137
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pythagorous2')
+	.sect	'.debug_loc'
+.L332:
+	.word	-1,.L151,0,.L493-.L151
+	.half	1
+	.byte	84
+	.word	0,0
+.L333:
+	.word	-1,.L151,0,.L493-.L151
+	.half	1
+	.byte	85
+	.word	.L494-.L151,.L331-.L151
+	.half	1
+	.byte	95
+	.word	.L495-.L151,.L496-.L151
+	.half	1
+	.byte	84
+	.word	0,0
+.L150:
+	.word	-1,.L151,0,.L331-.L151
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pythagorous3')
+	.sect	'.debug_loc'
+.L335:
+	.word	-1,.L153,0,.L497-.L153
+	.half	1
+	.byte	84
+	.word	0,0
+.L336:
+	.word	-1,.L153,0,.L497-.L153
+	.half	1
+	.byte	85
+	.word	.L498-.L153,.L499-.L153
+	.half	1
+	.byte	95
+	.word	.L501-.L153,.L502-.L153
+	.half	1
+	.byte	84
+	.word	0,0
+.L337:
+	.word	-1,.L153,0,.L497-.L153
+	.half	1
+	.byte	86
+	.word	.L500-.L153,.L334-.L153
+	.half	1
+	.byte	88
+	.word	.L503-.L153,.L504-.L153
+	.half	1
+	.byte	84
+	.word	0,0
+.L152:
+	.word	-1,.L153,0,.L334-.L153
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('radians')
+	.sect	'.debug_loc'
+.L326:
+	.word	-1,.L145,0,.L325-.L145
+	.half	1
+	.byte	84
+	.word	0,0
+.L144:
+	.word	-1,.L145,0,.L325-.L145
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('safe_asin')
+	.sect	'.debug_loc'
+.L130:
+	.word	-1,.L131,0,.L298-.L131
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L299:
+	.word	-1,.L131,0,.L467-.L131
+	.half	1
+	.byte	84
+	.word	.L468-.L131,.L298-.L131
+	.half	1
+	.byte	88
+	.word	.L469-.L131,.L470-.L131
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('safe_sqrt')
+	.sect	'.debug_loc'
+.L302:
+	.word	-1,.L133,.L471-.L133,.L472-.L133
+	.half	1
+	.byte	82
+	.word	.L473-.L133,.L300-.L133
+	.half	1
+	.byte	95
+	.word	.L472-.L133,.L474-.L133
+	.half	1
+	.byte	84
+	.word	.L475-.L133,.L10-.L133
+	.half	1
+	.byte	82
+	.word	0,0
+.L132:
+	.word	-1,.L133,0,.L300-.L133
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L301:
+	.word	-1,.L133,0,.L471-.L133
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('sq')
+	.sect	'.debug_loc'
+.L148:
+	.word	-1,.L149,0,.L329-.L149
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L330:
+	.word	-1,.L149,0,.L329-.L149
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L1284:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('safe_asin')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L131,.L298-.L131
+	.sdecl	'.debug_frame',debug,cluster('safe_sqrt')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L133,.L300-.L133
+	.sdecl	'.debug_frame',debug,cluster('fast_atan')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L135,.L303-.L135
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('fast_atan2')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L137,.L306-.L137
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('constrain_float')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L139,.L311-.L139
+	.sdecl	'.debug_frame',debug,cluster('constrain_int16')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L141,.L316-.L141
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('constrain_int32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L143,.L321-.L143
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('radians')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L145,.L325-.L145
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('degrees')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L147,.L327-.L147
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('sq')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L149,.L329-.L149
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('pythagorous2')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L151,.L331-.L151
+	.sdecl	'.debug_frame',debug,cluster('pythagorous3')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L153,.L334-.L153
+	.sdecl	'.debug_frame',debug,cluster('Modf')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L155,.L461-.L155
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('FastPow')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1284,.L157,.L352-.L157
+	.byte	4
+	.word	(.L508-.L157)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L352-.L508)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('FastTan')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L159,.L388-.L159
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('FastLn')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L161,.L338-.L161
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('FastAsin')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L163,.L399-.L163
+	.sdecl	'.debug_frame',debug,cluster('FastAtan2')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L165,.L408-.L165
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('FastSqrtI')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1284,.L167,.L418-.L167
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('FastSqrt')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L169,.L421-.L169
+	.sdecl	'.debug_frame',debug,cluster('FastSinCos')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L171,.L444-.L171
+	.sdecl	'.debug_frame',debug,cluster('FastSin')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L173,.L423-.L173
+	.sdecl	'.debug_frame',debug,cluster('FastCos')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1284,.L175,.L434-.L175
+	; Module end

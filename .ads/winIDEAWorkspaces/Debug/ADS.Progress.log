@@ -1,0 +1,17 @@
+LOADING	App
+LOADING	D:\Users\N___o__person_\AURIX-v1.10.16-workspace\Seekfree_TC264_Opensource_Library\Debug\Seekfree_TC264_Opensource_Library.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC identification match OK
+SoC	Detected device: TC260 series, rev. BC
+EMULATION	STARTED
+PROGRAMMING 	65406 bytes
+PROGRAMMING	Infineon TC26x_PFLASH_2MB5 (6 sectors)
+SoC	Detected device: TC260 series, rev. BC
+EMULATION	END - Without cleanup

@@ -1,0 +1,1865 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc40360a --dep-file=pid.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\code -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\code\\\\Test -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\code\\\\component -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\code\\\\component\\\\imu -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\code\\\\component\\\\motor -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\code\\\\component\\\\pid -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\zf_common -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\zf_components -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\zf_device -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\suiyungui\\\\Desktop\\\\wstcode\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/component/pid/pid.src ../code/component/pid/pid.c"
+	.compiler_name		"ctc"
+	;source	'../code/component/pid/pid.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.pid.pid_init',code,cluster('pid_init')
+	.sect	'.text.pid.pid_init'
+	.align	2
+	
+	.global	pid_init
+; Function pid_init
+.L16:
+pid_init:	.type	func
+	ld.w	d15,[a10]
+.L145:
+	st.w	[a4],d4
+.L166:
+	st.w	[a4]4,d5
+.L167:
+	st.w	[a4]8,d6
+.L168:
+	st.w	[a4]12,d7
+.L169:
+	st.w	[a4]24,d15
+.L170:
+	mov	d15,#0
+.L146:
+	st.w	[a4]44,d15
+.L171:
+	mov	d15,#0
+.L172:
+	st.w	[a4]32,d15
+.L173:
+	mov	d15,#0
+.L174:
+	st.w	[a4]36,d15
+.L175:
+	mov	d15,#0
+.L176:
+	st.w	[a4]20,d15
+.L177:
+	mov	d15,#0
+.L178:
+	st.w	[a4]48,d15
+.L179:
+	mov	d15,#0
+.L180:
+	st.w	[a4]52,d15
+.L181:
+	mov	d15,#0
+.L182:
+	st.w	[a4]56,d15
+.L183:
+	ret
+.L103:
+	
+__pid_init_function_end:
+	.size	pid_init,__pid_init_function_end-pid_init
+.L47:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_set_target',code,cluster('pid_set_target')
+	.sect	'.text.pid.pid_set_target'
+	.align	2
+	
+	.global	pid_set_target
+; Function pid_set_target
+.L18:
+pid_set_target:	.type	func
+	st.w	[a4]12,d4
+.L188:
+	ret
+.L112:
+	
+__pid_set_target_function_end:
+	.size	pid_set_target,__pid_set_target_function_end-pid_set_target
+.L52:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_set_params',code,cluster('pid_set_params')
+	.sect	'.text.pid.pid_set_params'
+	.align	2
+	
+	.global	pid_set_params
+; Function pid_set_params
+.L20:
+pid_set_params:	.type	func
+	st.w	[a4],d4
+.L193:
+	st.w	[a4]4,d5
+.L194:
+	st.w	[a4]8,d6
+.L195:
+	ret
+.L115:
+	
+__pid_set_params_function_end:
+	.size	pid_set_params,__pid_set_params_function_end-pid_set_params
+.L57:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_set_limit',code,cluster('pid_set_limit')
+	.sect	'.text.pid.pid_set_limit'
+	.align	2
+	
+	.global	pid_set_limit
+; Function pid_set_limit
+.L22:
+pid_set_limit:	.type	func
+	st.w	[a4]24,d4
+.L200:
+	ret
+.L120:
+	
+__pid_set_limit_function_end:
+	.size	pid_set_limit,__pid_set_limit_function_end-pid_set_limit
+.L62:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_reset',code,cluster('pid_reset')
+	.sect	'.text.pid.pid_reset'
+	.align	2
+	
+	.global	pid_reset
+; Function pid_reset
+.L24:
+pid_reset:	.type	func
+	mov	d15,#0
+.L205:
+	st.w	[a4]44,d15
+.L206:
+	mov	d15,#0
+.L207:
+	st.w	[a4]32,d15
+.L208:
+	mov	d15,#0
+.L209:
+	st.w	[a4]36,d15
+.L210:
+	mov	d15,#0
+.L211:
+	st.w	[a4]20,d15
+.L212:
+	mov	d15,#0
+.L213:
+	st.w	[a4]48,d15
+.L214:
+	mov	d15,#0
+.L215:
+	st.w	[a4]52,d15
+.L216:
+	mov	d15,#0
+.L217:
+	st.w	[a4]56,d15
+.L218:
+	ret
+.L123:
+	
+__pid_reset_function_end:
+	.size	pid_reset,__pid_reset_function_end-pid_reset
+.L67:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_calculate_positional',code,cluster('pid_calculate_positional')
+	.sect	'.text.pid.pid_calculate_positional'
+	.align	2
+	
+	.global	pid_calculate_positional
+; Function pid_calculate_positional
+.L26:
+pid_calculate_positional:	.type	func
+	mov.aa	a15,a4
+.L148:
+	st.w	[a15]16,d4
+.L223:
+	mov.aa	a4,a15
+	call	pid_formula_positional
+.L147:
+	mov.aa	a4,a15
+.L149:
+	call	pid_out_limit
+.L150:
+	ld.w	d2,[a15]20
+.L224:
+	j	.L2
+.L2:
+	ret
+.L125:
+	
+__pid_calculate_positional_function_end:
+	.size	pid_calculate_positional,__pid_calculate_positional_function_end-pid_calculate_positional
+.L72:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_calculate_incremental',code,cluster('pid_calculate_incremental')
+	.sect	'.text.pid.pid_calculate_incremental'
+	.align	2
+	
+	.global	pid_calculate_incremental
+; Function pid_calculate_incremental
+.L28:
+pid_calculate_incremental:	.type	func
+	mov.aa	a15,a4
+.L152:
+	st.w	[a15]16,d4
+.L229:
+	mov.aa	a4,a15
+	call	pid_formula_incremental
+.L151:
+	mov.aa	a4,a15
+.L153:
+	call	pid_out_limit
+.L154:
+	ld.w	d2,[a15]20
+.L230:
+	j	.L3
+.L3:
+	ret
+.L128:
+	
+__pid_calculate_incremental_function_end:
+	.size	pid_calculate_incremental,__pid_calculate_incremental_function_end-pid_calculate_incremental
+.L77:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_out_limit',code,cluster('pid_out_limit')
+	.sect	'.text.pid.pid_out_limit'
+	.align	2
+	
+; Function pid_out_limit
+.L30:
+pid_out_limit:	.type	func
+	ld.w	d15,[a4]20
+.L325:
+	ld.w	d0,[a4]24
+.L326:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L327:
+	jeq	d15,#0,.L4
+.L328:
+	ld.w	d15,[a4]24
+.L329:
+	st.w	[a4]20,d15
+.L330:
+	j	.L5
+.L4:
+	ld.w	d0,[a4]20
+.L331:
+	ld.w	d15,[a4]24
+.L332:
+	insn.t	d15,d15:31,d15:31
+.L333:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+.L334:
+	jeq	d15,#0,.L6
+.L335:
+	ld.w	d15,[a4]24
+.L336:
+	insn.t	d15,d15:31,d15:31
+.L337:
+	st.w	[a4]20,d15
+.L6:
+.L5:
+	ret
+.L143:
+	
+__pid_out_limit_function_end:
+	.size	pid_out_limit,__pid_out_limit_function_end-pid_out_limit
+.L102:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_formula_incremental',code,cluster('pid_formula_incremental')
+	.sect	'.text.pid.pid_formula_incremental'
+	.align	2
+	
+; Function pid_formula_incremental
+.L32:
+pid_formula_incremental:	.type	func
+	ld.w	d15,[a4]12
+.L254:
+	ld.w	d0,[a4]16
+.L255:
+	sub.f	d15,d15,d0
+.L256:
+	st.w	[a4]28,d15
+.L257:
+	ld.w	d0,[a4]
+.L258:
+	ld.w	d15,[a4]28
+.L259:
+	ld.w	d1,[a4]32
+.L260:
+	sub.f	d15,d15,d1
+.L261:
+	mul.f	d15,d0,d15
+.L262:
+	st.w	[a4]48,d15
+.L263:
+	ld.w	d15,[a4]4
+.L264:
+	ld.w	d0,[a4]28
+.L265:
+	mul.f	d15,d15,d0
+.L266:
+	st.w	[a4]52,d15
+.L267:
+	ld.w	d0,[a4]8
+.L268:
+	ld.w	d1,[a4]28
+.L269:
+	ld.w	d15,[a4]32
+.L270:
+	movh	d2,#16384
+.L271:
+	msub.f	d1,d1,d15,d2
+.L272:
+	ld.w	d15,[a4]36
+.L273:
+	add.f	d15,d1,d15
+.L274:
+	mul.f	d15,d0,d15
+.L275:
+	st.w	[a4]56,d15
+.L276:
+	ld.w	d0,[a4]20
+.L277:
+	ld.w	d1,[a4]48
+.L278:
+	ld.w	d15,[a4]52
+.L279:
+	add.f	d1,d1,d15
+.L280:
+	ld.w	d15,[a4]56
+.L281:
+	add.f	d15,d1,d15
+.L282:
+	add.f	d15,d0,d15
+	st.w	[a4]20,d15
+.L283:
+	ld.w	d15,[a4]32
+.L284:
+	st.w	[a4]36,d15
+.L285:
+	ld.w	d15,[a4]28
+.L286:
+	st.w	[a4]32,d15
+.L287:
+	ret
+.L139:
+	
+__pid_formula_incremental_function_end:
+	.size	pid_formula_incremental,__pid_formula_incremental_function_end-pid_formula_incremental
+.L92:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_formula_positional',code,cluster('pid_formula_positional')
+	.sect	'.text.pid.pid_formula_positional'
+	.align	2
+	
+; Function pid_formula_positional
+.L34:
+pid_formula_positional:	.type	func
+	ld.w	d15,[a4]12
+.L292:
+	ld.w	d0,[a4]16
+.L293:
+	sub.f	d15,d15,d0
+.L294:
+	st.w	[a4]28,d15
+.L295:
+	ld.w	d15,[a4]44
+.L296:
+	ld.w	d0,[a4]28
+.L297:
+	add.f	d15,d15,d0
+	st.w	[a4]44,d15
+.L298:
+	ld.w	d0,[a4]
+.L299:
+	ld.w	d15,[a4]28
+.L300:
+	mul.f	d15,d0,d15
+.L301:
+	st.w	[a4]48,d15
+.L302:
+	ld.w	d15,[a4]4
+.L303:
+	ld.w	d0,[a4]44
+.L304:
+	mul.f	d15,d15,d0
+.L305:
+	st.w	[a4]52,d15
+.L306:
+	ld.w	d0,[a4]8
+.L307:
+	ld.w	d1,[a4]28
+.L308:
+	ld.w	d15,[a4]32
+.L309:
+	sub.f	d15,d1,d15
+.L310:
+	mul.f	d15,d0,d15
+.L311:
+	st.w	[a4]56,d15
+.L312:
+	ld.w	d15,[a4]48
+.L313:
+	ld.w	d0,[a4]52
+.L314:
+	add.f	d0,d15,d0
+.L315:
+	ld.w	d15,[a4]56
+.L316:
+	add.f	d15,d0,d15
+.L317:
+	st.w	[a4]20,d15
+.L318:
+	ld.w	d15,[a4]28
+.L319:
+	st.w	[a4]32,d15
+.L320:
+	ret
+.L141:
+	
+__pid_formula_positional_function_end:
+	.size	pid_formula_positional,__pid_formula_positional_function_end-pid_formula_positional
+.L97:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_constrain',code,cluster('pid_constrain')
+	.sect	'.text.pid.pid_constrain'
+	.align	2
+	
+	.global	pid_constrain
+; Function pid_constrain
+.L36:
+pid_constrain:	.type	func
+	cmp.f	d15,d4,d5
+	extr.u	d15,d15,#0,#1
+.L235:
+	jeq	d15,#0,.L7
+.L236:
+	mov	d2,d5
+.L155:
+	j	.L8
+.L7:
+	cmp.f	d15,d4,d6
+	extr.u	d15,d15,#2,#1
+.L237:
+	jeq	d15,#0,.L9
+.L238:
+	mov	d2,d6
+.L156:
+	j	.L10
+.L9:
+	mov	d2,d4
+.L157:
+	j	.L11
+.L11:
+.L10:
+.L8:
+	ret
+.L131:
+	
+__pid_constrain_function_end:
+	.size	pid_constrain,__pid_constrain_function_end-pid_constrain
+.L82:
+	; End of function
+	
+	.sdecl	'.text.pid.pid_app_limit_integral',code,cluster('pid_app_limit_integral')
+	.sect	'.text.pid.pid_app_limit_integral'
+	.align	2
+	
+	.global	pid_app_limit_integral
+; Function pid_app_limit_integral
+.L38:
+pid_app_limit_integral:	.type	func
+	ld.w	d15,[a4]44
+.L243:
+	cmp.f	d15,d15,d5
+	extr.u	d15,d15,#2,#1
+.L244:
+	jeq	d15,#0,.L12
+.L245:
+	st.w	[a4]44,d5
+.L246:
+	j	.L13
+.L12:
+	ld.w	d15,[a4]44
+.L247:
+	cmp.f	d15,d15,d4
+	extr.u	d15,d15,#0,#1
+.L248:
+	jeq	d15,#0,.L14
+.L249:
+	st.w	[a4]44,d4
+.L14:
+.L13:
+	ret
+.L135:
+	
+__pid_app_limit_integral_function_end:
+	.size	pid_app_limit_integral,__pid_app_limit_integral_function_end-pid_app_limit_integral
+.L87:
+	; End of function
+	
+	.calls	'pid_calculate_positional','pid_formula_positional'
+	.calls	'pid_calculate_positional','pid_out_limit'
+	.calls	'pid_calculate_incremental','pid_formula_incremental'
+	.calls	'pid_calculate_incremental','pid_out_limit'
+	.calls	'pid_init','',0
+	.calls	'pid_set_target','',0
+	.calls	'pid_set_params','',0
+	.calls	'pid_set_limit','',0
+	.calls	'pid_reset','',0
+	.calls	'pid_calculate_positional','',0
+	.calls	'pid_calculate_incremental','',0
+	.calls	'pid_out_limit','',0
+	.calls	'pid_formula_incremental','',0
+	.calls	'pid_formula_positional','',0
+	.calls	'pid_constrain','',0
+	.calls	'pid_app_limit_integral','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L40:
+	.word	517
+	.half	3
+	.word	.L41
+	.byte	4
+.L39:
+	.byte	1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L42
+.L106:
+	.byte	2
+	.byte	'float',0,4,4,3,1,5,9,60,4
+	.byte	'kp',0
+	.word	165
+	.byte	4,2,35,0,4
+	.byte	'ki',0
+	.word	165
+	.byte	4,2,35,4,4
+	.byte	'kd',0
+	.word	165
+	.byte	4,2,35,8,4
+	.byte	'target',0
+	.word	165
+	.byte	4,2,35,12,4
+	.byte	'current',0
+	.word	165
+	.byte	4,2,35,16,4
+	.byte	'out',0
+	.word	165
+	.byte	4,2,35,20,4
+	.byte	'limit',0
+	.word	165
+	.byte	4,2,35,24,4
+	.byte	'error',0
+	.word	165
+	.byte	4,2,35,28,4
+	.byte	'last_error',0
+	.word	165
+	.byte	4,2,35,32,4
+	.byte	'last2_error',0
+	.word	165
+	.byte	4,2,35,36,4
+	.byte	'last_out',0
+	.word	165
+	.byte	4,2,35,40,4
+	.byte	'integral',0
+	.word	165
+	.byte	4,2,35,44,4
+	.byte	'p_out',0
+	.word	165
+	.byte	4,2,35,48,4
+	.byte	'i_out',0
+	.word	165
+	.byte	4,2,35,52,4
+	.byte	'd_out',0
+	.word	165
+	.byte	4,2,35,56,0
+.L104:
+	.byte	5
+	.word	174
+	.byte	6,1,5
+	.word	419
+	.byte	7
+	.byte	'__codeptr',0,2,1,1
+	.word	421
+	.byte	2
+	.byte	'int',0,4,5,7
+	.byte	'__intptr_t',0,2,1,1
+	.word	444
+	.byte	2
+	.byte	'unsigned int',0,4,7,7
+	.byte	'__uintptr_t',0,2,1,1
+	.word	470
+	.byte	7
+	.byte	'PID_T',0,1,21,2
+	.word	174
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,19,1,58,15,59,15,57,15,11,15
+	.byte	0,0,4,13,0,3,8,73,19,11,15,56,9,0,0,5,15,0,73,19,0,0,6,21,0,54,15,0,0,7,22,0,3,8,58,15,59,15,57,15,73
+	.byte	19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L42:
+	.word	.L159-.L158
+.L158:
+	.half	3
+	.word	.L161-.L160
+.L160:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\code\\component\\pid\\pid.h',0,0,0,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L161:
+.L159:
+	.sdecl	'.debug_info',debug,cluster('pid_init')
+	.sect	'.debug_info'
+.L43:
+	.word	315
+	.half	3
+	.word	.L44
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L46,.L45
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_init',0,1,22,6,1,1,1
+	.word	.L16,.L103,.L15
+	.byte	4
+	.byte	'_tpPID',0,1,22,23
+	.word	.L104,.L105
+	.byte	4
+	.byte	'_kp',0,1,22,37
+	.word	.L106,.L107
+	.byte	4
+	.byte	'_ki',0,1,22,48
+	.word	.L106,.L108
+	.byte	4
+	.byte	'_kd',0,1,22,59
+	.word	.L106,.L109
+	.byte	4
+	.byte	'_target',0,1,22,70
+	.word	.L106,.L110
+	.byte	4
+	.byte	'_limit',0,1,22,85
+	.word	.L106,.L111
+	.byte	5
+	.word	.L16,.L103
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_init')
+	.sect	'.debug_abbrev'
+.L44:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_init')
+	.sect	'.debug_line'
+.L45:
+	.word	.L163-.L162
+.L162:
+	.half	3
+	.word	.L165-.L164
+.L164:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L165:
+	.byte	5,6,7,0,5,2
+	.word	.L16
+	.byte	3,21,1,5,16,9
+	.half	.L145-.L16
+	.byte	3,2,1,9
+	.half	.L166-.L145
+	.byte	3,1,1,9
+	.half	.L167-.L166
+	.byte	3,1,1,5,20,9
+	.half	.L168-.L167
+	.byte	3,1,1,5,19,9
+	.half	.L169-.L168
+	.byte	3,1,1,5,24,9
+	.half	.L170-.L169
+	.byte	3,1,1,5,22,9
+	.half	.L146-.L170
+	.byte	1,5,26,9
+	.half	.L171-.L146
+	.byte	3,1,1,5,24,9
+	.half	.L172-.L171
+	.byte	1,5,27,9
+	.half	.L173-.L172
+	.byte	3,1,1,5,25,9
+	.half	.L174-.L173
+	.byte	1,5,19,9
+	.half	.L175-.L174
+	.byte	3,1,1,5,17,9
+	.half	.L176-.L175
+	.byte	1,5,21,9
+	.half	.L177-.L176
+	.byte	3,1,1,5,19,9
+	.half	.L178-.L177
+	.byte	1,5,21,9
+	.half	.L179-.L178
+	.byte	3,1,1,5,19,9
+	.half	.L180-.L179
+	.byte	1,5,21,9
+	.half	.L181-.L180
+	.byte	3,1,1,5,19,9
+	.half	.L182-.L181
+	.byte	1,5,1,9
+	.half	.L183-.L182
+	.byte	3,1,1,7,9
+	.half	.L47-.L183
+	.byte	0,1,1
+.L163:
+	.sdecl	'.debug_ranges',debug,cluster('pid_init')
+	.sect	'.debug_ranges'
+.L46:
+	.word	-1,.L16,0,.L47-.L16,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_set_target')
+	.sect	'.debug_info'
+.L48:
+	.word	254
+	.half	3
+	.word	.L49
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L51,.L50
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_set_target',0,1,45,6,1,1,1
+	.word	.L18,.L112,.L17
+	.byte	4
+	.byte	'_tpPID',0,1,45,29
+	.word	.L104,.L113
+	.byte	4
+	.byte	'_target',0,1,45,43
+	.word	.L106,.L114
+	.byte	5
+	.word	.L18,.L112
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_set_target')
+	.sect	'.debug_abbrev'
+.L49:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_set_target')
+	.sect	'.debug_line'
+.L50:
+	.word	.L185-.L184
+.L184:
+	.half	3
+	.word	.L187-.L186
+.L186:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L187:
+	.byte	5,20,7,0,5,2
+	.word	.L18
+	.byte	3,46,1,5,1,9
+	.half	.L188-.L18
+	.byte	3,1,1,7,9
+	.half	.L52-.L188
+	.byte	0,1,1
+.L185:
+	.sdecl	'.debug_ranges',debug,cluster('pid_set_target')
+	.sect	'.debug_ranges'
+.L51:
+	.word	-1,.L18,0,.L52-.L18,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_set_params')
+	.sect	'.debug_info'
+.L53:
+	.word	282
+	.half	3
+	.word	.L54
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L56,.L55
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_set_params',0,1,59,6,1,1,1
+	.word	.L20,.L115,.L19
+	.byte	4
+	.byte	'_tpPID',0,1,59,29
+	.word	.L104,.L116
+	.byte	4
+	.byte	'_kp',0,1,59,43
+	.word	.L106,.L117
+	.byte	4
+	.byte	'_ki',0,1,59,54
+	.word	.L106,.L118
+	.byte	4
+	.byte	'_kd',0,1,59,65
+	.word	.L106,.L119
+	.byte	5
+	.word	.L20,.L115
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_set_params')
+	.sect	'.debug_abbrev'
+.L54:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_set_params')
+	.sect	'.debug_line'
+.L55:
+	.word	.L190-.L189
+.L189:
+	.half	3
+	.word	.L192-.L191
+.L191:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L192:
+	.byte	5,16,7,0,5,2
+	.word	.L20
+	.byte	3,60,1,9
+	.half	.L193-.L20
+	.byte	3,1,1,9
+	.half	.L194-.L193
+	.byte	3,1,1,5,1,9
+	.half	.L195-.L194
+	.byte	3,1,1,7,9
+	.half	.L57-.L195
+	.byte	0,1,1
+.L190:
+	.sdecl	'.debug_ranges',debug,cluster('pid_set_params')
+	.sect	'.debug_ranges'
+.L56:
+	.word	-1,.L20,0,.L57-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_set_limit')
+	.sect	'.debug_info'
+.L58:
+	.word	252
+	.half	3
+	.word	.L59
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L61,.L60
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_set_limit',0,1,73,6,1,1,1
+	.word	.L22,.L120,.L21
+	.byte	4
+	.byte	'_tpPID',0,1,73,28
+	.word	.L104,.L121
+	.byte	4
+	.byte	'_limit',0,1,73,42
+	.word	.L106,.L122
+	.byte	5
+	.word	.L22,.L120
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_set_limit')
+	.sect	'.debug_abbrev'
+.L59:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_set_limit')
+	.sect	'.debug_line'
+.L60:
+	.word	.L197-.L196
+.L196:
+	.half	3
+	.word	.L199-.L198
+.L198:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L199:
+	.byte	5,19,7,0,5,2
+	.word	.L22
+	.byte	3,202,0,1,5,1,9
+	.half	.L200-.L22
+	.byte	3,1,1,7,9
+	.half	.L62-.L200
+	.byte	0,1,1
+.L197:
+	.sdecl	'.debug_ranges',debug,cluster('pid_set_limit')
+	.sect	'.debug_ranges'
+.L61:
+	.word	-1,.L22,0,.L62-.L22,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_reset')
+	.sect	'.debug_info'
+.L63:
+	.word	229
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L66,.L65
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_reset',0,1,84,6,1,1,1
+	.word	.L24,.L123,.L23
+	.byte	4
+	.byte	'_tpPID',0,1,84,24
+	.word	.L104,.L124
+	.byte	5
+	.word	.L24,.L123
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_reset')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_reset')
+	.sect	'.debug_line'
+.L65:
+	.word	.L202-.L201
+.L201:
+	.half	3
+	.word	.L204-.L203
+.L203:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L204:
+	.byte	5,24,7,0,5,2
+	.word	.L24
+	.byte	3,213,0,1,5,22,9
+	.half	.L205-.L24
+	.byte	1,5,26,9
+	.half	.L206-.L205
+	.byte	3,1,1,5,24,9
+	.half	.L207-.L206
+	.byte	1,5,27,9
+	.half	.L208-.L207
+	.byte	3,1,1,5,25,9
+	.half	.L209-.L208
+	.byte	1,5,19,9
+	.half	.L210-.L209
+	.byte	3,1,1,5,17,9
+	.half	.L211-.L210
+	.byte	1,5,21,9
+	.half	.L212-.L211
+	.byte	3,1,1,5,19,9
+	.half	.L213-.L212
+	.byte	1,5,21,9
+	.half	.L214-.L213
+	.byte	3,1,1,5,19,9
+	.half	.L215-.L214
+	.byte	1,5,21,9
+	.half	.L216-.L215
+	.byte	3,1,1,5,19,9
+	.half	.L217-.L216
+	.byte	1,5,1,9
+	.half	.L218-.L217
+	.byte	3,1,1,7,9
+	.half	.L67-.L218
+	.byte	0,1,1
+.L202:
+	.sdecl	'.debug_ranges',debug,cluster('pid_reset')
+	.sect	'.debug_ranges'
+.L66:
+	.word	-1,.L24,0,.L67-.L24,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_calculate_positional')
+	.sect	'.debug_info'
+.L68:
+	.word	269
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L71,.L70
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_calculate_positional',0,1,102,7
+	.word	.L106
+	.byte	1,1,1
+	.word	.L26,.L125,.L25
+	.byte	4
+	.byte	'_tpPID',0,1,102,40
+	.word	.L104,.L126
+	.byte	4
+	.byte	'_current',0,1,102,54
+	.word	.L106,.L127
+	.byte	5
+	.word	.L26,.L125
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_calculate_positional')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_calculate_positional')
+	.sect	'.debug_line'
+.L70:
+	.word	.L220-.L219
+.L219:
+	.half	3
+	.word	.L222-.L221
+.L221:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L222:
+	.byte	5,7,7,0,5,2
+	.word	.L26
+	.byte	3,229,0,1,5,21,9
+	.half	.L148-.L26
+	.byte	3,2,1,5,28,9
+	.half	.L223-.L148
+	.byte	3,1,1,5,19,9
+	.half	.L147-.L223
+	.byte	3,1,1,5,18,9
+	.half	.L150-.L147
+	.byte	3,1,1,5,5,9
+	.half	.L224-.L150
+	.byte	1,5,1,9
+	.half	.L2-.L224
+	.byte	3,1,1,7,9
+	.half	.L72-.L2
+	.byte	0,1,1
+.L220:
+	.sdecl	'.debug_ranges',debug,cluster('pid_calculate_positional')
+	.sect	'.debug_ranges'
+.L71:
+	.word	-1,.L26,0,.L72-.L26,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_calculate_incremental')
+	.sect	'.debug_info'
+.L73:
+	.word	270
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L76,.L75
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_calculate_incremental',0,1,117,7
+	.word	.L106
+	.byte	1,1,1
+	.word	.L28,.L128,.L27
+	.byte	4
+	.byte	'_tpPID',0,1,117,41
+	.word	.L104,.L129
+	.byte	4
+	.byte	'_current',0,1,117,55
+	.word	.L106,.L130
+	.byte	5
+	.word	.L28,.L128
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_calculate_incremental')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_calculate_incremental')
+	.sect	'.debug_line'
+.L75:
+	.word	.L226-.L225
+.L225:
+	.half	3
+	.word	.L228-.L227
+.L227:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L228:
+	.byte	5,7,7,0,5,2
+	.word	.L28
+	.byte	3,244,0,1,5,21,9
+	.half	.L152-.L28
+	.byte	3,2,1,5,29,9
+	.half	.L229-.L152
+	.byte	3,1,1,5,19,9
+	.half	.L151-.L229
+	.byte	3,1,1,5,18,9
+	.half	.L154-.L151
+	.byte	3,1,1,5,5,9
+	.half	.L230-.L154
+	.byte	1,5,1,9
+	.half	.L3-.L230
+	.byte	3,1,1,7,9
+	.half	.L77-.L3
+	.byte	0,1,1
+.L226:
+	.sdecl	'.debug_ranges',debug,cluster('pid_calculate_incremental')
+	.sect	'.debug_ranges'
+.L76:
+	.word	-1,.L28,0,.L77-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_constrain')
+	.sect	'.debug_info'
+.L78:
+	.word	272
+	.half	3
+	.word	.L79
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L81,.L80
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_constrain',0,1,190,1,7
+	.word	.L106
+	.byte	1,1,1
+	.word	.L36,.L131,.L35
+	.byte	4
+	.byte	'value',0,1,190,1,27
+	.word	.L106,.L132
+	.byte	4
+	.byte	'min',0,1,190,1,40
+	.word	.L106,.L133
+	.byte	4
+	.byte	'max',0,1,190,1,51
+	.word	.L106,.L134
+	.byte	5
+	.word	.L36,.L131
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_constrain')
+	.sect	'.debug_abbrev'
+.L79:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_constrain')
+	.sect	'.debug_line'
+.L80:
+	.word	.L232-.L231
+.L231:
+	.half	3
+	.word	.L234-.L233
+.L233:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L234:
+	.byte	5,15,7,0,5,2
+	.word	.L36
+	.byte	3,191,1,1,5,5,9
+	.half	.L235-.L36
+	.byte	1,5,9,7,9
+	.half	.L236-.L235
+	.byte	3,1,1,5,20,9
+	.half	.L7-.L236
+	.byte	3,1,1,5,10,9
+	.half	.L237-.L7
+	.byte	1,5,9,7,9
+	.half	.L238-.L237
+	.byte	3,1,1,9
+	.half	.L9-.L238
+	.byte	3,2,1,5,1,9
+	.half	.L8-.L9
+	.byte	3,1,1,7,9
+	.half	.L82-.L8
+	.byte	0,1,1
+.L232:
+	.sdecl	'.debug_ranges',debug,cluster('pid_constrain')
+	.sect	'.debug_ranges'
+.L81:
+	.word	-1,.L36,0,.L82-.L36,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_app_limit_integral')
+	.sect	'.debug_info'
+.L83:
+	.word	275
+	.half	3
+	.word	.L84
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L86,.L85
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_app_limit_integral',0,1,207,1,30,1,1,1
+	.word	.L38,.L135,.L37
+	.byte	4
+	.byte	'pid',0,1,207,1,60
+	.word	.L104,.L136
+	.byte	4
+	.byte	'min',0,1,207,1,71
+	.word	.L106,.L137
+	.byte	4
+	.byte	'max',0,1,207,1,82
+	.word	.L106,.L138
+	.byte	5
+	.word	.L38,.L135
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_app_limit_integral')
+	.sect	'.debug_abbrev'
+.L84:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_app_limit_integral')
+	.sect	'.debug_line'
+.L85:
+	.word	.L240-.L239
+.L239:
+	.half	3
+	.word	.L242-.L241
+.L241:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L242:
+	.byte	5,12,7,0,5,2
+	.word	.L38
+	.byte	3,208,1,1,5,23,9
+	.half	.L243-.L38
+	.byte	1,5,5,9
+	.half	.L244-.L243
+	.byte	1,5,23,7,9
+	.half	.L245-.L244
+	.byte	3,2,1,5,28,9
+	.half	.L246-.L245
+	.byte	1,5,17,9
+	.half	.L12-.L246
+	.byte	3,2,1,5,28,9
+	.half	.L247-.L12
+	.byte	1,5,10,9
+	.half	.L248-.L247
+	.byte	1,5,23,7,9
+	.half	.L249-.L248
+	.byte	3,2,1,5,1,9
+	.half	.L13-.L249
+	.byte	3,2,1,7,9
+	.half	.L87-.L13
+	.byte	0,1,1
+.L240:
+	.sdecl	'.debug_ranges',debug,cluster('pid_app_limit_integral')
+	.sect	'.debug_ranges'
+.L86:
+	.word	-1,.L38,0,.L87-.L38,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_formula_incremental')
+	.sect	'.debug_info'
+.L88:
+	.word	244
+	.half	3
+	.word	.L89
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L91,.L90
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_formula_incremental',0,1,146,1,13,1,1
+	.word	.L32,.L139,.L31
+	.byte	4
+	.byte	'_tpPID',0,1,146,1,45
+	.word	.L104,.L140
+	.byte	5
+	.word	.L32,.L139
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_formula_incremental')
+	.sect	'.debug_abbrev'
+.L89:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_formula_incremental')
+	.sect	'.debug_line'
+.L90:
+	.word	.L251-.L250
+.L250:
+	.half	3
+	.word	.L253-.L252
+.L252:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L253:
+	.byte	5,27,7,0,5,2
+	.word	.L32
+	.byte	3,147,1,1,5,44,9
+	.half	.L254-.L32
+	.byte	1,5,36,9
+	.half	.L255-.L254
+	.byte	1,5,19,9
+	.half	.L256-.L255
+	.byte	1,5,27,9
+	.half	.L257-.L256
+	.byte	3,2,1,5,41,9
+	.half	.L258-.L257
+	.byte	1,5,57,9
+	.half	.L259-.L258
+	.byte	1,5,49,9
+	.half	.L260-.L259
+	.byte	1,5,32,9
+	.half	.L261-.L260
+	.byte	1,5,19,9
+	.half	.L262-.L261
+	.byte	1,5,27,9
+	.half	.L263-.L262
+	.byte	3,1,1,5,40,9
+	.half	.L264-.L263
+	.byte	1,5,32,9
+	.half	.L265-.L264
+	.byte	1,5,19,9
+	.half	.L266-.L265
+	.byte	1,5,27,9
+	.half	.L267-.L266
+	.byte	3,1,1,5,41,9
+	.half	.L268-.L267
+	.byte	1,5,61,9
+	.half	.L269-.L268
+	.byte	1,5,51,9
+	.half	.L270-.L269
+	.byte	1,5,49,9
+	.half	.L271-.L270
+	.byte	1,5,82,9
+	.half	.L272-.L271
+	.byte	1,5,74,9
+	.half	.L273-.L272
+	.byte	1,5,32,9
+	.half	.L274-.L273
+	.byte	1,5,19,9
+	.half	.L275-.L274
+	.byte	1,5,11,9
+	.half	.L276-.L275
+	.byte	3,2,1,5,26,9
+	.half	.L277-.L276
+	.byte	1,5,42,9
+	.half	.L278-.L277
+	.byte	1,5,34,9
+	.half	.L279-.L278
+	.byte	1,5,58,9
+	.half	.L280-.L279
+	.byte	1,5,50,9
+	.half	.L281-.L280
+	.byte	1,5,17,9
+	.half	.L282-.L281
+	.byte	1,5,33,9
+	.half	.L283-.L282
+	.byte	3,2,1,5,25,9
+	.half	.L284-.L283
+	.byte	1,5,32,9
+	.half	.L285-.L284
+	.byte	3,1,1,5,24,9
+	.half	.L286-.L285
+	.byte	1,5,1,9
+	.half	.L287-.L286
+	.byte	3,1,1,7,9
+	.half	.L92-.L287
+	.byte	0,1,1
+.L251:
+	.sdecl	'.debug_ranges',debug,cluster('pid_formula_incremental')
+	.sect	'.debug_ranges'
+.L91:
+	.word	-1,.L32,0,.L92-.L32,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_formula_positional')
+	.sect	'.debug_info'
+.L93:
+	.word	243
+	.half	3
+	.word	.L94
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L96,.L95
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_formula_positional',0,1,166,1,13,1,1
+	.word	.L34,.L141,.L33
+	.byte	4
+	.byte	'_tpPID',0,1,166,1,44
+	.word	.L104,.L142
+	.byte	5
+	.word	.L34,.L141
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_formula_positional')
+	.sect	'.debug_abbrev'
+.L94:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_formula_positional')
+	.sect	'.debug_line'
+.L95:
+	.word	.L289-.L288
+.L288:
+	.half	3
+	.word	.L291-.L290
+.L290:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L291:
+	.byte	5,27,7,0,5,2
+	.word	.L34
+	.byte	3,167,1,1,5,44,9
+	.half	.L292-.L34
+	.byte	1,5,36,9
+	.half	.L293-.L292
+	.byte	1,5,19,9
+	.half	.L294-.L293
+	.byte	1,5,11,9
+	.half	.L295-.L294
+	.byte	3,3,1,5,31,9
+	.half	.L296-.L295
+	.byte	1,5,22,9
+	.half	.L297-.L296
+	.byte	1,5,27,9
+	.half	.L298-.L297
+	.byte	3,3,1,5,40,9
+	.half	.L299-.L298
+	.byte	1,5,32,9
+	.half	.L300-.L299
+	.byte	1,5,19,9
+	.half	.L301-.L300
+	.byte	1,5,27,9
+	.half	.L302-.L301
+	.byte	3,1,1,5,40,9
+	.half	.L303-.L302
+	.byte	1,5,32,9
+	.half	.L304-.L303
+	.byte	1,5,19,9
+	.half	.L305-.L304
+	.byte	1,5,27,9
+	.half	.L306-.L305
+	.byte	3,1,1,5,41,9
+	.half	.L307-.L306
+	.byte	1,5,57,9
+	.half	.L308-.L307
+	.byte	1,5,49,9
+	.half	.L309-.L308
+	.byte	1,5,32,9
+	.half	.L310-.L309
+	.byte	1,5,19,9
+	.half	.L311-.L310
+	.byte	1,5,25,9
+	.half	.L312-.L311
+	.byte	3,2,1,5,41,9
+	.half	.L313-.L312
+	.byte	1,5,33,9
+	.half	.L314-.L313
+	.byte	1,5,57,9
+	.half	.L315-.L314
+	.byte	1,5,49,9
+	.half	.L316-.L315
+	.byte	1,5,17,9
+	.half	.L317-.L316
+	.byte	1,5,32,9
+	.half	.L318-.L317
+	.byte	3,2,1,5,24,9
+	.half	.L319-.L318
+	.byte	1,5,1,9
+	.half	.L320-.L319
+	.byte	3,1,1,7,9
+	.half	.L97-.L320
+	.byte	0,1,1
+.L289:
+	.sdecl	'.debug_ranges',debug,cluster('pid_formula_positional')
+	.sect	'.debug_ranges'
+.L96:
+	.word	-1,.L34,0,.L97-.L34,0,0
+	.sdecl	'.debug_info',debug,cluster('pid_out_limit')
+	.sect	'.debug_info'
+.L98:
+	.word	234
+	.half	3
+	.word	.L99
+	.byte	4,1
+	.byte	'../code/component/pid/pid.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\suiyungui\\Desktop\\wstcode\\Debug\\',0,12,1
+	.word	.L101,.L100
+	.byte	2
+	.word	.L39
+	.byte	3
+	.byte	'pid_out_limit',0,1,132,1,13,1,1
+	.word	.L30,.L143,.L29
+	.byte	4
+	.byte	'_tpPID',0,1,132,1,35
+	.word	.L104,.L144
+	.byte	5
+	.word	.L30,.L143
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('pid_out_limit')
+	.sect	'.debug_abbrev'
+.L99:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('pid_out_limit')
+	.sect	'.debug_line'
+.L100:
+	.word	.L322-.L321
+.L321:
+	.half	3
+	.word	.L324-.L323
+.L323:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/component/pid/pid.c',0,0,0,0,0
+.L324:
+	.byte	5,14,7,0,5,2
+	.word	.L30
+	.byte	3,133,1,1,5,28,9
+	.half	.L325-.L30
+	.byte	1,5,20,9
+	.half	.L326-.L325
+	.byte	1,5,5,9
+	.half	.L327-.L326
+	.byte	1,5,29,7,9
+	.half	.L328-.L327
+	.byte	3,1,1,5,21,9
+	.half	.L329-.L328
+	.byte	1,5,36,9
+	.half	.L330-.L329
+	.byte	1,5,19,9
+	.half	.L4-.L330
+	.byte	3,1,1,5,34,9
+	.half	.L331-.L4
+	.byte	1,5,27,9
+	.half	.L332-.L331
+	.byte	1,5,25,9
+	.half	.L333-.L332
+	.byte	1,5,10,9
+	.half	.L334-.L333
+	.byte	1,5,30,7,9
+	.half	.L335-.L334
+	.byte	3,1,1,5,23,9
+	.half	.L336-.L335
+	.byte	1,5,21,9
+	.half	.L337-.L336
+	.byte	1,5,1,9
+	.half	.L5-.L337
+	.byte	3,1,1,7,9
+	.half	.L102-.L5
+	.byte	0,1,1
+.L322:
+	.sdecl	'.debug_ranges',debug,cluster('pid_out_limit')
+	.sect	'.debug_ranges'
+.L101:
+	.word	-1,.L30,0,.L102-.L30,0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_app_limit_integral')
+	.sect	'.debug_loc'
+.L138:
+	.word	-1,.L38,0,.L135-.L38
+	.half	1
+	.byte	85
+	.word	0,0
+.L137:
+	.word	-1,.L38,0,.L135-.L38
+	.half	1
+	.byte	84
+	.word	0,0
+.L136:
+	.word	-1,.L38,0,.L135-.L38
+	.half	1
+	.byte	100
+	.word	0,0
+.L37:
+	.word	-1,.L38,0,.L135-.L38
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_calculate_incremental')
+	.sect	'.debug_loc'
+.L130:
+	.word	-1,.L28,0,.L151-.L28
+	.half	1
+	.byte	84
+	.word	0,0
+.L129:
+	.word	-1,.L28,0,.L151-.L28
+	.half	1
+	.byte	100
+	.word	.L152-.L28,.L128-.L28
+	.half	1
+	.byte	111
+	.word	.L153-.L28,.L154-.L28
+	.half	1
+	.byte	100
+	.word	0,0
+.L27:
+	.word	-1,.L28,0,.L128-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_calculate_positional')
+	.sect	'.debug_loc'
+.L127:
+	.word	-1,.L26,0,.L147-.L26
+	.half	1
+	.byte	84
+	.word	0,0
+.L126:
+	.word	-1,.L26,0,.L147-.L26
+	.half	1
+	.byte	100
+	.word	.L148-.L26,.L125-.L26
+	.half	1
+	.byte	111
+	.word	.L149-.L26,.L150-.L26
+	.half	1
+	.byte	100
+	.word	0,0
+.L25:
+	.word	-1,.L26,0,.L125-.L26
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_constrain')
+	.sect	'.debug_loc'
+.L134:
+	.word	-1,.L36,0,.L131-.L36
+	.half	1
+	.byte	86
+	.word	.L156-.L36,.L9-.L36
+	.half	1
+	.byte	82
+	.word	0,0
+.L133:
+	.word	-1,.L36,0,.L131-.L36
+	.half	1
+	.byte	85
+	.word	.L155-.L36,.L7-.L36
+	.half	1
+	.byte	82
+	.word	0,0
+.L35:
+	.word	-1,.L36,0,.L131-.L36
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L132:
+	.word	-1,.L36,0,.L131-.L36
+	.half	1
+	.byte	84
+	.word	.L157-.L36,.L8-.L36
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_formula_incremental')
+	.sect	'.debug_loc'
+.L140:
+	.word	-1,.L32,0,.L139-.L32
+	.half	1
+	.byte	100
+	.word	0,0
+.L31:
+	.word	-1,.L32,0,.L139-.L32
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_formula_positional')
+	.sect	'.debug_loc'
+.L142:
+	.word	-1,.L34,0,.L141-.L34
+	.half	1
+	.byte	100
+	.word	0,0
+.L33:
+	.word	-1,.L34,0,.L141-.L34
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_init')
+	.sect	'.debug_loc'
+.L109:
+	.word	-1,.L16,0,.L103-.L16
+	.half	1
+	.byte	86
+	.word	0,0
+.L108:
+	.word	-1,.L16,0,.L103-.L16
+	.half	1
+	.byte	85
+	.word	0,0
+.L107:
+	.word	-1,.L16,0,.L103-.L16
+	.half	1
+	.byte	84
+	.word	0,0
+.L111:
+	.word	-1,.L16,0,.L103-.L16
+	.half	2
+	.byte	145,0
+	.word	0,.L103-.L16
+	.half	2
+	.byte	145,0
+	.word	.L145-.L16,.L146-.L16
+	.half	1
+	.byte	95
+	.word	0,0
+.L110:
+	.word	-1,.L16,0,.L103-.L16
+	.half	1
+	.byte	87
+	.word	0,0
+.L105:
+	.word	-1,.L16,0,.L103-.L16
+	.half	1
+	.byte	100
+	.word	0,0
+.L15:
+	.word	-1,.L16,0,.L103-.L16
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_out_limit')
+	.sect	'.debug_loc'
+.L144:
+	.word	-1,.L30,0,.L143-.L30
+	.half	1
+	.byte	100
+	.word	0,0
+.L29:
+	.word	-1,.L30,0,.L143-.L30
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_reset')
+	.sect	'.debug_loc'
+.L124:
+	.word	-1,.L24,0,.L123-.L24
+	.half	1
+	.byte	100
+	.word	0,0
+.L23:
+	.word	-1,.L24,0,.L123-.L24
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_set_limit')
+	.sect	'.debug_loc'
+.L122:
+	.word	-1,.L22,0,.L120-.L22
+	.half	1
+	.byte	84
+	.word	0,0
+.L121:
+	.word	-1,.L22,0,.L120-.L22
+	.half	1
+	.byte	100
+	.word	0,0
+.L21:
+	.word	-1,.L22,0,.L120-.L22
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_set_params')
+	.sect	'.debug_loc'
+.L119:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	86
+	.word	0,0
+.L118:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	85
+	.word	0,0
+.L117:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	84
+	.word	0,0
+.L116:
+	.word	-1,.L20,0,.L115-.L20
+	.half	1
+	.byte	100
+	.word	0,0
+.L19:
+	.word	-1,.L20,0,.L115-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('pid_set_target')
+	.sect	'.debug_loc'
+.L114:
+	.word	-1,.L18,0,.L112-.L18
+	.half	1
+	.byte	84
+	.word	0,0
+.L113:
+	.word	-1,.L18,0,.L112-.L18
+	.half	1
+	.byte	100
+	.word	0,0
+.L17:
+	.word	-1,.L18,0,.L112-.L18
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L338:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('pid_init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L16,.L103-.L16
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('pid_set_target')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L18,.L112-.L18
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('pid_set_params')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L20,.L115-.L20
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('pid_set_limit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L22,.L120-.L22
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('pid_reset')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L24,.L123-.L24
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('pid_calculate_positional')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L338,.L26,.L125-.L26
+	.sdecl	'.debug_frame',debug,cluster('pid_calculate_incremental')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L338,.L28,.L128-.L28
+	.sdecl	'.debug_frame',debug,cluster('pid_out_limit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L30,.L143-.L30
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('pid_formula_incremental')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L32,.L139-.L32
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('pid_formula_positional')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L34,.L141-.L34
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('pid_constrain')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L36,.L131-.L36
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('pid_app_limit_integral')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L338,.L38,.L135-.L38
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	; Module end
