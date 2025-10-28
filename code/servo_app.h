@@ -22,6 +22,10 @@ typedef struct
 
 }steer_control_struct;
 
+extern steer_control_struct steer_1;
+extern steer_control_struct steer_2;
+extern steer_control_struct steer_3;
+extern steer_control_struct steer_4;
 void steer_control_init(void);
 
 #endif /* CODE_SERVO_APP_H_ */

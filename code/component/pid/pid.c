@@ -3,44 +3,44 @@
 #include <math.h>
 #include "pid.h"
 
-/* �ڲ����ܺ��� */
+/* 内部私有函数 */
 static void pid_formula_incremental(PID_T * _tpPID);
 static void pid_formula_positional(PID_T * _tpPID);
 static void pid_out_limit(PID_T * _tpPID);
 
 /*******************************************************************************
- * @brief PID��ʼ�����������ڳ�ʼ��PID�ṹ��
- * @param {PID_T *} _tpPID ָ��PID�ṹ���ָ��
- * @param {float} _kp ����ϵ��
- * @param {float} _ki ����ϵ��
- * @param {float} _kd ΢��ϵ��
- * @param {float} _target Ŀ��ֵ
- * @param {float} _limit ����޷�ֵ
+ * @brief PID初始化函数（用于初始化PID结构体）
+ * @param {PID_T *} _tpPID 指向PID结构体的指针
+ * @param {float} _kp 比例系数
+ * @param {float} _ki 积分系数
+ * @param {float} _kd 微分系数
+ * @param {float} _target 目标值
+ * @param {float} _limit 输出限幅值
  * @return {*}
- * @note ʹ��ǰ������øú�����ʼ��PID����
+ * @note 使用前必须调用此函数初始化PID参数
  *******************************************************************************/
 void pid_init(PID_T * _tpPID, float _kp, float _ki, float _kd, float _target, float _limit)
 {
-    _tpPID->kp = _kp;          // ����
-    _tpPID->ki = _ki;          // ����
-    _tpPID->kd = _kd;          // ΢��
-    _tpPID->target = _target;  // Ŀ��ֵ
-    _tpPID->limit = _limit;    // �޷�ֵ
-    _tpPID->integral = 0;      // ����������
-    _tpPID->last_error = 0;    // �ϴ��������
-    _tpPID->last2_error = 0;   // ���ϴ��������
-    _tpPID->out = 0;           // ���ֵ����
-    _tpPID->p_out = 0;         // P�������
-    _tpPID->i_out = 0;         // I�������
-    _tpPID->d_out = 0;         // D�������
+    _tpPID->kp = _kp;          // 比例
+    _tpPID->ki = _ki;          // 积分
+    _tpPID->kd = _kd;          // 微分
+    _tpPID->target = _target;  // 目标值
+    _tpPID->limit = _limit;    // 限幅值
+    _tpPID->integral = 0;      // 积分累计值
+    _tpPID->last_error = 0;    // 上次误差值
+    _tpPID->last2_error = 0;   // 上上次误差值
+    _tpPID->out = 0;           // 输出值存储
+    _tpPID->p_out = 0;         // P输出分量
+    _tpPID->i_out = 0;         // I输出分量
+    _tpPID->d_out = 0;         // D输出分量
 }
 
 /*******************************************************************************
- * @brief ����PIDĿ��ֵ
- * @param {PID_T *} _tpPID ָ��PID�ṹ���ָ��
- * @param {float} _target Ŀ��ֵ
+ * @brief 设置PID目标值
+ * @param {PID_T *} _tpPID 指向PID结构体的指针
+ * @param {float} _target 目标值
  * @return {*}
- * @note ���ڶ�̬����PID��������Ŀ��ֵ
+ * @note 用于动态调整PID控制器的目标值
  *******************************************************************************/
 void pid_set_target(PID_T * _tpPID, float _target)
 {
@@ -48,13 +48,13 @@ void pid_set_target(PID_T * _tpPID, float _target)
 }
 
 /*******************************************************************************
- * @brief ����PID����
- * @param {PID_T *} _tpPID ָ��PID�ṹ���ָ��
- * @param {float} _kp ����ϵ��
- * @param {float} _ki ����ϵ��
- * @param {float} _kd ΢��ϵ��
+ * @brief 设置PID参数
+ * @param {PID_T *} _tpPID 指向PID结构体的指针
+ * @param {float} _kp 比例系数
+ * @param {float} _ki 积分系数
+ * @param {float} _kd 微分系数
  * @return {*}
- * @note ���ڶ�̬����PID����
+ * @note 用于动态调整PID参数
  *******************************************************************************/
 void pid_set_params(PID_T * _tpPID, float _kp, float _ki, float _kd)
 {
@@ -64,11 +64,11 @@ void pid_set_params(PID_T * _tpPID, float _kp, float _ki, float _kd)
 }
 
 /*******************************************************************************
- * @brief ����PID����޷�
- * @param {PID_T *} _tpPID ָ��PID�ṹ���ָ��
- * @param {float} _limit �޷�ֵ
+ * @brief 设置PID输出限幅
+ * @param {PID_T *} _tpPID 指向PID结构体的指针
+ * @param {float} _limit 限幅值
  * @return {*}
- * @note ���ڶ�̬����PID����޷�
+ * @note 用于动态调整PID输出限幅
  *******************************************************************************/
 void pid_set_limit(PID_T * _tpPID, float _limit)
 {
@@ -76,10 +76,10 @@ void pid_set_limit(PID_T * _tpPID, float _limit)
 }
 
 /*******************************************************************************
- * @brief ����PID������
- * @param {PID_T *} _tpPID ָ��PID�ṹ���ָ��
+ * @brief 重置PID控制器
+ * @param {PID_T *} _tpPID 指向PID结构体的指针
  * @return {*}
- * @note ���������ʷ�������
+ * @note 重置所有历史数据到初始状态
  *******************************************************************************/
 void pid_reset(PID_T * _tpPID)
 {
@@ -93,11 +93,11 @@ void pid_reset(PID_T * _tpPID)
 }
 
 /*******************************************************************************
- * @brief ����λ��ʽPID
- * @param {PID_T *} _tpPID ָ��PID�ṹ���ָ��
- * @param {float} _current ��ǰֵ
- * @return {float} PID���������ֵ
- * @note λ��ʽPID��P-��Ӧ�ԣ�I-׼ȷ�ԣ�D-�ȶ���
+ * @brief 位置式PID计算
+ * @param {PID_T *} _tpPID 指向PID结构体的指针
+ * @param {float} _current 当前值
+ * @return {float} PID控制器输出值
+ * @note 位置式PID：P-比例性，I-消除稳态误差，D-抑制超调
  *******************************************************************************/
 float pid_calculate_positional(PID_T * _tpPID, float _current)
 {
@@ -108,11 +108,11 @@ float pid_calculate_positional(PID_T * _tpPID, float _current)
 }
 
 /*******************************************************************************
- * @brief ��������ʽPID
- * @param {PID_T *} _tpPID ָ��PID�ṹ���ָ��
- * @param {float} _current ��ǰֵ
- * @return {float} PID���������ֵ
- * @note ����ʽPID��P-�ȶ��ԣ�I-��Ӧ�ԣ�D-׼ȷ��
+ * @brief 增量式PID计算
+ * @param {PID_T *} _tpPID 指向PID结构体的指针
+ * @param {float} _current 当前值
+ * @return {float} PID控制器输出值
+ * @note 增量式PID：P-快速性，I-消除稳态误差，D-预测性
  *******************************************************************************/
 float pid_calculate_incremental(PID_T * _tpPID, float _current)
 {
@@ -122,12 +122,12 @@ float pid_calculate_incremental(PID_T * _tpPID, float _current)
     return _tpPID->out;
 }
 
-/* ������������������������������������������������������������������ PID��صĹ��ܺ��� ������������������������������������������������������������������ */
+/* ***************************************************************************************************** PID相关的工具函数 ***************************************************************************************************** */
 /*******************************************************************************
- * @brief ����޷�����
- * @param {PID_T *} _tpPID ָ��PID�ṹ���ָ��
+ * @brief 输出限幅函数
+ * @param {PID_T *} _tpPID 指向PID结构体的指针
  * @return {*}
- * @note ��ֹ��������޶���Χ
+ * @note 防止控制器输出超出限制范围
  *******************************************************************************/
 static void pid_out_limit(PID_T * _tpPID)
 {
@@ -138,30 +138,30 @@ static void pid_out_limit(PID_T * _tpPID)
 }
 
 /*******************************************************************************
- * @brief ����ʽPID��ʽ
- * @param {PID_T *} _tpPID  ����Ҫ�����PID����ָ��
+ * @brief 增量式PID公式
+ * @param {PID_T *} _tpPID  需要计算的PID对象指针
  * @return {*}
- * @note ������ʽ�У�P-�ȶ��ԣ�I-��Ӧ�ԣ�D-׼ȷ��
+ * @note 增量式PID中：P-快速性，I-消除稳态误差，D-预测性
  *******************************************************************************/
 static void pid_formula_incremental(PID_T * _tpPID)
 {
     _tpPID->error = _tpPID->target - _tpPID->current;
-    
+
     _tpPID->p_out = _tpPID->kp * (_tpPID->error - _tpPID->last_error);
     _tpPID->i_out = _tpPID->ki * _tpPID->error;
     _tpPID->d_out = _tpPID->kd * (_tpPID->error - 2 * _tpPID->last_error + _tpPID->last2_error);
-    
+
     _tpPID->out += _tpPID->p_out + _tpPID->i_out + _tpPID->d_out;
-    
+
     _tpPID->last2_error = _tpPID->last_error;
     _tpPID->last_error = _tpPID->error;
 }
 
 /*******************************************************************************
- * @brief λ��ʽPID��ʽ
- * @param {PID_T *} _tpPID  ����Ҫ�����PID����ָ��
+ * @brief 位置式PID公式
+ * @param {PID_T *} _tpPID  需要计算的PID对象指针
  * @return {*}
- * @note ��λ��ʽ�У�P-��Ӧ�ԣ�I-׼ȷ�ԣ�D-�ȶ���
+ * @note 位置式PID中：P-比例性，I-消除稳态误差，D-抑制超调
  *******************************************************************************/
 static void pid_formula_positional(PID_T * _tpPID)
 {
@@ -178,14 +178,14 @@ static void pid_formula_positional(PID_T * _tpPID)
     _tpPID->out = _tpPID->p_out + _tpPID->i_out + _tpPID->d_out;
 
     _tpPID->last_error = _tpPID->error;
-} 
+}
 
 /**
- * @brief �޷�����
- * @param value ����ֵ
- * @param min ��Сֵ
- * @param max ���ֵ
- * @return �޷����ֵ
+ * @brief 限幅函数
+ * @param value 输入值
+ * @param min 最小值
+ * @param max 最大值
+ * @return 限幅后的值
  */
 float pid_constrain(float value, float min, float max)
 {
@@ -198,11 +198,11 @@ float pid_constrain(float value, float min, float max)
 }
 
 /**
- * @brief �����޷�����
- * @param pid PID������
- * @param min ��Сֵ
- * @param max ���ֵ
- * @note ��ʹ������ʽPID����ʱ�˺�������Ҫ����Ϊ�˿����л���λ��ʽPID������
+ * @brief 积分限幅函数
+ * @param pid PID控制器对象
+ * @param min 最小值
+ * @param max 最大值
+ * @note 当使用位置式PID时，此函数需要被调用为了防止积分饱和导致切换到增量式PID时震荡
  */
 void __attribute__((unused)) pid_app_limit_integral(PID_T *pid, float min, float max)
 {
@@ -215,4 +215,3 @@ void __attribute__((unused)) pid_app_limit_integral(PID_T *pid, float min, float
         pid->integral = min;
     }
 }
-

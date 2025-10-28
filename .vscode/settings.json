@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "pid_app.h": "c"
+        "pid_app.h": "c",
+        "pid.h": "c"
     }
 }

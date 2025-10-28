@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//code/Scheduler.c=UTF-8
 encoding//code/Scheduler.h=UTF-8
+encoding//code/component/pid/pid.c=UTF-8
 encoding//code/imu.c=UTF-8
 encoding//code/imu.h=UTF-8
 encoding//code/mode_control.c=UTF-8

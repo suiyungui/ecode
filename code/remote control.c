@@ -26,6 +26,7 @@ void remote_control(void) // 模式选择函数
             else if (1600 < uart_receiver.channel[3])
             {
                 mode = 2;
+                pid_enable_control(1);  // 启用PID
             }
 
             else if (500 < uart_receiver.channel[3] && uart_receiver.channel[3] < 1000)
@@ -34,7 +35,6 @@ void remote_control(void) // 模式选择函数
             }
 //            printf("mode: %d\r\n", mode);
         }
-
         else
         {
             mode = 0;              // 遥控器断开时进入停止模式

@@ -58,7 +58,8 @@ IFX_INTERRUPT(cc61_pit_ch0_isr, 0, CCU6_1_CH0_ISR_PRIORITY)
     interrupt_global_enable(0); // 允许中断嵌套
     pit_clear_flag(CCU61_CH0);
 
-    pid_speed_loop(); // 速度环
+    pid_speed_loop(); // 速度环 + 前后俯仰控制
+//    pid_roll_loop();  // 横滚角控制（左右高度调节）
 }
 IFX_INTERRUPT(cc61_pit_ch1_isr, 0, CCU6_1_CH1_ISR_PRIORITY)
 {

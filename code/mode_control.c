@@ -7,12 +7,12 @@ void mode_control(void) // 不同模式对应其控制方式的函数
     {
         if (500 <= uart_receiver.channel[2])
         {
-            void pid_set_target_speed(float speed); // 设置目标速度
+            pid_set_target_speed(0); // 设置目标速度
         }
         else
         {
             if (fabs(uart_receiver.channel[1] - 992) > 200 && uart_receiver.channel[1] != 0)
-                speed_duty = -(uart_receiver.channel[1] - 992) * 2;
+                speed_duty = -(uart_receiver.channel[1] - 992) / 2;
 
             else
                 speed_duty = 0;
@@ -84,6 +84,6 @@ void mode_control(void) // 不同模式对应其控制方式的函数
         speed_duty = 0;
         // servo_duty = 0; // 通过全局变量设置
     }
-     printf("speed:%d,mode:%d\r\n",speed_duty,mode);
+//     printf("speed:%d,mode:%d\r\n",speed_duty,mode);
      pid_set_target_speed(speed_duty); // 设置目标速度
 }
